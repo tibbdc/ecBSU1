@@ -1,0 +1,9 @@
+﻿,substrate,EXP
+EX_glc__D_e,Glucose,0.59
+EX_fru_e,Fructose,0.53
+EX_6pgc_e,6-Phospho-D-gluconate,0.42
+EX_succ_e/EX_glu__L_e,Succinate/L-Glutamate,0.22
+EX_glyc_e,Glycerol,0.4
+EX_pyr_e,Pyruvate,0.17
+EX_mal__L_e,(S)-Malate,0.57
+EX_glc__D_e/EX_mal__L_e,Glucose/(S)-Malate,0.75

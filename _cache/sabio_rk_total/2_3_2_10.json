@@ -1,0 +1,29 @@
+{
+    "alatrna;uAgla": {
+        "Lactobacillus viridescens": [
+            11.0,
+            11.0,
+            11.0,
+            11.0,
+            11.0,
+            11.0
+        ]
+    },
+    "REST": {
+        "Lactobacillus viridescens": [
+            0.4,
+            10.33333,
+            10.83333,
+            4.333333,
+            4.333333,
+            10.33333,
+            10.33333
+        ]
+    },
+    "sertrna;uAgla": {
+        "Lactobacillus viridescens": [
+            0.5333333,
+            0.5333333
+        ]
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "4nphp;h2o": {
+        "Homo sapiens": [
+            1.0,
+            0.0018,
+            0.0018,
+            0.37
+        ],
+        "Escherichia coli": [
+            0.093,
+            0.2089
+        ]
+    },
+    "REST": {
+        "Bacillus subtilis": [
+            0.06
+        ],
+        "Homo sapiens": [
+            1.1,
+            0.15,
+            1.1,
+            0.9
+        ]
+    }
+}
