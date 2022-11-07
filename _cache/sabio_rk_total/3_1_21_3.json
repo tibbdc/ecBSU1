@@ -1,0 +1,34 @@
+{
+    "atp;dna;h2o": {
+        "Micrococcus luteus": [
+            4000.0,
+            700.0,
+            3900.0
+        ]
+    },
+    "datp;dna;h2o": {
+        "Micrococcus luteus": [
+            3600.0
+        ]
+    },
+    "dna;gtp;h2o": {
+        "Micrococcus luteus": [
+            1900.0
+        ]
+    },
+    "dna;h2o;utp": {
+        "Micrococcus luteus": [
+            1700.0
+        ]
+    },
+    "ctp;dna;h2o": {
+        "Micrococcus luteus": [
+            1800.0
+        ]
+    },
+    "adp;dna;h2o": {
+        "Micrococcus luteus": [
+            2100.0
+        ]
+    }
+}

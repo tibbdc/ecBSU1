@@ -1,0 +1,7 @@
+﻿reaction_id,name,lower_bound,upper_bound,gene_reaction_rule,reaction_equ,ec_code
+PDH,Complex that carries out the oxidative decarboxylation of pyruvate to form acetyl-CoA,0,1000,BSU14580 and BSU14590 and BSU14600 and BSU14610,coa_c + nad_c + pyr_c <=> co2_c + nadh_c + accoa_c,none
+GSNabc,guanosine ABC transporter,0,1000,BSU31540 and BSU31550 and BSU31560 and BSU31570,atp_c + gsn_e +h2o_c --> adp_c + gsn_c + h_c + pi_c,none
+AKGDH,2-oxoglutarate dehydrogenase complex,0,1000,BSU19360 and BSU19370 and BSU14610,akg_c + coa_c + nad_c --> co2_c + nadh_c + succoa_c,none
+FCLT3,Coproporphyrin III ferrochelatase,0,1000,BSU10130,fe2_c + cppp9_c --> fecpp3_c + 2h_c,4.99.1.9
+ICDHyr,Isocitrate dehydrogenase [NADP] (EC 1.1.1.42),0,1000,BSU29130,icit_c + nadp_c <=> akg_c + co2_c + nadph_c,1.1.1.42
+GTPCI,GTP cyclohydrolase I (EC 3.5.4.16) type 1;GTP cyclohydrolase I (EC 3.5.4.16) type 2(BSU03340),0,1000,BSU22780 or BSU03340,gtp_c + h2o_c --> ahdt_c + for_c + h_c,3.5.4.16

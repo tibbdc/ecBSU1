@@ -1,0 +1,39 @@
+{
+    "atp;dad_2": {
+        "Staphylococcus aureus": [
+            1.82
+        ],
+        "Dictyostelium discoideum": [
+            3.7
+        ],
+        "Mycoplasma mycoides": [
+            1.48,
+            0.84
+        ]
+    },
+    "REST": {
+        "Staphylococcus aureus": [
+            0.56,
+            0.19
+        ],
+        "Dictyostelium discoideum": [
+            0.0081,
+            3.3
+        ]
+    },
+    "dad_2;dttp": {
+        "Mycoplasma mycoides": [
+            1.64
+        ]
+    },
+    "ctp;dad_2": {
+        "Mycoplasma mycoides": [
+            0.62
+        ]
+    },
+    "dad_2;utp": {
+        "Mycoplasma mycoides": [
+            0.36
+        ]
+    }
+}

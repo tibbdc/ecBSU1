@@ -1,0 +1,261 @@
+﻿id,new name,old name
+EX_h2o_e,H2O exchange,Exchange
+EX_o2_e,Oxygen exchange,Exchange
+EX_pi_e,Orthophosphate exchange,Exchange
+EX_co2_e,CO2 exchange,Exchange
+EX_ppi_e,Pyrophosphate exchange,Exchange
+EX_nh4_e,NH3 exchange,Exchange
+EX_amp_e,AMP exchange,Exchange
+EX_pyr_e,Pyruvate exchange,Exchange
+EX_glu__L_e,L-Glutamate exchange,Exchange
+EX_akg_e,2-Oxoglutarate exchange,Exchange
+EX_pheme_e,Heme exchange,Exchange
+EX_ac_e,Acetate exchange,Exchange
+EX_mn2_e,Manganese exchange,Exchange
+EX_gly_e,Glycine exchange,Exchange
+EX_zn2_e,Zinc exchange,Exchange
+EX_ala__L_e,L-Alanine exchange,Exchange
+EX_succ_e,Succinate exchange,Exchange
+EX_lys__L_e,L-Lysine exchange,Exchange
+EX_glx_e,Glyoxylate exchange,Exchange
+EX_asp__L_e,L-Aspartate exchange,Exchange
+EX_cmp_e,CMP exchange,Exchange
+EX_for_e,Formate exchange,Exchange
+EX_so4_e,Sulfate exchange,Exchange
+EX_arg__L_e,L-Arginine exchange,Exchange
+EX_gln__L_e,L-Glutamine exchange,Exchange
+EX_ser__L_e,L-Serine exchange,Exchange
+EX_cu2_e,Copper2 exchange,Exchange
+EX_met__L_e,L-Methionine exchange,Exchange
+EX_pep_e,Phosphoenolpyruvate exchange,Exchange
+EX_ca2_e,Calcium exchange,Exchange
+EX_orn_e,L-Ornithine exchange,Exchange
+EX_trp__L_e,L-Tryptophan exchange,Exchange
+EX_h_e,H+ exchange,Exchange
+EX_tyr__L_e,L-Tyrosine exchange,Exchange
+EX_urea_e,Urea exchange,Exchange
+EX_no2_e,Nitrite exchange,Exchange
+EX_sucr_e,Sucrose exchange,Exchange
+EX_glyc3p_e,sn-Glycerol 3-phosphate exchange,Exchange
+EX_fru_e,D-Fructose exchange,Exchange
+EX_cys__L_e,L-Cysteine exchange,Exchange
+EX_ala_B_e,beta-Alanine exchange,Exchange
+EX_g1p_e,D-Glucose 1-phosphate exchange,Exchange
+EX_ump_e,UMP exchange,Exchange
+EX_ura_e,Uracil exchange,Exchange
+EX_chol_e,Choline exchange,Exchange
+EX_glyc_e,Glycerol exchange,Exchange
+EX_btn_e,Biotin exchange,Exchange
+EX_rib__D_e,D-Ribose exchange,Exchange
+EX_fum_e,Fumarate exchange,Exchange
+EX_leu__L_e,L-Leucine exchange,Exchange
+EX_gal_e,D-Galactose exchange,Exchange
+EX_ala__D_e,D-Alanine exchange,Exchange
+EX_his__L_e,L-Histidine exchange,Exchange
+EX_inost_e,myo-Inositol exchange,Exchange
+EX_acgam_e,N-Acetyl-D-glucosamine exchange,Exchange
+EX_gmp_e,GMP exchange,Exchange
+EX_ade_e,Adenine exchange,Exchange
+EX_pro__L_e,L-Proline exchange,Exchange
+EX_mal__L_e,(S)-Malate exchange,Exchange
+EX_asn__L_e,L-Asparagine exchange,Exchange
+EX_cit_e,Citrate exchange,Exchange
+EX_man_e,D-Mannose exchange,Exchange
+EX_glyclt_e,Glycolate exchange,Exchange
+EX_prpnte_e,Propanoate exchange,Exchange
+EX_acac_e,Acetoacetate exchange,Exchange
+EX_cbp_e,Carbamoyl phosphate exchange,Exchange
+EX_cobalt2_e,Cobalt exchange,Exchange
+EX_xyl__D_e,D-Xylose exchange,Exchange
+EX_glycogen_e,Glycogen exchange,Exchange
+EX_val__L_e,L-Valine exchange,Exchange
+EX_dha_e,Glycerone exchange,Exchange
+EX_cellb_e,Cellobiose exchange,Exchange
+EX_lac__L_e,(S)-Lactate exchange,Exchange
+EX_thr__L_e,L-Threonine exchange,Exchange
+EX_etha_e,Ethanolamine exchange,Exchange
+EX_glcur_e,D-Glucuronate exchange,Exchange
+EX_3pg_e,3-Phospho-D-glycerate exchange,Exchange
+EX_2ddglcn_e,2-Dehydro-3-deoxy-D-gluconate exchange,Exchange
+EX_malt_e,Maltose exchange,Exchange
+EX_adn_e,Adenosine exchange,Exchange
+EX_thymd_e,Thymidine exchange,Exchange
+EX_arab__D_e,D-Arabinose exchange,Exchange
+EX_glu__D_e,D-Glutamate exchange,Exchange
+EX_k_e,Potassium exchange,Exchange
+EX_gua_e,Guanine exchange,Exchange
+EX_lcts_e,Lactose exchange,Exchange
+EX_no3_e,Nitrate exchange,Exchange
+EX_taur_e,Taurine exchange,Exchange
+EX_srb__L_e,L-Sorbose exchange,Exchange
+EX_chor_e,Chorismate exchange,Exchange
+EX_nac_e,Nicotinate exchange,Exchange
+EX_ribflv_e,Riboflavin exchange,Exchange
+EX_glcn_e,D-Gluconic acid exchange,Exchange
+EX_arab__L_e,L-Arabinose exchange,Exchange
+EX_hxan_e,Hypoxanthine exchange,Exchange
+EX_glc__D_e,D-Glucose exchange,Exchange
+EX_acnam_e,N-Acetylneuraminate exchange,Exchange
+EX_man6p_e,D-Mannose 6-phosphate exchange,Exchange
+EX_h2s_e,Hydrogen sulfide exchange,Exchange
+EX_ni2_e,Nickel exchange,Exchange
+EX_ins_e,Inosine exchange,Exchange
+EX_uri_e,Uridine exchange,Exchange
+EX_mg2_e,Magnesium exchange,Exchange
+EX_citr__L_e,L-Citrulline exchange,Exchange
+EX_gam_e,D-Glucosamine exchange,Exchange
+EX_galur_e,D-Galacturonate exchange,Exchange
+EX_4abut_e,4-Aminobutanoate exchange,Exchange
+EX_6pgc_e,6-Phospho-D-gluconate exchange,Exchange
+EX_ethamp_e,Ethanolamine phosphate exchange,Exchange
+EX_gam6p_e,D-Glucosamine 6-phosphate exchange,Exchange
+EX_dtmp_e,dTMP exchange,Exchange
+EX_urate_e,Urate exchange,Exchange
+EX_thm_e,Thiamin exchange,Exchange
+EX_csn_e,Cytosine exchange,Exchange
+EX_xan_e,Xanthine exchange,Exchange
+EX_gsn_e,Guanosine exchange,Exchange
+EX_mnl_e,Mannitol exchange,Exchange
+EX_ile__L_e,L-Isoleucine exchange,Exchange
+EX_etoh_e,Ethanol exchange,Exchange
+EX_cytd_e,Cytidine exchange,Exchange
+EX_crn_e,L-Carnitine exchange,Exchange
+EX_cysi__L_e,L-Cystine exchange,Exchange
+EX_raffin_e,Raffinose exchange,Exchange
+EX_mal__D_e,(R)-Malate exchange,Exchange
+EX_fol_e,Folate exchange,Exchange
+EX_Lcyst_e,L-Cysteate exchange,Exchange
+EX_rmn_e,L-Rhamnose exchange,Exchange
+EX_hqn_e,p-Benzenediol exchange,Exchange
+EX_abt__L_e,L-Arabitol exchange,Exchange
+EX_pppi_e,Triphosphate exchange,Exchange
+EX_cbl2_e,Cob(II)alamin exchange,Exchange
+EX_tartr__M_e,meso-Tartaric acid exchange,Exchange
+EX_dad_2_e,Deoxyadenosine exchange,Exchange
+EX_cholp_e,Choline phosphate exchange,Exchange
+EX_pacald_e,Phenylacetaldehyde exchange,Exchange
+EX_2pg_e,2-Phospho-D-glycerate exchange,Exchange
+EX_man1p_e,D-Mannose 1-phosphate exchange,Exchange
+EX_acmana_e,N-Acetyl-D-mannosamine exchange,Exchange
+EX_g6p_A_e,D-Glucose 6-phosphate exchange,Exchange
+EX_hg2_e,Hg2+ exchange,Exchange
+EX_glyb_e,Betaine exchange,Exchange
+EX_dextrin_e,Dextrin exchange,Exchange
+EX_lipoate_e,Lipoate exchange,Exchange
+EX_ser__D_e,D-Serine exchange,Exchange
+EX_sbt__D_e,D-Sorbitol exchange,Exchange
+EX_glcr_e,D-Glucarate exchange,Exchange
+EX_met__D_e,D-Methionine exchange,Exchange
+EX_pnto__R_e,Pantothenate exchange,Exchange
+EX_galctr__D_e,D-Galactarate exchange,Exchange
+EX_dcyt_e,Deoxycytidine exchange,Exchange
+EX_chols_e,Choline sulfate exchange,Exchange
+EX_C00946_e,Adenosine 2'-phosphate exchange,Exchange
+EX_2pglyc_e,2-Phosphoglycolate exchange,Exchange
+EX_pser__L_e,phosphoserine exchange,Exchange
+EX_fuc__L_e,6-Deoxy-L-galactose exchange,Exchange
+EX_gullac_e,"L-Gulono-1,4-lactone exchange",Exchange
+EX_thmmp_e,Thiamin monophosphate exchange,Exchange
+EX_tre_e,"alpha,alpha-Trehalose exchange",Exchange
+EX_4tmeabutn_e,4-Trimethylammoniobutanoate exchange,Exchange
+EX_na1_e,Sodium exchange,Exchange
+EX_3amp_p_e,3'-AMP exchange,Exchange
+EX_3ump_p_e,3'-UMP exchange,Exchange
+EX_cd2_e,Cadmium exchange,Exchange
+EX_cgly_e,Cys-Gly exchange,Exchange
+EX_salcn_e,Salicin exchange,Exchange
+EX_all__D_e,D-Allose exchange,Exchange
+EX_pur_e,Puromycin exchange,Exchange
+EX_galt_e,Galactitol exchange,Exchange
+EX_sbt__L_e,L-Glucitol exchange,Exchange
+EX_pala_e,Palatinose exchange,Exchange
+EX_xtsn_e,Xanthosine exchange,Exchange
+EX_drib_e,Deoxyribose exchange,Exchange
+EX_malttr_e,Maltotriose exchange,Exchange
+EX_5oxpro_e,5-Oxoproline exchange,Exchange
+EX_thiog_e,Thioglycolate exchange,Exchange
+EX_2hymeph_e,Salicyl alcohol exchange,Exchange
+EX_alltn_e,Allantoin exchange,Exchange
+EX_23camp_e,"2',3'-Cyclic AMP exchange",Exchange
+EX_23ccmp_e,"2',3'-Cyclic CMP exchange",Exchange
+EX_23cump_p_e,"2',3'-Cyclic UMP exchange",Exchange
+EX_tmp_e,Trimetaphosphate exchange,Exchange
+EX_pser__D_e,D-O-Phosphoserine exchange,Exchange
+EX_C03031_e,Uridine 2'-phosphate exchange,Exchange
+EX_23btdl_e,"(R,R)-Butane-2,3-diol exchange",Exchange
+EX_5mtr_e,5-Methylthio-D-ribose exchange,Exchange
+EX_C03104_e,Cytidine 2'-phosphate exchange,Exchange
+EX_C03570_e,D-Mannosamine exchange,Exchange
+EX_C03619_e,Methyl beta-D-galactoside exchange,Exchange
+EX_isetac_e,2-Hydroxyethanesulfonate exchange,Exchange
+EX_peamn_e,Phenethylamine exchange,Exchange
+EX_f6p_B_e,D-Fructose 6-phosphate exchange,Exchange
+EX_melib_e,Melibiose exchange,Exchange
+EX_b12_e,Vitamin B12 exchange,Exchange
+EX_3cmp_p_e,3'-CMP exchange,Exchange
+EX_argp_e,L-Arginine phosphate exchange,Exchange
+EX_arbt_e,Arbutin exchange,Exchange
+EX_3gmp_e,Guanosine 3'-phosphate exchange,Exchange
+EX_fecrm_e,Ferrichrome exchange,Exchange
+EX_ectoine_e,Ectoine exchange,Exchange
+EX_mobd_e,Molybdate exchange,Exchange
+EX_2doxg6p_e,2-Deoxy-D-glucose 6-phosphate exchange,Exchange
+EX_C06468_e,D-Psicose exchange,Exchange
+EX_pb_e,Lead exchange,Exchange
+EX_aso3_e,Arsenite exchange,Exchange
+EX_feoxam_e,Ferroxamine exchange,Exchange
+EX_C08240_e,Gentiobiose exchange,Exchange
+EX_djenk_e,L-Djenkolic acid exchange,Exchange
+EX_C08325_e,Amygdalin exchange,Exchange
+EX_prolb_e,Stachydrine exchange,Exchange
+EX_mso3_e,Methanesulfonic acid exchange,Exchange
+EX_ctbt_e,Crotono-betaine exchange,Exchange
+EX_btbet_e,Butyro-betaine exchange,Exchange
+EX_glcglyc_e,2-(beta-D-Glucosyl)-sn-glycerol exchange,Exchange
+EX_thrp_e,L-Threonine O-3-phosphate exchange,Exchange
+EX_sulfac_e,Sulfoacetate exchange,Exchange
+EX_fe2_e,Fe2+ exchange,Exchange
+EX_fe3_e,Fe3+ exchange,Exchange
+EX_aso4_e,Arsenic acid exchange,Exchange
+EX_mops_e,MOPS exchange,Exchange
+EX_lanth_e,Lanthionine exchange,Exchange
+EX_hexs_e,hexanesulfonate exchange,Exchange
+EX_ethso3_e,ethanesulfonate exchange,Exchange
+EX_gly_gln__L_e,Gly-Gln exchange,Exchange
+EX_gly_asn__L_e,gly-asn-L exchange,Exchange
+EX_ala_L_Thr__L_e,ala-L-Thr-L exchange,Exchange
+EX_ala_L_leu__L_e,Ala-Leu exchange,Exchange
+EX_ala_his_e,Ala-His exchange,Exchange
+EX_L_alagly_e,L-alanylglycine exchange,Exchange
+EX_ala_L_glu__L_e,ala-L-glu-L exchange,Exchange
+EX_ala_L_gln__L_e,Ala-Gln exchange,Exchange
+EX_gly_pro__L_e,gly-pro-L exchange,Exchange
+EX_cpd11589_e,gly-asp-L exchange,Exchange
+EX_met_L_ala__L_e,met-L-ala-L exchange,Exchange
+EX_gly_met__L_e,Gly-Met exchange,Exchange
+EX_gly_glu__L_e,gly-glu-L exchange,Exchange
+EX_ala_L_asp__L_e,ala-L-asp-L exchange,Exchange
+EX_cro4_e,chromate exchange,Exchange
+EX_butso3_e,butanesulfonate exchange,Exchange
+EX_arsbet_e,ARSENOBETAINE exchange,Exchange
+EX_sbo3_e,Antimonite exchange,Exchange
+EX_3amba_e,3-aminobutanoic acid exchange,Exchange
+EX_gbbtn_e,gamma-butyrobetaine exchange,Exchange
+EX_mbdg_e,beta-Methylglucoside exchange,Exchange
+EX_phe__L_e,L-Phenylalanine exchange,
+EX_tartr__L_e,(R，R)-Tartaric acid exchange,
+EX_ptrc_e,Putrescine exchange,
+EX_stys_e,Stachyose exchange,
+EX_C00246_e,Butanoic acid exchange,
+EX_d5kg_e,2-Deoxy-5-keto-D-gluconic acid exchange,
+EX_cpd16500_e,"meso-2,3-butanediol exchange",
+EX_actn__R_e,Acetoin exchange,
+EX_actn__S_e,(S)-acetoin exchange,
+EX_C19891_e,D-chiro-Inositol exchange,
+EX_C06153_e,Scyllo-inositol exchange,
+,,
+,,
+,,
+,,
+,,
+,,

@@ -13080,12 +13080,27 @@
 "annotation":{
 "bigg.metabolite":"TC0001_c"
 }
+},
+{
+"id":"cppp9_c",
+"name":"",
+"compartment":""
+},
+{
+"id":"fecpp3_c",
+"name":"",
+"compartment":""
+},
+{
+"id":"2h_c",
+"name":"",
+"compartment":""
 }
 ],
 "reactions":[
 {
 "id":"EX_h2o_e",
-"name":"Exchange",
+"name":"H2O exchange",
 "metabolites":{
 "h2o_e":-1.0
 },
@@ -13101,7 +13116,7 @@
 },
 {
 "id":"EX_o2_e",
-"name":"Exchange",
+"name":"Oxygen exchange",
 "metabolites":{
 "o2_e":-1.0
 },
@@ -13114,7 +13129,7 @@
 },
 {
 "id":"EX_pi_e",
-"name":"Exchange",
+"name":"Orthophosphate exchange",
 "metabolites":{
 "pi_e":-1.0
 },
@@ -13130,7 +13145,7 @@
 },
 {
 "id":"EX_co2_e",
-"name":"Exchange",
+"name":"CO2 exchange",
 "metabolites":{
 "co2_e":-1.0
 },
@@ -13146,7 +13161,7 @@
 },
 {
 "id":"EX_ppi_e",
-"name":"Exchange",
+"name":"Pyrophosphate exchange",
 "metabolites":{
 "ppi_e":-1.0
 },
@@ -13159,7 +13174,7 @@
 },
 {
 "id":"EX_nh4_e",
-"name":"Exchange",
+"name":"NH3 exchange",
 "metabolites":{
 "nh4_e":-1.0
 },
@@ -13175,7 +13190,7 @@
 },
 {
 "id":"EX_amp_e",
-"name":"Exchange",
+"name":"AMP exchange",
 "metabolites":{
 "amp_e":-1.0
 },
@@ -13188,7 +13203,7 @@
 },
 {
 "id":"EX_pyr_e",
-"name":"Exchange",
+"name":"Pyruvate exchange",
 "metabolites":{
 "pyr_e":-1.0
 },
@@ -13201,7 +13216,7 @@
 },
 {
 "id":"EX_glu__L_e",
-"name":"Exchange",
+"name":"L-Glutamate exchange",
 "metabolites":{
 "glu__L_e":-1.0
 },
@@ -13214,7 +13229,7 @@
 },
 {
 "id":"EX_akg_e",
-"name":"Exchange",
+"name":"2-Oxoglutarate exchange",
 "metabolites":{
 "akg_e":-1.0
 },
@@ -13227,7 +13242,7 @@
 },
 {
 "id":"EX_pheme_e",
-"name":"Exchange",
+"name":"Heme exchange",
 "metabolites":{
 "pheme_e":-1.0
 },
@@ -13240,7 +13255,7 @@
 },
 {
 "id":"EX_ac_e",
-"name":"Exchange",
+"name":"Acetate exchange",
 "metabolites":{
 "ac_e":-1.0
 },
@@ -13253,7 +13268,7 @@
 },
 {
 "id":"EX_mn2_e",
-"name":"Exchange",
+"name":"Manganese exchange",
 "metabolites":{
 "mn2_e":-1.0
 },
@@ -13266,7 +13281,7 @@
 },
 {
 "id":"EX_gly_e",
-"name":"Exchange",
+"name":"Glycine exchange",
 "metabolites":{
 "gly_e":-1.0
 },
@@ -13279,7 +13294,7 @@
 },
 {
 "id":"EX_zn2_e",
-"name":"Exchange",
+"name":"Zinc exchange",
 "metabolites":{
 "zn2_e":-1.0
 },
@@ -13292,7 +13307,7 @@
 },
 {
 "id":"EX_ala__L_e",
-"name":"Exchange",
+"name":"L-Alanine exchange",
 "metabolites":{
 "ala__L_e":-1.0
 },
@@ -13305,7 +13320,7 @@
 },
 {
 "id":"EX_succ_e",
-"name":"Exchange",
+"name":"Succinate exchange",
 "metabolites":{
 "succ_e":-1.0
 },
@@ -13318,7 +13333,7 @@
 },
 {
 "id":"EX_lys__L_e",
-"name":"Exchange",
+"name":"L-Lysine exchange",
 "metabolites":{
 "lys__L_e":-1.0
 },
@@ -13331,7 +13346,7 @@
 },
 {
 "id":"EX_glx_e",
-"name":"Exchange",
+"name":"Glyoxylate exchange",
 "metabolites":{
 "glx_e":-1.0
 },
@@ -13344,7 +13359,7 @@
 },
 {
 "id":"EX_asp__L_e",
-"name":"Exchange",
+"name":"L-Aspartate exchange",
 "metabolites":{
 "asp__L_e":-1.0
 },
@@ -13357,7 +13372,7 @@
 },
 {
 "id":"EX_cmp_e",
-"name":"Exchange",
+"name":"CMP exchange",
 "metabolites":{
 "cmp_e":-1.0
 },
@@ -13370,7 +13385,7 @@
 },
 {
 "id":"EX_for_e",
-"name":"Exchange",
+"name":"Formate exchange",
 "metabolites":{
 "for_e":-1.0
 },
@@ -13383,7 +13398,7 @@
 },
 {
 "id":"EX_so4_e",
-"name":"Exchange",
+"name":"Sulfate exchange",
 "metabolites":{
 "so4_e":-1.0
 },
@@ -13399,7 +13414,7 @@
 },
 {
 "id":"EX_arg__L_e",
-"name":"Exchange",
+"name":"L-Arginine exchange",
 "metabolites":{
 "arg__L_e":-1.0
 },
@@ -13412,7 +13427,7 @@
 },
 {
 "id":"EX_gln__L_e",
-"name":"Exchange",
+"name":"L-Glutamine exchange",
 "metabolites":{
 "gln__L_e":-1.0
 },
@@ -13425,7 +13440,7 @@
 },
 {
 "id":"EX_ser__L_e",
-"name":"Exchange",
+"name":"L-Serine exchange",
 "metabolites":{
 "ser__L_e":-1.0
 },
@@ -13438,7 +13453,7 @@
 },
 {
 "id":"EX_cu2_e",
-"name":"Exchange",
+"name":"Copper2 exchange",
 "metabolites":{
 "cu2_e":-1.0
 },
@@ -13451,7 +13466,7 @@
 },
 {
 "id":"EX_met__L_e",
-"name":"Exchange",
+"name":"L-Methionine exchange",
 "metabolites":{
 "met__L_e":-1.0
 },
@@ -13464,7 +13479,7 @@
 },
 {
 "id":"EX_pep_e",
-"name":"Exchange",
+"name":"Phosphoenolpyruvate exchange",
 "metabolites":{
 "pep_e":-1.0
 },
@@ -13477,7 +13492,7 @@
 },
 {
 "id":"EX_ca2_e",
-"name":"Exchange",
+"name":"Calcium exchange",
 "metabolites":{
 "ca2_e":-1.0
 },
@@ -13493,7 +13508,7 @@
 },
 {
 "id":"EX_orn_e",
-"name":"Exchange",
+"name":"L-Ornithine exchange",
 "metabolites":{
 "orn_e":-1.0
 },
@@ -13506,7 +13521,7 @@
 },
 {
 "id":"EX_trp__L_e",
-"name":"Exchange",
+"name":"L-Tryptophan exchange",
 "metabolites":{
 "trp__L_e":-1.0
 },
@@ -13519,7 +13534,7 @@
 },
 {
 "id":"EX_h_e",
-"name":"Exchange",
+"name":"H+ exchange",
 "metabolites":{
 "h_e":-1.0
 },
@@ -13535,7 +13550,7 @@
 },
 {
 "id":"EX_tyr__L_e",
-"name":"Exchange",
+"name":"L-Tyrosine exchange",
 "metabolites":{
 "tyr__L_e":-1.0
 },
@@ -13548,7 +13563,7 @@
 },
 {
 "id":"EX_urea_e",
-"name":"Exchange",
+"name":"Urea exchange",
 "metabolites":{
 "urea_e":-1.0
 },
@@ -13561,7 +13576,7 @@
 },
 {
 "id":"EX_no2_e",
-"name":"Exchange",
+"name":"Nitrite exchange",
 "metabolites":{
 "no2_e":-1.0
 },
@@ -13574,7 +13589,7 @@
 },
 {
 "id":"EX_sucr_e",
-"name":"Exchange",
+"name":"Sucrose exchange",
 "metabolites":{
 "sucr_e":-1.0
 },
@@ -13587,7 +13602,7 @@
 },
 {
 "id":"EX_glyc3p_e",
-"name":"Exchange",
+"name":"sn-Glycerol 3-phosphate exchange",
 "metabolites":{
 "glyc3p_e":-1.0
 },
@@ -13600,7 +13615,7 @@
 },
 {
 "id":"EX_fru_e",
-"name":"Exchange",
+"name":"D-Fructose exchange",
 "metabolites":{
 "fru_e":-1.0
 },
@@ -13613,7 +13628,7 @@
 },
 {
 "id":"EX_cys__L_e",
-"name":"Exchange",
+"name":"L-Cysteine exchange",
 "metabolites":{
 "cys__L_e":-1.0
 },
@@ -13626,7 +13641,7 @@
 },
 {
 "id":"EX_ala_B_e",
-"name":"Exchange",
+"name":"beta-Alanine exchange",
 "metabolites":{
 "ala_B_e":-1.0
 },
@@ -13639,7 +13654,7 @@
 },
 {
 "id":"EX_g1p_e",
-"name":"Exchange",
+"name":"D-Glucose 1-phosphate exchange",
 "metabolites":{
 "g1p_e":-1.0
 },
@@ -13652,7 +13667,7 @@
 },
 {
 "id":"EX_ump_e",
-"name":"Exchange",
+"name":"UMP exchange",
 "metabolites":{
 "ump_e":-1.0
 },
@@ -13665,7 +13680,7 @@
 },
 {
 "id":"EX_ura_e",
-"name":"Exchange",
+"name":"Uracil exchange",
 "metabolites":{
 "ura_e":-1.0
 },
@@ -13678,7 +13693,7 @@
 },
 {
 "id":"EX_chol_e",
-"name":"Exchange",
+"name":"Choline exchange",
 "metabolites":{
 "chol_e":-1.0
 },
@@ -13691,7 +13706,7 @@
 },
 {
 "id":"EX_glyc_e",
-"name":"Exchange",
+"name":"Glycerol exchange",
 "metabolites":{
 "glyc_e":-1.0
 },
@@ -13704,7 +13719,7 @@
 },
 {
 "id":"EX_btn_e",
-"name":"Exchange",
+"name":"Biotin exchange",
 "metabolites":{
 "btn_e":-1.0
 },
@@ -13717,7 +13732,7 @@
 },
 {
 "id":"EX_rib__D_e",
-"name":"Exchange",
+"name":"D-Ribose exchange",
 "metabolites":{
 "rib__D_e":-1.0
 },
@@ -13730,7 +13745,7 @@
 },
 {
 "id":"EX_fum_e",
-"name":"Exchange",
+"name":"Fumarate exchange",
 "metabolites":{
 "fum_e":-1.0
 },
@@ -13743,7 +13758,7 @@
 },
 {
 "id":"EX_leu__L_e",
-"name":"Exchange",
+"name":"L-Leucine exchange",
 "metabolites":{
 "leu__L_e":-1.0
 },
@@ -13756,7 +13771,7 @@
 },
 {
 "id":"EX_gal_e",
-"name":"Exchange",
+"name":"D-Galactose exchange",
 "metabolites":{
 "gal_e":-1.0
 },
@@ -13769,7 +13784,7 @@
 },
 {
 "id":"EX_ala__D_e",
-"name":"Exchange",
+"name":"D-Alanine exchange",
 "metabolites":{
 "ala__D_e":-1.0
 },
@@ -13782,7 +13797,7 @@
 },
 {
 "id":"EX_his__L_e",
-"name":"Exchange",
+"name":"L-Histidine exchange",
 "metabolites":{
 "his__L_e":-1.0
 },
@@ -13795,7 +13810,7 @@
 },
 {
 "id":"EX_inost_e",
-"name":"Exchange",
+"name":"myo-Inositol exchange",
 "metabolites":{
 "inost_e":-1.0
 },
@@ -13808,7 +13823,7 @@
 },
 {
 "id":"EX_acgam_e",
-"name":"Exchange",
+"name":"N-Acetyl-D-glucosamine exchange",
 "metabolites":{
 "acgam_e":-1.0
 },
@@ -13821,7 +13836,7 @@
 },
 {
 "id":"EX_gmp_e",
-"name":"Exchange",
+"name":"GMP exchange",
 "metabolites":{
 "gmp_e":-1.0
 },
@@ -13834,7 +13849,7 @@
 },
 {
 "id":"EX_ade_e",
-"name":"Exchange",
+"name":"Adenine exchange",
 "metabolites":{
 "ade_e":-1.0
 },
@@ -13847,7 +13862,7 @@
 },
 {
 "id":"EX_pro__L_e",
-"name":"Exchange",
+"name":"L-Proline exchange",
 "metabolites":{
 "pro__L_e":-1.0
 },
@@ -13860,7 +13875,7 @@
 },
 {
 "id":"EX_mal__L_e",
-"name":"Exchange",
+"name":"(S)-Malate exchange",
 "metabolites":{
 "mal__L_e":-1.0
 },
@@ -13873,7 +13888,7 @@
 },
 {
 "id":"EX_asn__L_e",
-"name":"Exchange",
+"name":"L-Asparagine exchange",
 "metabolites":{
 "asn__L_e":-1.0
 },
@@ -13886,7 +13901,7 @@
 },
 {
 "id":"EX_cit_e",
-"name":"Exchange",
+"name":"Citrate exchange",
 "metabolites":{
 "cit_e":-1.0
 },
@@ -13899,7 +13914,7 @@
 },
 {
 "id":"EX_man_e",
-"name":"Exchange",
+"name":"D-Mannose exchange",
 "metabolites":{
 "man_e":-1.0
 },
@@ -13912,7 +13927,7 @@
 },
 {
 "id":"EX_glyclt_e",
-"name":"Exchange",
+"name":"Glycolate exchange",
 "metabolites":{
 "glyclt_e":-1.0
 },
@@ -13925,7 +13940,7 @@
 },
 {
 "id":"EX_prpnte_e",
-"name":"Exchange",
+"name":"Propanoate exchange",
 "metabolites":{
 "prpnte_e":-1.0
 },
@@ -13938,7 +13953,7 @@
 },
 {
 "id":"EX_acac_e",
-"name":"Exchange",
+"name":"Acetoacetate exchange",
 "metabolites":{
 "acac_e":-1.0
 },
@@ -13951,7 +13966,7 @@
 },
 {
 "id":"EX_cbp_e",
-"name":"Exchange",
+"name":"Carbamoyl phosphate exchange",
 "metabolites":{
 "cbp_e":-1.0
 },
@@ -13964,7 +13979,7 @@
 },
 {
 "id":"EX_cobalt2_e",
-"name":"Exchange",
+"name":"Cobalt exchange",
 "metabolites":{
 "cobalt2_e":-1.0
 },
@@ -13977,7 +13992,7 @@
 },
 {
 "id":"EX_xyl__D_e",
-"name":"Exchange",
+"name":"D-Xylose exchange",
 "metabolites":{
 "xyl__D_e":-1.0
 },
@@ -13990,7 +14005,7 @@
 },
 {
 "id":"EX_glycogen_e",
-"name":"Exchange",
+"name":"Glycogen exchange",
 "metabolites":{
 "glycogen_e":-1.0
 },
@@ -14003,7 +14018,7 @@
 },
 {
 "id":"EX_val__L_e",
-"name":"Exchange",
+"name":"L-Valine exchange",
 "metabolites":{
 "val__L_e":-1.0
 },
@@ -14016,7 +14031,7 @@
 },
 {
 "id":"EX_dha_e",
-"name":"Exchange",
+"name":"Glycerone exchange",
 "metabolites":{
 "dha_e":-1.0
 },
@@ -14029,7 +14044,7 @@
 },
 {
 "id":"EX_cellb_e",
-"name":"Exchange",
+"name":"Cellobiose exchange",
 "metabolites":{
 "cellb_e":-1.0
 },
@@ -14042,7 +14057,7 @@
 },
 {
 "id":"EX_lac__L_e",
-"name":"Exchange",
+"name":"(S)-Lactate exchange",
 "metabolites":{
 "lac__L_e":-1.0
 },
@@ -14055,7 +14070,7 @@
 },
 {
 "id":"EX_thr__L_e",
-"name":"Exchange",
+"name":"L-Threonine exchange",
 "metabolites":{
 "thr__L_e":-1.0
 },
@@ -14068,7 +14083,7 @@
 },
 {
 "id":"EX_etha_e",
-"name":"Exchange",
+"name":"Ethanolamine exchange",
 "metabolites":{
 "etha_e":-1.0
 },
@@ -14081,7 +14096,7 @@
 },
 {
 "id":"EX_glcur_e",
-"name":"Exchange",
+"name":"D-Glucuronate exchange",
 "metabolites":{
 "glcur_e":-1.0
 },
@@ -14094,7 +14109,7 @@
 },
 {
 "id":"EX_3pg_e",
-"name":"Exchange",
+"name":"3-Phospho-D-glycerate exchange",
 "metabolites":{
 "3pg_e":-1.0
 },
@@ -14107,7 +14122,7 @@
 },
 {
 "id":"EX_2ddglcn_e",
-"name":"Exchange",
+"name":"2-Dehydro-3-deoxy-D-gluconate exchange",
 "metabolites":{
 "2ddglcn_e":-1.0
 },
@@ -14120,7 +14135,7 @@
 },
 {
 "id":"EX_malt_e",
-"name":"Exchange",
+"name":"Maltose exchange",
 "metabolites":{
 "malt_e":-1.0
 },
@@ -14133,7 +14148,7 @@
 },
 {
 "id":"EX_adn_e",
-"name":"Exchange",
+"name":"Adenosine exchange",
 "metabolites":{
 "adn_e":-1.0
 },
@@ -14146,7 +14161,7 @@
 },
 {
 "id":"EX_thymd_e",
-"name":"Exchange",
+"name":"Thymidine exchange",
 "metabolites":{
 "thymd_e":-1.0
 },
@@ -14159,7 +14174,7 @@
 },
 {
 "id":"EX_arab__D_e",
-"name":"Exchange",
+"name":"D-Arabinose exchange",
 "metabolites":{
 "arab__D_e":-1.0
 },
@@ -14172,7 +14187,7 @@
 },
 {
 "id":"EX_glu__D_e",
-"name":"Exchange",
+"name":"D-Glutamate exchange",
 "metabolites":{
 "glu__D_e":-1.0
 },
@@ -14185,7 +14200,7 @@
 },
 {
 "id":"EX_k_e",
-"name":"Exchange",
+"name":"Potassium exchange",
 "metabolites":{
 "k_e":-1.0
 },
@@ -14201,7 +14216,7 @@
 },
 {
 "id":"EX_gua_e",
-"name":"Exchange",
+"name":"Guanine exchange",
 "metabolites":{
 "gua_e":-1.0
 },
@@ -14214,7 +14229,7 @@
 },
 {
 "id":"EX_lcts_e",
-"name":"Exchange",
+"name":"Lactose exchange",
 "metabolites":{
 "lcts_e":-1.0
 },
@@ -14227,7 +14242,7 @@
 },
 {
 "id":"EX_no3_e",
-"name":"Exchange",
+"name":"Nitrate exchange",
 "metabolites":{
 "no3_e":-1.0
 },
@@ -14240,7 +14255,7 @@
 },
 {
 "id":"EX_taur_e",
-"name":"Exchange",
+"name":"Taurine exchange",
 "metabolites":{
 "taur_e":-1.0
 },
@@ -14253,7 +14268,7 @@
 },
 {
 "id":"EX_srb__L_e",
-"name":"Exchange",
+"name":"L-Sorbose exchange",
 "metabolites":{
 "srb__L_e":-1.0
 },
@@ -14266,7 +14281,7 @@
 },
 {
 "id":"EX_chor_e",
-"name":"Exchange",
+"name":"Chorismate exchange",
 "metabolites":{
 "chor_e":-1.0
 },
@@ -14279,7 +14294,7 @@
 },
 {
 "id":"EX_nac_e",
-"name":"Exchange",
+"name":"Nicotinate exchange",
 "metabolites":{
 "nac_e":-1.0
 },
@@ -14292,7 +14307,7 @@
 },
 {
 "id":"EX_ribflv_e",
-"name":"Exchange",
+"name":"Riboflavin exchange",
 "metabolites":{
 "ribflv_e":-1.0
 },
@@ -14305,7 +14320,7 @@
 },
 {
 "id":"EX_glcn_e",
-"name":"Exchange",
+"name":"D-Gluconic acid exchange",
 "metabolites":{
 "glcn_e":-1.0
 },
@@ -14318,7 +14333,7 @@
 },
 {
 "id":"EX_arab__L_e",
-"name":"Exchange",
+"name":"L-Arabinose exchange",
 "metabolites":{
 "arab__L_e":-1.0
 },
@@ -14331,7 +14346,7 @@
 },
 {
 "id":"EX_hxan_e",
-"name":"Exchange",
+"name":"Hypoxanthine exchange",
 "metabolites":{
 "hxan_e":-1.0
 },
@@ -14344,7 +14359,7 @@
 },
 {
 "id":"EX_glc__D_e",
-"name":"Exchange",
+"name":"D-Glucose exchange",
 "metabolites":{
 "glc__D_e":-1.0
 },
@@ -14360,7 +14375,7 @@
 },
 {
 "id":"EX_acnam_e",
-"name":"Exchange",
+"name":"N-Acetylneuraminate exchange",
 "metabolites":{
 "acnam_e":-1.0
 },
@@ -14373,7 +14388,7 @@
 },
 {
 "id":"EX_man6p_e",
-"name":"Exchange",
+"name":"D-Mannose 6-phosphate exchange",
 "metabolites":{
 "man6p_e":-1.0
 },
@@ -14386,7 +14401,7 @@
 },
 {
 "id":"EX_h2s_e",
-"name":"Exchange",
+"name":"Hydrogen sulfide exchange",
 "metabolites":{
 "h2s_e":-1.0
 },
@@ -14399,7 +14414,7 @@
 },
 {
 "id":"EX_ni2_e",
-"name":"Exchange",
+"name":"Nickel exchange",
 "metabolites":{
 "ni2_e":-1.0
 },
@@ -14412,7 +14427,7 @@
 },
 {
 "id":"EX_ins_e",
-"name":"Exchange",
+"name":"Inosine exchange",
 "metabolites":{
 "ins_e":-1.0
 },
@@ -14425,7 +14440,7 @@
 },
 {
 "id":"EX_uri_e",
-"name":"Exchange",
+"name":"Uridine exchange",
 "metabolites":{
 "uri_e":-1.0
 },
@@ -14438,7 +14453,7 @@
 },
 {
 "id":"EX_mg2_e",
-"name":"Exchange",
+"name":"Magnesium exchange",
 "metabolites":{
 "mg2_e":-1.0
 },
@@ -14454,7 +14469,7 @@
 },
 {
 "id":"EX_citr__L_e",
-"name":"Exchange",
+"name":"L-Citrulline exchange",
 "metabolites":{
 "citr__L_e":-1.0
 },
@@ -14467,7 +14482,7 @@
 },
 {
 "id":"EX_gam_e",
-"name":"Exchange",
+"name":"D-Glucosamine exchange",
 "metabolites":{
 "gam_e":-1.0
 },
@@ -14480,7 +14495,7 @@
 },
 {
 "id":"EX_galur_e",
-"name":"Exchange",
+"name":"D-Galacturonate exchange",
 "metabolites":{
 "galur_e":-1.0
 },
@@ -14493,7 +14508,7 @@
 },
 {
 "id":"EX_4abut_e",
-"name":"Exchange",
+"name":"4-Aminobutanoate exchange",
 "metabolites":{
 "4abut_e":-1.0
 },
@@ -14506,7 +14521,7 @@
 },
 {
 "id":"EX_6pgc_e",
-"name":"Exchange",
+"name":"6-Phospho-D-gluconate exchange",
 "metabolites":{
 "6pgc_e":-1.0
 },
@@ -14519,7 +14534,7 @@
 },
 {
 "id":"EX_ethamp_e",
-"name":"Exchange",
+"name":"Ethanolamine phosphate exchange",
 "metabolites":{
 "ethamp_e":-1.0
 },
@@ -14532,7 +14547,7 @@
 },
 {
 "id":"EX_gam6p_e",
-"name":"Exchange",
+"name":"D-Glucosamine 6-phosphate exchange",
 "metabolites":{
 "gam6p_e":-1.0
 },
@@ -14545,7 +14560,7 @@
 },
 {
 "id":"EX_dtmp_e",
-"name":"Exchange",
+"name":"dTMP exchange",
 "metabolites":{
 "dtmp_e":-1.0
 },
@@ -14558,7 +14573,7 @@
 },
 {
 "id":"EX_urate_e",
-"name":"Exchange",
+"name":"Urate exchange",
 "metabolites":{
 "urate_e":-1.0
 },
@@ -14571,7 +14586,7 @@
 },
 {
 "id":"EX_thm_e",
-"name":"Exchange",
+"name":"Thiamin exchange",
 "metabolites":{
 "thm_e":-1.0
 },
@@ -14584,7 +14599,7 @@
 },
 {
 "id":"EX_csn_e",
-"name":"Exchange",
+"name":"Cytosine exchange",
 "metabolites":{
 "csn_e":-1.0
 },
@@ -14597,7 +14612,7 @@
 },
 {
 "id":"EX_xan_e",
-"name":"Exchange",
+"name":"Xanthine exchange",
 "metabolites":{
 "xan_e":-1.0
 },
@@ -14610,7 +14625,7 @@
 },
 {
 "id":"EX_gsn_e",
-"name":"Exchange",
+"name":"Guanosine exchange",
 "metabolites":{
 "gsn_e":-1.0
 },
@@ -14623,7 +14638,7 @@
 },
 {
 "id":"EX_mnl_e",
-"name":"Exchange",
+"name":"Mannitol exchange",
 "metabolites":{
 "mnl_e":-1.0
 },
@@ -14636,7 +14651,7 @@
 },
 {
 "id":"EX_ile__L_e",
-"name":"Exchange",
+"name":"L-Isoleucine exchange",
 "metabolites":{
 "ile__L_e":-1.0
 },
@@ -14649,7 +14664,7 @@
 },
 {
 "id":"EX_etoh_e",
-"name":"Exchange",
+"name":"Ethanol exchange",
 "metabolites":{
 "etoh_e":-1.0
 },
@@ -14662,7 +14677,7 @@
 },
 {
 "id":"EX_cytd_e",
-"name":"Exchange",
+"name":"Cytidine exchange",
 "metabolites":{
 "cytd_e":-1.0
 },
@@ -14675,7 +14690,7 @@
 },
 {
 "id":"EX_crn_e",
-"name":"Exchange",
+"name":"L-Carnitine exchange",
 "metabolites":{
 "crn_e":-1.0
 },
@@ -14688,7 +14703,7 @@
 },
 {
 "id":"EX_cysi__L_e",
-"name":"Exchange",
+"name":"L-Cystine exchange",
 "metabolites":{
 "cysi__L_e":-1.0
 },
@@ -14701,7 +14716,7 @@
 },
 {
 "id":"EX_raffin_e",
-"name":"Exchange",
+"name":"Raffinose exchange",
 "metabolites":{
 "raffin_e":-1.0
 },
@@ -14714,7 +14729,7 @@
 },
 {
 "id":"EX_mal__D_e",
-"name":"Exchange",
+"name":"(R)-Malate exchange",
 "metabolites":{
 "mal__D_e":-1.0
 },
@@ -14727,7 +14742,7 @@
 },
 {
 "id":"EX_fol_e",
-"name":"Exchange",
+"name":"Folate exchange",
 "metabolites":{
 "fol_e":-1.0
 },
@@ -14740,7 +14755,7 @@
 },
 {
 "id":"EX_Lcyst_e",
-"name":"Exchange",
+"name":"L-Cysteate exchange",
 "metabolites":{
 "Lcyst_e":-1.0
 },
@@ -14753,7 +14768,7 @@
 },
 {
 "id":"EX_rmn_e",
-"name":"Exchange",
+"name":"L-Rhamnose exchange",
 "metabolites":{
 "rmn_e":-1.0
 },
@@ -14766,7 +14781,7 @@
 },
 {
 "id":"EX_hqn_e",
-"name":"Exchange",
+"name":"p-Benzenediol exchange",
 "metabolites":{
 "hqn_e":-1.0
 },
@@ -14779,7 +14794,7 @@
 },
 {
 "id":"EX_abt__L_e",
-"name":"Exchange",
+"name":"L-Arabitol exchange",
 "metabolites":{
 "abt__L_e":-1.0
 },
@@ -14792,7 +14807,7 @@
 },
 {
 "id":"EX_pppi_e",
-"name":"Exchange",
+"name":"Triphosphate exchange",
 "metabolites":{
 "pppi_e":-1.0
 },
@@ -14805,7 +14820,7 @@
 },
 {
 "id":"EX_cbl2_e",
-"name":"Exchange",
+"name":"Cob(II)alamin exchange",
 "metabolites":{
 "cbl2_e":-1.0
 },
@@ -14818,7 +14833,7 @@
 },
 {
 "id":"EX_tartr__M_e",
-"name":"Exchange",
+"name":"meso-Tartaric acid exchange",
 "metabolites":{
 "tartr__M_e":-1.0
 },
@@ -14831,7 +14846,7 @@
 },
 {
 "id":"EX_dad_2_e",
-"name":"Exchange",
+"name":"Deoxyadenosine exchange",
 "metabolites":{
 "dad_2_e":-1.0
 },
@@ -14844,7 +14859,7 @@
 },
 {
 "id":"EX_cholp_e",
-"name":"Exchange",
+"name":"Choline phosphate exchange",
 "metabolites":{
 "cholp_e":-1.0
 },
@@ -14857,7 +14872,7 @@
 },
 {
 "id":"EX_pacald_e",
-"name":"Exchange",
+"name":"Phenylacetaldehyde exchange",
 "metabolites":{
 "pacald_e":-1.0
 },
@@ -14870,7 +14885,7 @@
 },
 {
 "id":"EX_2pg_e",
-"name":"Exchange",
+"name":"2-Phospho-D-glycerate exchange",
 "metabolites":{
 "2pg_e":-1.0
 },
@@ -14883,7 +14898,7 @@
 },
 {
 "id":"EX_man1p_e",
-"name":"Exchange",
+"name":"D-Mannose 1-phosphate exchange",
 "metabolites":{
 "man1p_e":-1.0
 },
@@ -14896,7 +14911,7 @@
 },
 {
 "id":"EX_acmana_e",
-"name":"Exchange",
+"name":"N-Acetyl-D-mannosamine exchange",
 "metabolites":{
 "acmana_e":-1.0
 },
@@ -14909,7 +14924,7 @@
 },
 {
 "id":"EX_g6p_A_e",
-"name":"Exchange",
+"name":"D-Glucose 6-phosphate exchange",
 "metabolites":{
 "g6p_A_e":-1.0
 },
@@ -14922,7 +14937,7 @@
 },
 {
 "id":"EX_hg2_e",
-"name":"Exchange",
+"name":"Hg2+ exchange",
 "metabolites":{
 "hg2_e":-1.0
 },
@@ -14935,7 +14950,7 @@
 },
 {
 "id":"EX_glyb_e",
-"name":"Exchange",
+"name":"Betaine exchange",
 "metabolites":{
 "glyb_e":-1.0
 },
@@ -14948,7 +14963,7 @@
 },
 {
 "id":"EX_dextrin_e",
-"name":"Exchange",
+"name":"Dextrin exchange",
 "metabolites":{
 "dextrin_e":-1.0
 },
@@ -14961,7 +14976,7 @@
 },
 {
 "id":"EX_lipoate_e",
-"name":"Exchange",
+"name":"Lipoate exchange",
 "metabolites":{
 "lipoate_e":-1.0
 },
@@ -14974,7 +14989,7 @@
 },
 {
 "id":"EX_ser__D_e",
-"name":"Exchange",
+"name":"D-Serine exchange",
 "metabolites":{
 "ser__D_e":-1.0
 },
@@ -14987,7 +15002,7 @@
 },
 {
 "id":"EX_sbt__D_e",
-"name":"Exchange",
+"name":"D-Sorbitol exchange",
 "metabolites":{
 "sbt__D_e":-1.0
 },
@@ -15000,7 +15015,7 @@
 },
 {
 "id":"EX_glcr_e",
-"name":"Exchange",
+"name":"D-Glucarate exchange",
 "metabolites":{
 "glcr_e":-1.0
 },
@@ -15013,7 +15028,7 @@
 },
 {
 "id":"EX_met__D_e",
-"name":"Exchange",
+"name":"D-Methionine exchange",
 "metabolites":{
 "met__D_e":-1.0
 },
@@ -15026,7 +15041,7 @@
 },
 {
 "id":"EX_pnto__R_e",
-"name":"Exchange",
+"name":"Pantothenate exchange",
 "metabolites":{
 "pnto__R_e":-1.0
 },
@@ -15039,7 +15054,7 @@
 },
 {
 "id":"EX_galctr__D_e",
-"name":"Exchange",
+"name":"D-Galactarate exchange",
 "metabolites":{
 "galctr__D_e":-1.0
 },
@@ -15052,7 +15067,7 @@
 },
 {
 "id":"EX_dcyt_e",
-"name":"Exchange",
+"name":"Deoxycytidine exchange",
 "metabolites":{
 "dcyt_e":-1.0
 },
@@ -15065,7 +15080,7 @@
 },
 {
 "id":"EX_chols_e",
-"name":"Exchange",
+"name":"Choline sulfate exchange",
 "metabolites":{
 "chols_e":-1.0
 },
@@ -15078,7 +15093,7 @@
 },
 {
 "id":"EX_C00946_e",
-"name":"Exchange",
+"name":"Adenosine 2'-phosphate exchange",
 "metabolites":{
 "C00946_e":-1.0
 },
@@ -15091,7 +15106,7 @@
 },
 {
 "id":"EX_2pglyc_e",
-"name":"Exchange",
+"name":"2-Phosphoglycolate exchange",
 "metabolites":{
 "2pglyc_e":-1.0
 },
@@ -15104,7 +15119,7 @@
 },
 {
 "id":"EX_pser__L_e",
-"name":"Exchange",
+"name":"phosphoserine exchange",
 "metabolites":{
 "pser__L_e":-1.0
 },
@@ -15117,7 +15132,7 @@
 },
 {
 "id":"EX_fuc__L_e",
-"name":"Exchange",
+"name":"6-Deoxy-L-galactose exchange",
 "metabolites":{
 "fuc__L_e":-1.0
 },
@@ -15130,7 +15145,7 @@
 },
 {
 "id":"EX_gullac_e",
-"name":"Exchange",
+"name":"L-Gulono-1,4-lactone exchange",
 "metabolites":{
 "gullac_e":-1.0
 },
@@ -15143,7 +15158,7 @@
 },
 {
 "id":"EX_thmmp_e",
-"name":"Exchange",
+"name":"Thiamin monophosphate exchange",
 "metabolites":{
 "thmmp_e":-1.0
 },
@@ -15156,7 +15171,7 @@
 },
 {
 "id":"EX_tre_e",
-"name":"Exchange",
+"name":"alpha,alpha-Trehalose exchange",
 "metabolites":{
 "tre_e":-1.0
 },
@@ -15169,7 +15184,7 @@
 },
 {
 "id":"EX_4tmeabutn_e",
-"name":"Exchange",
+"name":"4-Trimethylammoniobutanoate exchange",
 "metabolites":{
 "4tmeabutn_e":-1.0
 },
@@ -15182,7 +15197,7 @@
 },
 {
 "id":"EX_na1_e",
-"name":"Exchange",
+"name":"Sodium exchange",
 "metabolites":{
 "na1_e":-1.0
 },
@@ -15198,7 +15213,7 @@
 },
 {
 "id":"EX_3amp_p_e",
-"name":"Exchange",
+"name":"3'-AMP exchange",
 "metabolites":{
 "3amp_p_e":-1.0
 },
@@ -15211,7 +15226,7 @@
 },
 {
 "id":"EX_3ump_p_e",
-"name":"Exchange",
+"name":"3'-UMP exchange",
 "metabolites":{
 "3ump_p_e":-1.0
 },
@@ -15224,7 +15239,7 @@
 },
 {
 "id":"EX_cd2_e",
-"name":"Exchange",
+"name":"Cadmium exchange",
 "metabolites":{
 "cd2_e":-1.0
 },
@@ -15237,7 +15252,7 @@
 },
 {
 "id":"EX_cgly_e",
-"name":"Exchange",
+"name":"Cys-Gly exchange",
 "metabolites":{
 "cgly_e":-1.0
 },
@@ -15250,7 +15265,7 @@
 },
 {
 "id":"EX_salcn_e",
-"name":"Exchange",
+"name":"Salicin exchange",
 "metabolites":{
 "salcn_e":-1.0
 },
@@ -15263,7 +15278,7 @@
 },
 {
 "id":"EX_all__D_e",
-"name":"Exchange",
+"name":"D-Allose exchange",
 "metabolites":{
 "all__D_e":-1.0
 },
@@ -15276,7 +15291,7 @@
 },
 {
 "id":"EX_pur_e",
-"name":"Exchange",
+"name":"Puromycin exchange",
 "metabolites":{
 "pur_e":-1.0
 },
@@ -15289,7 +15304,7 @@
 },
 {
 "id":"EX_galt_e",
-"name":"Exchange",
+"name":"Galactitol exchange",
 "metabolites":{
 "galt_e":-1.0
 },
@@ -15302,7 +15317,7 @@
 },
 {
 "id":"EX_sbt__L_e",
-"name":"Exchange",
+"name":"L-Glucitol exchange",
 "metabolites":{
 "sbt__L_e":-1.0
 },
@@ -15315,7 +15330,7 @@
 },
 {
 "id":"EX_pala_e",
-"name":"Exchange",
+"name":"Palatinose exchange",
 "metabolites":{
 "pala_e":-1.0
 },
@@ -15328,7 +15343,7 @@
 },
 {
 "id":"EX_xtsn_e",
-"name":"Exchange",
+"name":"Xanthosine exchange",
 "metabolites":{
 "xtsn_e":-1.0
 },
@@ -15341,7 +15356,7 @@
 },
 {
 "id":"EX_drib_e",
-"name":"Exchange",
+"name":"Deoxyribose exchange",
 "metabolites":{
 "drib_e":-1.0
 },
@@ -15354,7 +15369,7 @@
 },
 {
 "id":"EX_malttr_e",
-"name":"Exchange",
+"name":"Maltotriose exchange",
 "metabolites":{
 "malttr_e":-1.0
 },
@@ -15367,7 +15382,7 @@
 },
 {
 "id":"EX_5oxpro_e",
-"name":"Exchange",
+"name":"5-Oxoproline exchange",
 "metabolites":{
 "5oxpro_e":-1.0
 },
@@ -15380,7 +15395,7 @@
 },
 {
 "id":"EX_thiog_e",
-"name":"Exchange",
+"name":"Thioglycolate exchange",
 "metabolites":{
 "thiog_e":-1.0
 },
@@ -15393,7 +15408,7 @@
 },
 {
 "id":"EX_2hymeph_e",
-"name":"Exchange",
+"name":"Salicyl alcohol exchange",
 "metabolites":{
 "2hymeph_e":-1.0
 },
@@ -15406,7 +15421,7 @@
 },
 {
 "id":"EX_alltn_e",
-"name":"Exchange",
+"name":"Allantoin exchange",
 "metabolites":{
 "alltn_e":-1.0
 },
@@ -15419,7 +15434,7 @@
 },
 {
 "id":"EX_23camp_e",
-"name":"Exchange",
+"name":"2',3'-Cyclic AMP exchange",
 "metabolites":{
 "23camp_e":-1.0
 },
@@ -15432,7 +15447,7 @@
 },
 {
 "id":"EX_23ccmp_e",
-"name":"Exchange",
+"name":"2',3'-Cyclic CMP exchange",
 "metabolites":{
 "23ccmp_e":-1.0
 },
@@ -15445,7 +15460,7 @@
 },
 {
 "id":"EX_23cump_p_e",
-"name":"Exchange",
+"name":"2',3'-Cyclic UMP exchange",
 "metabolites":{
 "23cump_p_e":-1.0
 },
@@ -15458,7 +15473,7 @@
 },
 {
 "id":"EX_tmp_e",
-"name":"Exchange",
+"name":"Trimetaphosphate exchange",
 "metabolites":{
 "tmp_e":-1.0
 },
@@ -15471,7 +15486,7 @@
 },
 {
 "id":"EX_pser__D_e",
-"name":"Exchange",
+"name":"D-O-Phosphoserine exchange",
 "metabolites":{
 "pser__D_e":-1.0
 },
@@ -15484,7 +15499,7 @@
 },
 {
 "id":"EX_C03031_e",
-"name":"Exchange",
+"name":"Uridine 2'-phosphate exchange",
 "metabolites":{
 "C03031_e":-1.0
 },
@@ -15497,7 +15512,7 @@
 },
 {
 "id":"EX_23btdl_e",
-"name":"Exchange",
+"name":"(R,R)-Butane-2,3-diol exchange",
 "metabolites":{
 "23btdl_e":-1.0
 },
@@ -15510,7 +15525,7 @@
 },
 {
 "id":"EX_5mtr_e",
-"name":"Exchange",
+"name":"5-Methylthio-D-ribose exchange",
 "metabolites":{
 "5mtr_e":-1.0
 },
@@ -15523,7 +15538,7 @@
 },
 {
 "id":"EX_C03104_e",
-"name":"Exchange",
+"name":"Cytidine 2'-phosphate exchange",
 "metabolites":{
 "C03104_e":-1.0
 },
@@ -15536,7 +15551,7 @@
 },
 {
 "id":"EX_C03570_e",
-"name":"Exchange",
+"name":"D-Mannosamine exchange",
 "metabolites":{
 "C03570_e":-1.0
 },
@@ -15549,7 +15564,7 @@
 },
 {
 "id":"EX_C03619_e",
-"name":"Exchange",
+"name":"Methyl beta-D-galactoside exchange",
 "metabolites":{
 "C03619_e":-1.0
 },
@@ -15562,7 +15577,7 @@
 },
 {
 "id":"EX_isetac_e",
-"name":"Exchange",
+"name":"2-Hydroxyethanesulfonate exchange",
 "metabolites":{
 "isetac_e":-1.0
 },
@@ -15575,7 +15590,7 @@
 },
 {
 "id":"EX_peamn_e",
-"name":"Exchange",
+"name":"Phenethylamine exchange",
 "metabolites":{
 "peamn_e":-1.0
 },
@@ -15588,7 +15603,7 @@
 },
 {
 "id":"EX_f6p_B_e",
-"name":"Exchange",
+"name":"D-Fructose 6-phosphate exchange",
 "metabolites":{
 "f6p_B_e":-1.0
 },
@@ -15601,7 +15616,7 @@
 },
 {
 "id":"EX_melib_e",
-"name":"Exchange",
+"name":"Melibiose exchange",
 "metabolites":{
 "melib_e":-1.0
 },
@@ -15614,7 +15629,7 @@
 },
 {
 "id":"EX_b12_e",
-"name":"Exchange",
+"name":"Vitamin B12 exchange",
 "metabolites":{
 "b12_e":-1.0
 },
@@ -15627,7 +15642,7 @@
 },
 {
 "id":"EX_3cmp_p_e",
-"name":"Exchange",
+"name":"3'-CMP exchange",
 "metabolites":{
 "3cmp_p_e":-1.0
 },
@@ -15640,7 +15655,7 @@
 },
 {
 "id":"EX_argp_e",
-"name":"Exchange",
+"name":"L-Arginine phosphate exchange",
 "metabolites":{
 "argp_e":-1.0
 },
@@ -15653,7 +15668,7 @@
 },
 {
 "id":"EX_arbt_e",
-"name":"Exchange",
+"name":"Arbutin exchange",
 "metabolites":{
 "arbt_e":-1.0
 },
@@ -15666,7 +15681,7 @@
 },
 {
 "id":"EX_3gmp_e",
-"name":"Exchange",
+"name":"Guanosine 3'-phosphate exchange",
 "metabolites":{
 "3gmp_e":-1.0
 },
@@ -15679,7 +15694,7 @@
 },
 {
 "id":"EX_fecrm_e",
-"name":"Exchange",
+"name":"Ferrichrome exchange",
 "metabolites":{
 "fecrm_e":-1.0
 },
@@ -15692,7 +15707,7 @@
 },
 {
 "id":"EX_ectoine_e",
-"name":"Exchange",
+"name":"Ectoine exchange",
 "metabolites":{
 "ectoine_e":-1.0
 },
@@ -15705,7 +15720,7 @@
 },
 {
 "id":"EX_mobd_e",
-"name":"Exchange",
+"name":"Molybdate exchange",
 "metabolites":{
 "mobd_e":-1.0
 },
@@ -15718,7 +15733,7 @@
 },
 {
 "id":"EX_2doxg6p_e",
-"name":"Exchange",
+"name":"2-Deoxy-D-glucose 6-phosphate exchange",
 "metabolites":{
 "2doxg6p_e":-1.0
 },
@@ -15731,7 +15746,7 @@
 },
 {
 "id":"EX_C06468_e",
-"name":"Exchange",
+"name":"D-Psicose exchange",
 "metabolites":{
 "C06468_e":-1.0
 },
@@ -15744,7 +15759,7 @@
 },
 {
 "id":"EX_pb_e",
-"name":"Exchange",
+"name":"Lead exchange",
 "metabolites":{
 "pb_e":-1.0
 },
@@ -15757,7 +15772,7 @@
 },
 {
 "id":"EX_aso3_e",
-"name":"Exchange",
+"name":"Arsenite exchange",
 "metabolites":{
 "aso3_e":-1.0
 },
@@ -15770,7 +15785,7 @@
 },
 {
 "id":"EX_feoxam_e",
-"name":"Exchange",
+"name":"Ferroxamine exchange",
 "metabolites":{
 "feoxam_e":-1.0
 },
@@ -15783,7 +15798,7 @@
 },
 {
 "id":"EX_C08240_e",
-"name":"Exchange",
+"name":"Gentiobiose exchange",
 "metabolites":{
 "C08240_e":-1.0
 },
@@ -15796,7 +15811,7 @@
 },
 {
 "id":"EX_djenk_e",
-"name":"Exchange",
+"name":"L-Djenkolic acid exchange",
 "metabolites":{
 "djenk_e":-1.0
 },
@@ -15809,7 +15824,7 @@
 },
 {
 "id":"EX_C08325_e",
-"name":"Exchange",
+"name":"Amygdalin exchange",
 "metabolites":{
 "C08325_e":-1.0
 },
@@ -15822,7 +15837,7 @@
 },
 {
 "id":"EX_prolb_e",
-"name":"Exchange",
+"name":"Stachydrine exchange",
 "metabolites":{
 "prolb_e":-1.0
 },
@@ -15835,7 +15850,7 @@
 },
 {
 "id":"EX_mso3_e",
-"name":"Exchange",
+"name":"Methanesulfonic acid exchange",
 "metabolites":{
 "mso3_e":-1.0
 },
@@ -15848,7 +15863,7 @@
 },
 {
 "id":"EX_ctbt_e",
-"name":"Exchange",
+"name":"Crotono-betaine exchange",
 "metabolites":{
 "ctbt_e":-1.0
 },
@@ -15861,7 +15876,7 @@
 },
 {
 "id":"EX_btbet_e",
-"name":"Exchange",
+"name":"Butyro-betaine exchange",
 "metabolites":{
 "btbet_e":-1.0
 },
@@ -15874,7 +15889,7 @@
 },
 {
 "id":"EX_glcglyc_e",
-"name":"Exchange",
+"name":"2-(beta-D-Glucosyl)-sn-glycerol exchange",
 "metabolites":{
 "glcglyc_e":-1.0
 },
@@ -15887,7 +15902,7 @@
 },
 {
 "id":"EX_thrp_e",
-"name":"Exchange",
+"name":"L-Threonine O-3-phosphate exchange",
 "metabolites":{
 "thrp_e":-1.0
 },
@@ -15900,7 +15915,7 @@
 },
 {
 "id":"EX_sulfac_e",
-"name":"Exchange",
+"name":"Sulfoacetate exchange",
 "metabolites":{
 "sulfac_e":-1.0
 },
@@ -15913,7 +15928,7 @@
 },
 {
 "id":"EX_fe2_e",
-"name":"Exchange",
+"name":"Fe2+ exchange",
 "metabolites":{
 "fe2_e":-1.0
 },
@@ -15926,7 +15941,7 @@
 },
 {
 "id":"EX_fe3_e",
-"name":"Exchange",
+"name":"Fe3+ exchange",
 "metabolites":{
 "fe3_e":-1.0
 },
@@ -15942,7 +15957,7 @@
 },
 {
 "id":"EX_aso4_e",
-"name":"Exchange",
+"name":"Arsenic acid exchange",
 "metabolites":{
 "aso4_e":-1.0
 },
@@ -15955,7 +15970,7 @@
 },
 {
 "id":"EX_mops_e",
-"name":"Exchange",
+"name":"MOPS exchange",
 "metabolites":{
 "mops_e":-1.0
 },
@@ -15968,7 +15983,7 @@
 },
 {
 "id":"EX_lanth_e",
-"name":"Exchange",
+"name":"Lanthionine exchange",
 "metabolites":{
 "lanth_e":-1.0
 },
@@ -15981,7 +15996,7 @@
 },
 {
 "id":"EX_hexs_e",
-"name":"Exchange",
+"name":"hexanesulfonate exchange",
 "metabolites":{
 "hexs_e":-1.0
 },
@@ -15994,7 +16009,7 @@
 },
 {
 "id":"EX_ethso3_e",
-"name":"Exchange",
+"name":"ethanesulfonate exchange",
 "metabolites":{
 "ethso3_e":-1.0
 },
@@ -16007,7 +16022,7 @@
 },
 {
 "id":"EX_gly_gln__L_e",
-"name":"Exchange",
+"name":"Gly-Gln exchange",
 "metabolites":{
 "gly_gln__L_e":-1.0
 },
@@ -16020,7 +16035,7 @@
 },
 {
 "id":"EX_gly_asn__L_e",
-"name":"Exchange",
+"name":"gly-asn-L exchange",
 "metabolites":{
 "gly_asn__L_e":-1.0
 },
@@ -16033,7 +16048,7 @@
 },
 {
 "id":"EX_ala_L_Thr__L_e",
-"name":"Exchange",
+"name":"ala-L-Thr-L exchange",
 "metabolites":{
 "ala_L_Thr__L_e":-1.0
 },
@@ -16046,7 +16061,7 @@
 },
 {
 "id":"EX_ala_L_leu__L_e",
-"name":"Exchange",
+"name":"Ala-Leu exchange",
 "metabolites":{
 "ala_L_leu__L_e":-1.0
 },
@@ -16059,7 +16074,7 @@
 },
 {
 "id":"EX_ala_his_e",
-"name":"Exchange",
+"name":"Ala-His exchange",
 "metabolites":{
 "ala_his_e":-1.0
 },
@@ -16072,7 +16087,7 @@
 },
 {
 "id":"EX_L_alagly_e",
-"name":"Exchange",
+"name":"L-alanylglycine exchange",
 "metabolites":{
 "L_alagly_e":-1.0
 },
@@ -16085,7 +16100,7 @@
 },
 {
 "id":"EX_ala_L_glu__L_e",
-"name":"Exchange",
+"name":"ala-L-glu-L exchange",
 "metabolites":{
 "ala_L_glu__L_e":-1.0
 },
@@ -16098,7 +16113,7 @@
 },
 {
 "id":"EX_ala_L_gln__L_e",
-"name":"Exchange",
+"name":"Ala-Gln exchange",
 "metabolites":{
 "ala_L_gln__L_e":-1.0
 },
@@ -16111,7 +16126,7 @@
 },
 {
 "id":"EX_gly_pro__L_e",
-"name":"Exchange",
+"name":"gly-pro-L exchange",
 "metabolites":{
 "gly_pro__L_e":-1.0
 },
@@ -16124,7 +16139,7 @@
 },
 {
 "id":"EX_cpd11589_e",
-"name":"Exchange",
+"name":"gly-asp-L exchange",
 "metabolites":{
 "cpd11589_e":-1.0
 },
@@ -16137,7 +16152,7 @@
 },
 {
 "id":"EX_met_L_ala__L_e",
-"name":"Exchange",
+"name":"met-L-ala-L exchange",
 "metabolites":{
 "met_L_ala__L_e":-1.0
 },
@@ -16150,7 +16165,7 @@
 },
 {
 "id":"EX_gly_met__L_e",
-"name":"Exchange",
+"name":"Gly-Met exchange",
 "metabolites":{
 "gly_met__L_e":-1.0
 },
@@ -16163,7 +16178,7 @@
 },
 {
 "id":"EX_gly_glu__L_e",
-"name":"Exchange",
+"name":"gly-glu-L exchange",
 "metabolites":{
 "gly_glu__L_e":-1.0
 },
@@ -16176,7 +16191,7 @@
 },
 {
 "id":"EX_ala_L_asp__L_e",
-"name":"Exchange",
+"name":"ala-L-asp-L exchange",
 "metabolites":{
 "ala_L_asp__L_e":-1.0
 },
@@ -16189,7 +16204,7 @@
 },
 {
 "id":"EX_cro4_e",
-"name":"Exchange",
+"name":"chromate exchange",
 "metabolites":{
 "cro4_e":-1.0
 },
@@ -16202,7 +16217,7 @@
 },
 {
 "id":"EX_butso3_e",
-"name":"Exchange",
+"name":"butanesulfonate exchange",
 "metabolites":{
 "butso3_e":-1.0
 },
@@ -16215,7 +16230,7 @@
 },
 {
 "id":"EX_arsbet_e",
-"name":"Exchange",
+"name":"ARSENOBETAINE exchange",
 "metabolites":{
 "arsbet_e":-1.0
 },
@@ -16228,7 +16243,7 @@
 },
 {
 "id":"EX_sbo3_e",
-"name":"Exchange",
+"name":"Antimonite exchange",
 "metabolites":{
 "sbo3_e":-1.0
 },
@@ -16241,7 +16256,7 @@
 },
 {
 "id":"EX_3amba_e",
-"name":"Exchange",
+"name":"3-aminobutanoic acid exchange",
 "metabolites":{
 "3amba_e":-1.0
 },
@@ -16254,7 +16269,7 @@
 },
 {
 "id":"EX_gbbtn_e",
-"name":"Exchange",
+"name":"gamma-butyrobetaine exchange",
 "metabolites":{
 "gbbtn_e":-1.0
 },
@@ -16267,7 +16282,7 @@
 },
 {
 "id":"EX_mbdg_e",
-"name":"Exchange",
+"name":"beta-Methylglucoside exchange",
 "metabolites":{
 "mbdg_e":-1.0
 },
@@ -16296,24 +16311,6 @@
 }
 },
 {
-"id":"ALPHNH",
-"name":"Allophanate hydrolase subunit 1 (EC 3.5.1.54)|Allophanate hydrolase subunit 2 (EC 3.5.1.54)",
-"metabolites":{
-"allphn_c":-1.0,
-"co2_c":2.0,
-"h2o_c":-1.0,
-"h_c":-3.0,
-"nh4_c":2.0
-},
-"lower_bound":0.0,
-"upper_bound":1000.0,
-"gene_reaction_rule":"BSU04080 and BSU04090 and BSU04050",
-"annotation":{
-"bigg.reaction":"ALPHNH",
-"ec-code":"3.5.1.54"
-}
-},
-{
 "id":"CAT_num1",
 "name":"Catalase (EC 1.11.1.6)",
 "metabolites":{
@@ -16330,7 +16327,7 @@
 }
 },
 {
-"id":"PDHam1hi_num1",
+"id":"PDHam1hi",
 "name":"Pyruvate dehydrogenase E1 component alpha subunit (EC 1.2.4.1);Pyruvate dehydrogenase E1 component beta subunit (EC 1.2.4.1)(BSU14590);Acetolactate synthase small subunit (EC 2.2.1.6)(BSU28300);Acetolactate synthase large subunit (EC 2.2.1.6)(BSU28310);Acetolactate synthase, catabolic (EC 2.2.1.6)(BSU36010)",
 "metabolites":{
 "2ahethmpp_c":1.0,
@@ -16344,29 +16341,10 @@
 "gene_reaction_rule":"BSU14580 and BSU14590",
 "annotation":{
 "bigg.reaction":"PDHam1hi",
-"ec-code":"2.2.1.6"
-}
-},
-{
-"id":"GLMS_syn_num1",
-"name":"Ferredoxin-dependent glutamate synthase (EC 1.4.7.1)",
-"metabolites":{
-"akg_c":1.0,
-"fdxox_c":-1.0,
-"fdxrd_c":1.0,
-"gln__L_c":1.0,
-"glu__L_c":-2.0,
-"h_c":2.0
-},
-"lower_bound":0,
-"upper_bound":1000.0,
-"gene_reaction_rule":"BSU18450 and BSU18440",
-"notes":{
-"reflection":"GLMS_syn_reverse"
-},
-"annotation":{
-"bigg.reaction":"GLMS_syn",
-"ec-code":"1.4.7.1"
+"ec-code":[
+"1.2.4.1",
+"2.2.1.6"
+]
 }
 },
 {
@@ -16400,7 +16378,10 @@
 "gene_reaction_rule":"BSU39260",
 "annotation":{
 "bigg.reaction":"R00026",
-"ec-code":"3.2.1.86"
+"ec-code":[
+"3.2.1.21",
+"3.2.1.86"
+]
 }
 },
 {
@@ -16519,7 +16500,7 @@
 }
 },
 {
-"id":"GLUSy_num1",
+"id":"GLUSy",
 "name":"Glutamate synthase [NADPH] small chain (EC 1.4.1.13);Glutamate synthase [NADPH] large chain (EC 1.4.1.13)(BSU18450)",
 "metabolites":{
 "akg_c":-1.0,
@@ -16531,7 +16512,7 @@
 },
 "lower_bound":0.0,
 "upper_bound":1000.0,
-"gene_reaction_rule":"BSU18450 and BSU18440",
+"gene_reaction_rule":"BSU18440 and BSU18450",
 "annotation":{
 "bigg.reaction":"GLUSy",
 "ec-code":"1.4.1.13"
@@ -16673,7 +16654,10 @@
 "gene_reaction_rule":"BSU16670",
 "annotation":{
 "bigg.reaction":"FMNAT",
-"ec-code":"2.7.1.26"
+"ec-code":[
+"2.7.7.2",
+"2.7.1.26"
+]
 }
 },
 {
@@ -16727,7 +16711,10 @@
 "gene_reaction_rule":"BSU07840",
 "annotation":{
 "bigg.reaction":"NTD7",
-"ec-code":"3.1.4.16"
+"ec-code":[
+"3.1.3.5",
+"3.1.4.16"
+]
 }
 },
 {
@@ -16894,7 +16881,10 @@
 "gene_reaction_rule":"BSU23550",
 "annotation":{
 "bigg.reaction":"ME1",
-"ec-code":"1.-.-.-"
+"ec-code":[
+"1.1.1.38",
+"1.-.-.-"
+]
 }
 },
 {
@@ -16912,7 +16902,11 @@
 "gene_reaction_rule":"BSU04000",
 "annotation":{
 "bigg.reaction":"MALDDH",
-"ec-code":"1.1.1.93"
+"ec-code":[
+"1.1.1.83",
+"4.1.1.73",
+"1.1.1.93"
+]
 }
 },
 {
@@ -16946,7 +16940,10 @@
 "gene_reaction_rule":"BSU15850 and BSU15860",
 "annotation":{
 "bigg.reaction":"SERD_L",
-"ec-code":"4.3.1.17"
+"ec-code":[
+"4.3.1.17",
+"4.3.1.17"
+]
 }
 },
 {
@@ -17022,7 +17019,10 @@
 },
 "annotation":{
 "bigg.reaction":"ACACT1x",
-"ec-code":"2.3.1.9"
+"ec-code":[
+"2.3.1.16",
+"2.3.1.9"
+]
 }
 },
 {
@@ -17159,7 +17159,10 @@
 "gene_reaction_rule":"BSU11200",
 "annotation":{
 "bigg.reaction":"ACGS",
-"ec-code":"2.3.1.1"
+"ec-code":[
+"2.3.1.35",
+"2.3.1.1"
+]
 }
 },
 {
@@ -17304,7 +17307,10 @@
 "gene_reaction_rule":"BSU32370",
 "annotation":{
 "bigg.reaction":"UDPGPpp",
-"ec-code":"3.6.1.45"
+"ec-code":[
+"3.1.3.5",
+"3.6.1.45"
+]
 }
 },
 {
@@ -17372,7 +17378,7 @@
 },
 "lower_bound":0,
 "upper_bound":1000.0,
-"gene_reaction_rule":"BSU10130",
+"gene_reaction_rule":"BSU38260",
 "notes":{
 "reflection":"FCLT_reverse"
 },
@@ -17505,7 +17511,10 @@
 },
 "annotation":{
 "bigg.reaction":"MDHm",
-"ec-code":"1.1.1.272"
+"ec-code":[
+"1.1.1.37",
+"1.1.1.272"
+]
 }
 },
 {
@@ -17622,7 +17631,10 @@
 },
 "annotation":{
 "bigg.reaction":"AGTi",
-"ec-code":"2.6.1.51"
+"ec-code":[
+"2.6.1.44",
+"2.6.1.51"
+]
 }
 },
 {
@@ -17677,7 +17689,7 @@
 },
 "lower_bound":0,
 "upper_bound":1000.0,
-"gene_reaction_rule":"BSU04640 and BSU17640",
+"gene_reaction_rule":"BSU04640",
 "notes":{
 "reflection":"ALAR_reverse"
 },
@@ -17804,7 +17816,10 @@
 },
 "annotation":{
 "bigg.reaction":"UAGDP",
-"ec-code":"2.7.7.23"
+"ec-code":[
+"2.3.1.157",
+"2.7.7.23"
+]
 }
 },
 {
@@ -17822,7 +17837,10 @@
 },
 "annotation":{
 "bigg.reaction":"UAG4Ei",
-"ec-code":"5.1.3.12"
+"ec-code":[
+"5.1.3.2",
+"5.1.3.12"
+]
 }
 },
 {
@@ -17944,7 +17962,10 @@
 "gene_reaction_rule":"BSU00270",
 "annotation":{
 "bigg.reaction":"LYSDC",
-"ec-code":"4.1.1.18"
+"ec-code":[
+"4.1.1.19",
+"4.1.1.18"
+]
 }
 },
 {
@@ -17962,7 +17983,11 @@
 "gene_reaction_rule":"BSU34680",
 "annotation":{
 "bigg.reaction":"GLYCLTDym",
-"ec-code":"1.1.1.81"
+"ec-code":[
+"1.1.1.26",
+"1.1.1.79",
+"1.1.1.81"
+]
 }
 },
 {
@@ -17999,7 +18024,10 @@
 },
 "annotation":{
 "bigg.reaction":"DDPGA",
-"ec-code":"4.1.3.16"
+"ec-code":[
+"4.1.2.14",
+"4.1.3.16"
+]
 }
 },
 {
@@ -18122,7 +18150,10 @@
 },
 "annotation":{
 "bigg.reaction":"GTHRDH_syn",
-"ec-code":"3.4.11.4"
+"ec-code":[
+"2.3.2.2",
+"3.4.11.4"
+]
 }
 },
 {
@@ -18177,7 +18208,10 @@
 "gene_reaction_rule":"BSU07840",
 "annotation":{
 "bigg.reaction":"NTD4",
-"ec-code":"3.1.4.16"
+"ec-code":[
+"3.1.3.5",
+"3.1.4.16"
+]
 }
 },
 {
@@ -18262,7 +18296,7 @@
 "gene_reaction_rule":"BSU27220",
 "annotation":{
 "bigg.reaction":"FDH",
-"ec-code":"1.2.1.2"
+"ec-code":"1.17.1.9"
 }
 },
 {
@@ -18354,7 +18388,10 @@
 "gene_reaction_rule":"BSU16670",
 "annotation":{
 "bigg.reaction":"RBFK",
-"ec-code":"2.7.7.2"
+"ec-code":[
+"2.7.1.26",
+"2.7.7.2"
+]
 }
 },
 {
@@ -18408,7 +18445,10 @@
 "gene_reaction_rule":"BSU14630",
 "annotation":{
 "bigg.reaction":"ARGDC",
-"ec-code":"4.1.1.18"
+"ec-code":[
+"4.1.1.19",
+"4.1.1.18"
+]
 }
 },
 {
@@ -18548,7 +18588,10 @@
 },
 "annotation":{
 "bigg.reaction":"SPTix",
-"ec-code":"2.6.1.51"
+"ec-code":[
+"2.6.1.44",
+"2.6.1.51"
+]
 }
 },
 {
@@ -18620,24 +18663,6 @@
 "annotation":{
 "bigg.reaction":"TMDPK",
 "ec-code":"2.7.6.2"
-}
-},
-{
-"id":"r0163",
-"name":"2-oxoglutarate dehydrogenase E1 component (EC 1.2.4.2)",
-"metabolites":{
-"HC01435_c":1.0,
-"akg_c":-1.0,
-"co2_c":1.0,
-"h_c":-1.0,
-"thmpp_c":-1.0
-},
-"lower_bound":0.0,
-"upper_bound":1000.0,
-"gene_reaction_rule":"BSU19370",
-"annotation":{
-"bigg.reaction":"r0163",
-"ec-code":"1.2.4.2"
 }
 },
 {
@@ -18755,7 +18780,10 @@
 },
 "annotation":{
 "bigg.reaction":"ACODA",
-"ec-code":"3.5.1.14"
+"ec-code":[
+"3.5.1.16",
+"3.5.1.14"
+]
 }
 },
 {
@@ -18812,7 +18840,10 @@
 },
 "annotation":{
 "bigg.reaction":"PHETA1",
-"ec-code":"2.6.1.9"
+"ec-code":[
+"2.6.1.57",
+"2.6.1.9"
+]
 }
 },
 {
@@ -18939,7 +18970,11 @@
 "gene_reaction_rule":"BSU34680",
 "annotation":{
 "bigg.reaction":"GLYCLTDx",
-"ec-code":"1.1.1.81"
+"ec-code":[
+"1.1.1.26",
+"1.1.1.79",
+"1.1.1.81"
+]
 }
 },
 {
@@ -18994,7 +19029,10 @@
 },
 "annotation":{
 "bigg.reaction":"TYRTA",
-"ec-code":"2.6.1.9"
+"ec-code":[
+"2.6.1.57",
+"2.6.1.9"
+]
 }
 },
 {
@@ -19121,7 +19159,7 @@
 "gene_reaction_rule":"BSU11880",
 "annotation":{
 "bigg.reaction":"CYSDS",
-"ec-code":"4.4.1.8"
+"ec-code":"4.4.1.13"
 }
 },
 {
@@ -19451,7 +19489,10 @@
 },
 "annotation":{
 "bigg.reaction":"MACCOAT",
-"ec-code":"2.3.1.9"
+"ec-code":[
+"2.3.1.16",
+"2.3.1.9"
+]
 }
 },
 {
@@ -19533,7 +19574,10 @@
 "gene_reaction_rule":"BSU28080",
 "annotation":{
 "bigg.reaction":"THFGLUS",
-"ec-code":"6.3.2.17"
+"ec-code":[
+"6.3.2.12",
+"6.3.2.17"
+]
 }
 },
 {
@@ -19552,7 +19596,10 @@
 "gene_reaction_rule":"BSU24310",
 "annotation":{
 "bigg.reaction":"FTHFLi",
-"ec-code":"1.5.1.5"
+"ec-code":[
+"3.5.4.9",
+"1.5.1.5"
+]
 }
 },
 {
@@ -19595,7 +19642,7 @@
 }
 },
 {
-"id":"METS_1_num1",
+"id":"METS_1",
 "name":"Methionine synthase II (cobalamin-independent)",
 "metabolites":{
 "5mthf_c":-1.0,
@@ -19614,7 +19661,7 @@
 }
 },
 {
-"id":"GLGC_num1",
+"id":"GLGC",
 "name":"Glucose-1-phosphate adenylyltransferase (EC 2.7.7.27);Glycogen biosynthesis protein GlgD, glucose-1-phosphate adenylyltransferase family(BSU30960)",
 "metabolites":{
 "adpglc_c":1.0,
@@ -19624,7 +19671,7 @@
 },
 "lower_bound":0.0,
 "upper_bound":1000.0,
-"gene_reaction_rule":"BSU30960",
+"gene_reaction_rule":"BSU30960 and BSU30970",
 "annotation":{
 "bigg.reaction":"GLGC",
 "ec-code":"2.7.7.27"
@@ -19703,7 +19750,10 @@
 "gene_reaction_rule":"BSU07840",
 "annotation":{
 "bigg.reaction":"NTD2",
-"ec-code":"3.1.4.16"
+"ec-code":[
+"3.1.3.5",
+"3.1.4.16"
+]
 }
 },
 {
@@ -19827,7 +19877,10 @@
 "gene_reaction_rule":"BSU22680 and BSU00750",
 "annotation":{
 "bigg.reaction":"ATNS_nh4",
-"ec-code":"2.6.1.85"
+"ec-code":[
+"4.1.3.27",
+"2.6.1.85"
+]
 }
 },
 {
@@ -19846,7 +19899,10 @@
 "gene_reaction_rule":"BSU00750 and BSU22680",
 "annotation":{
 "bigg.reaction":"ANS",
-"ec-code":"2.6.1.85"
+"ec-code":[
+"4.1.3.27",
+"2.6.1.85"
+]
 }
 },
 {
@@ -20470,7 +20526,10 @@
 "gene_reaction_rule":"BSU07840",
 "annotation":{
 "bigg.reaction":"NTD11pp",
-"ec-code":"3.1.4.16"
+"ec-code":[
+"3.1.3.5",
+"3.1.4.16"
+]
 }
 },
 {
@@ -20489,7 +20548,10 @@
 },
 "annotation":{
 "bigg.reaction":"IMPC",
-"ec-code":"2.1.2.3"
+"ec-code":[
+"3.5.4.10",
+"2.1.2.3"
+]
 }
 },
 {
@@ -20695,7 +20757,7 @@
 "gene_reaction_rule":"BSU37170",
 "annotation":{
 "bigg.reaction":"ACOAD1",
-"ec-code":"1.3.99.2"
+"ec-code":"1.3.8.1"
 }
 },
 {
@@ -20736,7 +20798,10 @@
 },
 "annotation":{
 "bigg.reaction":"ACACT2r",
-"ec-code":"2.3.1.9"
+"ec-code":[
+"2.3.1.16",
+"2.3.1.9"
+]
 }
 },
 {
@@ -20940,7 +21005,10 @@
 },
 "annotation":{
 "bigg.reaction":"MTHFD",
-"ec-code":"1.5.1.5"
+"ec-code":[
+"3.5.4.9",
+"1.5.1.5"
+]
 }
 },
 {
@@ -20957,10 +21025,13 @@
 },
 "lower_bound":0.0,
 "upper_bound":1000.0,
-"gene_reaction_rule":"BSU24550 and BSU24560 and BSU24570 and BSU32800",
+"gene_reaction_rule":"BSU24550 and BSU24560 and BSU24570 and BSU32800 and BSU14610",
 "annotation":{
 "bigg.reaction":"GLYCL",
-"ec-code":"2.1.2.10"
+"ec-code":[
+"1.4.4.2",
+"2.1.2.10"
+]
 }
 },
 {
@@ -21020,7 +21091,10 @@
 "gene_reaction_rule":"BSU07840",
 "annotation":{
 "bigg.reaction":"NTD9",
-"ec-code":"3.1.4.16"
+"ec-code":[
+"3.1.3.5",
+"3.1.4.16"
+]
 }
 },
 {
@@ -21114,7 +21188,10 @@
 "gene_reaction_rule":"BSU12910",
 "annotation":{
 "bigg.reaction":"PRO1xm",
-"ec-code":"1.5.99.8"
+"ec-code":[
+"1.5.1.2",
+"1.5.99.8"
+]
 }
 },
 {
@@ -21152,7 +21229,7 @@
 },
 "annotation":{
 "bigg.reaction":"R01253",
-"ec-code":"1.5.99.8 "
+"ec-code":"1.5.5.2"
 }
 },
 {
@@ -21189,7 +21266,10 @@
 "gene_reaction_rule":"BSU10270",
 "annotation":{
 "bigg.reaction":"FACOAL160p",
-"ec-code":"6.2.1.16"
+"ec-code":[
+"6.2.1.3",
+"6.2.1.16"
+]
 }
 },
 {
@@ -21207,7 +21287,7 @@
 "gene_reaction_rule":"BSU11880",
 "annotation":{
 "bigg.reaction":"CYSTL",
-"ec-code":"4.4.1.8"
+"ec-code":"4.4.1.13"
 }
 },
 {
@@ -21282,7 +21362,10 @@
 },
 "annotation":{
 "bigg.reaction":"ACONTa",
-"ec-code":"4.2.1.3"
+"ec-code":[
+"4.2.1.99",
+"4.2.1.3"
+]
 }
 },
 {
@@ -21343,7 +21426,7 @@
 }
 },
 {
-"id":"AACOAT_num1",
+"id":"AACOAT",
 "name":"Acetoacetyl-CoA synthetase [leucine] (EC 6.2.1.16)|Long-chain-fatty-acid--CoA ligase (EC 6.2.1.3)",
 "metabolites":{
 "aacoa_c":1.0,
@@ -21356,10 +21439,13 @@
 },
 "lower_bound":0.0,
 "upper_bound":1000.0,
-"gene_reaction_rule":"BSU10360",
+"gene_reaction_rule":"BSU18250",
 "annotation":{
 "bigg.reaction":"AACOAT",
-"ec-code":"6.2.1.3"
+"ec-code":[
+"6.2.1.16",
+"6.2.1.3"
+]
 }
 },
 {
@@ -21532,7 +21618,10 @@
 },
 "annotation":{
 "bigg.reaction":"MTAN",
-"ec-code":"3.2.2.9"
+"ec-code":[
+"3.2.2.16",
+"3.2.2.9"
+]
 }
 },
 {
@@ -21595,7 +21684,10 @@
 },
 "annotation":{
 "bigg.reaction":"LCADi",
-"ec-code":"4.1.2.19"
+"ec-code":[
+"1.2.1.22",
+"4.1.2.19"
+]
 }
 },
 {
@@ -22082,7 +22174,10 @@
 "gene_reaction_rule":"BSU07840",
 "annotation":{
 "bigg.reaction":"3NTD7l",
-"ec-code":"3.1.4.16"
+"ec-code":[
+"3.1.3.5",
+"3.1.4.16"
+]
 }
 },
 {
@@ -22117,7 +22212,10 @@
 "gene_reaction_rule":"BSU07840",
 "annotation":{
 "bigg.reaction":"NTD5",
-"ec-code":"3.1.4.16"
+"ec-code":[
+"3.1.3.5",
+"3.1.4.16"
+]
 }
 },
 {
@@ -22344,7 +22442,10 @@
 "gene_reaction_rule":"BSU28080",
 "annotation":{
 "bigg.reaction":"R01654",
-"ec-code":"6.3.2.17"
+"ec-code":[
+"6.3.2.12",
+"6.3.2.17"
+]
 }
 },
 {
@@ -22364,7 +22465,10 @@
 },
 "annotation":{
 "bigg.reaction":"MTHFC_1",
-"ec-code":"1.5.1.5"
+"ec-code":[
+"3.5.4.9",
+"1.5.1.5"
+]
 }
 },
 {
@@ -22417,7 +22521,10 @@
 "gene_reaction_rule":"BSU07840",
 "annotation":{
 "bigg.reaction":"NTD3",
-"ec-code":"3.1.4.16"
+"ec-code":[
+"3.1.3.5",
+"3.1.4.16"
+]
 }
 },
 {
@@ -22522,7 +22629,10 @@
 "gene_reaction_rule":"BSU22690",
 "annotation":{
 "bigg.reaction":"CHORM",
-"ec-code":"5.4.99.5"
+"ec-code":[
+"2.5.1.54",
+"5.4.99.5"
+]
 }
 },
 {
@@ -22542,7 +22652,10 @@
 },
 "annotation":{
 "bigg.reaction":"ADCS",
-"ec-code":"4.1.3.27"
+"ec-code":[
+"2.6.1.85",
+"4.1.3.27"
+]
 }
 },
 {
@@ -22619,7 +22732,10 @@
 },
 "annotation":{
 "bigg.reaction":"R01731",
-"ec-code":"2.6.1.9"
+"ec-code":[
+"2.6.1.57",
+"2.6.1.9"
+]
 }
 },
 {
@@ -22691,7 +22807,11 @@
 "gene_reaction_rule":"BSU04000",
 "annotation":{
 "bigg.reaction":"TARTDC",
-"ec-code":"1.1.1.93"
+"ec-code":[
+"1.1.1.83",
+"4.1.1.73",
+"1.1.1.93"
+]
 }
 },
 {
@@ -22767,7 +22887,7 @@
 },
 "lower_bound":0,
 "upper_bound":1000.0,
-"gene_reaction_rule":"BSU32470 and BSU32480 and BSU32490 and BSU32510 and BSU32500",
+"gene_reaction_rule":"BSU32470 and BSU32480 and BSU32490 and BSU32510",
 "notes":{
 "reflection":"HXAND_reverse"
 },
@@ -22887,7 +23007,10 @@
 },
 "annotation":{
 "bigg.reaction":"HPDOAi",
-"ec-code":"1.-.-.-"
+"ec-code":[
+"1.5.1.34",
+"1.-.-.-"
+]
 }
 },
 {
@@ -22979,7 +23102,10 @@
 "gene_reaction_rule":"BSU29750",
 "annotation":{
 "bigg.reaction":"DDPA",
-"ec-code":"5.4.99.5"
+"ec-code":[
+"2.5.1.54",
+"5.4.99.5"
+]
 }
 },
 {
@@ -23097,7 +23223,7 @@
 }
 },
 {
-"id":"PPCOAC_num1",
+"id":"PPCOAC",
 "name":"Acetyl-coenzyme A carboxyl transferase alpha chain (EC 6.4.1.2)|Acetyl-coenzyme A carboxyl transferase beta chain (EC 6.4.1.2)|Propionyl-CoA carboxylase beta chain (EC 6.4.1.3)",
 "metabolites":{
 "adp_c":1.0,
@@ -23110,10 +23236,13 @@
 },
 "lower_bound":0.0,
 "upper_bound":1000.0,
-"gene_reaction_rule":"BSU18210",
+"gene_reaction_rule":"BSU23920 and BSU24340",
 "annotation":{
 "bigg.reaction":"PPCOAC",
-"ec-code":"6.4.1.3"
+"ec-code":[
+"6.4.1.2",
+"6.4.1.3"
+]
 }
 },
 {
@@ -23207,7 +23336,10 @@
 "gene_reaction_rule":"BSU07840",
 "annotation":{
 "bigg.reaction":"3NTD2pp",
-"ec-code":"3.1.4.16"
+"ec-code":[
+"3.1.3.5",
+"3.1.4.16"
+]
 }
 },
 {
@@ -23299,7 +23431,10 @@
 },
 "annotation":{
 "bigg.reaction":"ACONTb",
-"ec-code":"4.2.1.3"
+"ec-code":[
+"4.2.1.99",
+"4.2.1.3"
+]
 }
 },
 {
@@ -23373,7 +23508,10 @@
 "gene_reaction_rule":"BSU00140",
 "annotation":{
 "bigg.reaction":"DGNSKm",
-"ec-code":"2.7.1.113"
+"ec-code":[
+"2.7.1.76",
+"2.7.1.113"
+]
 }
 },
 {
@@ -23391,7 +23529,10 @@
 "gene_reaction_rule":"BSU07840",
 "annotation":{
 "bigg.reaction":"NTD8",
-"ec-code":"3.1.4.16"
+"ec-code":[
+"3.1.3.5",
+"3.1.4.16"
+]
 }
 },
 {
@@ -23433,7 +23574,10 @@
 },
 "annotation":{
 "bigg.reaction":"HACD1i",
-"ec-code":"4.2.1.17"
+"ec-code":[
+"1.1.1.35",
+"4.2.1.17"
+]
 }
 },
 {
@@ -23451,7 +23595,10 @@
 "gene_reaction_rule":"BSU24160",
 "annotation":{
 "bigg.reaction":"HBCO_nadp",
-"ec-code":"1.1.1.157"
+"ec-code":[
+"1.1.1.35",
+"1.1.1.157"
+]
 }
 },
 {
@@ -23529,7 +23676,7 @@
 }
 },
 {
-"id":"TRDR_num1",
+"id":"TRDR",
 "name":"Thioredoxin reductase (EC 1.8.1.9);thioredoxin reductase (NADPH)(BSU03270)",
 "metabolites":{
 "h_c":-1.0,
@@ -23540,7 +23687,7 @@
 },
 "lower_bound":0,
 "upper_bound":1000.0,
-"gene_reaction_rule":"BSU34790 and BSU32110",
+"gene_reaction_rule":"BSU34790",
 "notes":{
 "reflection":"TRDR_reverse"
 },
@@ -23561,7 +23708,7 @@
 },
 "lower_bound":0.0,
 "upper_bound":1000.0,
-"gene_reaction_rule":"BSU17380 and BSU17390 and BSU17370",
+"gene_reaction_rule":"BSU17380 and BSU17390",
 "annotation":{
 "bigg.reaction":"RNDR1",
 "ec-code":"1.17.4.1"
@@ -23579,7 +23726,7 @@
 },
 "lower_bound":0.0,
 "upper_bound":1000.0,
-"gene_reaction_rule":"BSU17380 and BSU17390 and BSU17370",
+"gene_reaction_rule":"BSU17380 and BSU17390",
 "annotation":{
 "bigg.reaction":"RNDR4",
 "ec-code":"1.17.4.1"
@@ -23597,7 +23744,7 @@
 },
 "lower_bound":0.0,
 "upper_bound":1000.0,
-"gene_reaction_rule":"BSU17380 and BSU17390 and BSU17370",
+"gene_reaction_rule":"BSU17380 and BSU17390",
 "annotation":{
 "bigg.reaction":"RNDR2",
 "ec-code":"1.17.4.1"
@@ -23618,7 +23765,10 @@
 "gene_reaction_rule":"BSU15570",
 "annotation":{
 "bigg.reaction":"PAPSR",
-"ec-code":"1.8.4.8"
+"ec-code":[
+"1.8.4.10",
+"1.8.4.8"
+]
 }
 },
 {
@@ -23633,7 +23783,7 @@
 },
 "lower_bound":0.0,
 "upper_bound":1000.0,
-"gene_reaction_rule":"BSU17380 and BSU17390 and BSU17370",
+"gene_reaction_rule":"BSU17380 and BSU17390",
 "annotation":{
 "bigg.reaction":"RNDR3",
 "ec-code":"1.17.4.1"
@@ -23765,7 +23915,10 @@
 "gene_reaction_rule":"BSU14390",
 "annotation":{
 "bigg.reaction":"FRUK",
-"ec-code":"2.7.1.144"
+"ec-code":[
+"2.7.1.56",
+"2.7.1.144"
+]
 }
 },
 {
@@ -23802,7 +23955,10 @@
 "gene_reaction_rule":"BSU07840",
 "annotation":{
 "bigg.reaction":"NTD6",
-"ec-code":"3.1.4.16"
+"ec-code":[
+"3.1.3.5",
+"3.1.4.16"
+]
 }
 },
 {
@@ -23819,7 +23975,10 @@
 "gene_reaction_rule":"BSU00140",
 "annotation":{
 "bigg.reaction":"DADNKn",
-"ec-code":"2.7.1.113"
+"ec-code":[
+"2.7.1.76",
+"2.7.1.113"
+]
 }
 },
 {
@@ -24020,7 +24179,7 @@
 },
 "lower_bound":0,
 "upper_bound":1000.0,
-"gene_reaction_rule":"BSU32470 and BSU32480 and BSU32490 and BSU32510 and BSU32500",
+"gene_reaction_rule":"BSU32470 and BSU32480 and BSU32490 and BSU32510",
 "notes":{
 "reflection":"XAND_reverse"
 },
@@ -24085,7 +24244,10 @@
 "gene_reaction_rule":"BSU00680",
 "annotation":{
 "bigg.reaction":"XPPT",
-"ec-code":"2.4.2.-"
+"ec-code":[
+"2.4.2.8",
+"2.4.2.-"
+]
 }
 },
 {
@@ -24124,7 +24286,10 @@
 "gene_reaction_rule":"BSU07840",
 "annotation":{
 "bigg.reaction":"3NTD9pp",
-"ec-code":"3.1.4.16"
+"ec-code":[
+"3.1.3.5",
+"3.1.4.16"
+]
 }
 },
 {
@@ -24226,7 +24391,10 @@
 "gene_reaction_rule":"BSU28080",
 "annotation":{
 "bigg.reaction":"DHFS",
-"ec-code":"6.3.2.17"
+"ec-code":[
+"6.3.2.12",
+"6.3.2.17"
+]
 }
 },
 {
@@ -24245,7 +24413,10 @@
 },
 "annotation":{
 "bigg.reaction":"RMPA",
-"ec-code":"4.1.2.19"
+"ec-code":[
+"1.2.1.22",
+"4.1.2.19"
+]
 }
 },
 {
@@ -24301,7 +24472,10 @@
 },
 "annotation":{
 "bigg.reaction":"ORNTAC",
-"ec-code":"2.3.1.1"
+"ec-code":[
+"2.3.1.35",
+"2.3.1.1"
+]
 }
 },
 {
@@ -24524,7 +24698,10 @@
 "gene_reaction_rule":"BSU07840",
 "annotation":{
 "bigg.reaction":"NMNR",
-"ec-code":"3.1.4.16"
+"ec-code":[
+"3.1.3.5",
+"3.1.4.16"
+]
 }
 },
 {
@@ -24649,7 +24826,10 @@
 "gene_reaction_rule":"BSU07840",
 "annotation":{
 "bigg.reaction":"3NTD4pp",
-"ec-code":"3.1.4.16"
+"ec-code":[
+"3.1.3.5",
+"3.1.4.16"
+]
 }
 },
 {
@@ -25028,7 +25208,11 @@
 },
 "annotation":{
 "bigg.reaction":"TARTRDH2",
-"ec-code":"1.1.1.93"
+"ec-code":[
+"1.1.1.83",
+"4.1.1.73",
+"1.1.1.93"
+]
 }
 },
 {
@@ -25153,46 +25337,6 @@
 }
 },
 {
-"id":"PDHbr",
-"name":"Dihydrolipoamide acetyltransferase component of pyruvate dehydrogenase complex (EC 2.3.1.12)",
-"metabolites":{
-"accoa_c":-1.0,
-"adhlam_c":1.0,
-"coa_c":1.0,
-"dhlam_c":-1.0
-},
-"lower_bound":0,
-"upper_bound":1000.0,
-"gene_reaction_rule":"BSU08080 and BSU14600",
-"notes":{
-"reflection":"PDHbr_reverse"
-},
-"annotation":{
-"bigg.reaction":"PDHbr",
-"ec-code":"2.3.1.12"
-}
-},
-{
-"id":"AKGDb",
-"name":"Dihydrolipoamide succinyltransferase component (E2) of 2-oxoglutarate dehydrogenase complex (EC 2.3.1.61)",
-"metabolites":{
-"coa_c":1.0,
-"dhlam_c":-1.0,
-"sdhlam_c":1.0,
-"succoa_c":-1.0
-},
-"lower_bound":0,
-"upper_bound":1000.0,
-"gene_reaction_rule":"BSU19360",
-"notes":{
-"reflection":"AKGDb_reverse"
-},
-"annotation":{
-"bigg.reaction":"AKGDb",
-"ec-code":"2.3.1.61"
-}
-},
-{
 "id":"PEAMNOpp",
 "name":"",
 "metabolites":{
@@ -25224,7 +25368,10 @@
 "gene_reaction_rule":"BSU12010",
 "annotation":{
 "bigg.reaction":"R02630",
-"ec-code":"2.7.3.9"
+"ec-code":[
+"2.7.1.69",
+"2.7.3.9"
+]
 }
 },
 {
@@ -25282,7 +25429,7 @@
 "gene_reaction_rule":"BSU18620",
 "annotation":{
 "bigg.reaction":"4HOXPACMON",
-"ec-code":"1.14.13.3"
+"ec-code":"1.14.14.9"
 }
 },
 {
@@ -25321,7 +25468,10 @@
 "gene_reaction_rule":"BSU07840",
 "annotation":{
 "bigg.reaction":"NTD10",
-"ec-code":"3.1.4.16"
+"ec-code":[
+"3.1.3.5",
+"3.1.4.16"
+]
 }
 },
 {
@@ -26123,7 +26273,10 @@
 },
 "annotation":{
 "bigg.reaction":"UPP3S_1",
-"ec-code":"2.1.1.107"
+"ec-code":[
+"4.2.1.75",
+"2.1.1.107"
+]
 }
 },
 {
@@ -26258,7 +26411,10 @@
 },
 "annotation":{
 "bigg.reaction":"UPP3MT",
-"ec-code":"4.2.1.75"
+"ec-code":[
+"2.1.1.107",
+"4.2.1.75"
+]
 }
 },
 {
@@ -26395,7 +26551,11 @@
 "gene_reaction_rule":"BSU29190",
 "annotation":{
 "bigg.reaction":"PFK_2",
-"ec-code":"2.7.1.11"
+"ec-code":[
+"2.7.1.56",
+"2.7.1.144",
+"2.7.1.11"
+]
 }
 },
 {
@@ -26415,7 +26575,10 @@
 },
 "annotation":{
 "bigg.reaction":"HSTPT",
-"ec-code":"2.6.1.9"
+"ec-code":[
+"2.6.1.57",
+"2.6.1.9"
+]
 }
 },
 {
@@ -26453,27 +26616,10 @@
 "gene_reaction_rule":"BSU15700",
 "annotation":{
 "bigg.reaction":"PPCDC",
-"ec-code":"6.3.2.5"
-}
-},
-{
-"id":"R03270",
-"name":"Pyruvate dehydrogenase E1 component alpha subunit (EC 1.2.4.1);Pyruvate dehydrogenase E1 component beta subunit (EC 1.2.4.1)(BSU14590)",
-"metabolites":{
-"2ahethmpp_c":-1.0,
-"adhlam_c":1.0,
-"lpam_c":-1.0,
-"thmpp_c":1.0
-},
-"lower_bound":0,
-"upper_bound":1000.0,
-"gene_reaction_rule":"BSU14580 and BSU14590",
-"notes":{
-"reflection":"R03270_reverse"
-},
-"annotation":{
-"bigg.reaction":"R03270",
-"ec-code":"1.2.4.1"
+"ec-code":[
+"4.1.1.36",
+"6.3.2.5"
+]
 }
 },
 {
@@ -26493,7 +26639,7 @@
 "gene_reaction_rule":"BSU18620",
 "annotation":{
 "bigg.reaction":"3HPAOX",
-"ec-code":"1.14.13.3"
+"ec-code":"1.14.14.9"
 }
 },
 {
@@ -26531,26 +26677,6 @@
 }
 },
 {
-"id":"R03316",
-"name":"2-oxoglutarate dehydrogenase E1 component (EC 1.2.4.2)",
-"metabolites":{
-"HC01435_c":-1.0,
-"lpam_c":-1.0,
-"sdhlam_c":1.0,
-"thmpp_c":1.0
-},
-"lower_bound":0,
-"upper_bound":1000.0,
-"gene_reaction_rule":"BSU19370",
-"notes":{
-"reflection":"R03316_reverse"
-},
-"annotation":{
-"bigg.reaction":"R03316",
-"ec-code":"1.2.4.2"
-}
-},
-{
 "id":"G6PI3",
 "name":"Glucose-6-phosphate isomerase (EC 5.3.1.9)",
 "metabolites":{
@@ -26583,7 +26709,10 @@
 "gene_reaction_rule":"BSU07840",
 "annotation":{
 "bigg.reaction":"NT5C",
-"ec-code":"3.1.4.16"
+"ec-code":[
+"3.1.3.5",
+"3.1.4.16"
+]
 }
 },
 {
@@ -26674,7 +26803,10 @@
 },
 "annotation":{
 "bigg.reaction":"AUNOR",
-"ec-code":"3.5.4.26"
+"ec-code":[
+"1.1.1.193",
+"3.5.4.26"
+]
 }
 },
 {
@@ -26692,7 +26824,10 @@
 "gene_reaction_rule":"BSU23280",
 "annotation":{
 "bigg.reaction":"DHPPDA2",
-"ec-code":"3.5.4.26"
+"ec-code":[
+"1.1.1.193",
+"3.5.4.26"
+]
 }
 },
 {
@@ -26820,7 +26955,10 @@
 "gene_reaction_rule":"BSU07840",
 "annotation":{
 "bigg.reaction":"23PDE7pp",
-"ec-code":"3.1.3.5"
+"ec-code":[
+"3.1.4.16",
+"3.1.3.5"
+]
 }
 },
 {
@@ -26836,7 +26974,10 @@
 "gene_reaction_rule":"BSU07840",
 "annotation":{
 "bigg.reaction":"23PDE2pp",
-"ec-code":"3.1.3.5"
+"ec-code":[
+"3.1.4.16",
+"3.1.3.5"
+]
 }
 },
 {
@@ -27215,7 +27356,10 @@
 },
 "annotation":{
 "bigg.reaction":"ACACT4r",
-"ec-code":"2.3.1.9"
+"ec-code":[
+"2.3.1.16",
+"2.3.1.9"
+]
 }
 },
 {
@@ -27235,7 +27379,10 @@
 },
 "annotation":{
 "bigg.reaction":"ACACT6p",
-"ec-code":"2.3.1.9"
+"ec-code":[
+"2.3.1.16",
+"2.3.1.9"
+]
 }
 },
 {
@@ -27326,7 +27473,10 @@
 "gene_reaction_rule":"BSU07840",
 "annotation":{
 "bigg.reaction":"23CN2P3",
-"ec-code":"3.1.3.5"
+"ec-code":[
+"3.1.4.16",
+"3.1.3.5"
+]
 }
 },
 {
@@ -27351,7 +27501,7 @@
 }
 },
 {
-"id":"IPPMIb_num1",
+"id":"IPPMIb",
 "name":"3-isopropylmalate dehydratase small subunit (EC 4.2.1.33);3-isopropylmalate dehydratase large subunit (EC 4.2.1.33)(BSU28260)",
 "metabolites":{
 "2ippm_c":1.0,
@@ -27360,7 +27510,7 @@
 },
 "lower_bound":0,
 "upper_bound":1000.0,
-"gene_reaction_rule":"BSU28260",
+"gene_reaction_rule":"BSU28260 and BSU28250",
 "notes":{
 "reflection":"IPPMIb_reverse"
 },
@@ -27445,7 +27595,10 @@
 },
 "annotation":{
 "bigg.reaction":"ACACT7p",
-"ec-code":"2.3.1.9"
+"ec-code":[
+"2.3.1.16",
+"2.3.1.9"
+]
 }
 },
 {
@@ -27517,7 +27670,10 @@
 "gene_reaction_rule":"BSU34860",
 "annotation":{
 "bigg.reaction":"PRATPP",
-"ec-code":"3.6.1.31"
+"ec-code":[
+"3.5.4.19",
+"3.6.1.31"
+]
 }
 },
 {
@@ -27536,7 +27692,10 @@
 },
 "annotation":{
 "bigg.reaction":"PRACHh",
-"ec-code":"3.6.1.31"
+"ec-code":[
+"3.5.4.19",
+"3.6.1.31"
+]
 }
 },
 {
@@ -27657,10 +27816,13 @@
 },
 "lower_bound":0.0,
 "upper_bound":1000.0,
-"gene_reaction_rule":"BSU18210 and BSU18240 and BSU23920",
+"gene_reaction_rule":"BSU18210 and Bsu1823a and BSU18240",
 "annotation":{
 "bigg.reaction":"MCCCrm",
-"ec-code":"6.3.4.14"
+"ec-code":[
+"6.4.1.4",
+"6.3.4.14"
+]
 }
 },
 {
@@ -27794,7 +27956,10 @@
 },
 "annotation":{
 "bigg.reaction":"HACD9",
-"ec-code":"4.2.1.17"
+"ec-code":[
+"1.1.1.35",
+"4.2.1.17"
+]
 }
 },
 {
@@ -27907,7 +28072,10 @@
 "gene_reaction_rule":"BSU15700",
 "annotation":{
 "bigg.reaction":"PPNCL2",
-"ec-code":"6.3.2.5"
+"ec-code":[
+"4.1.1.36",
+"6.3.2.5"
+]
 }
 },
 {
@@ -28059,7 +28227,10 @@
 "gene_reaction_rule":"BSU24350 and BSU24340 and BSU22440",
 "annotation":{
 "bigg.reaction":"BTNC",
-"ec-code":"6.3.4.14"
+"ec-code":[
+"6.3.4.15",
+"6.3.4.14"
+]
 }
 },
 {
@@ -28152,7 +28323,10 @@
 },
 "annotation":{
 "bigg.reaction":"MICITDr",
-"ec-code":"4.2.1.3"
+"ec-code":[
+"4.2.1.99",
+"4.2.1.3"
+]
 }
 },
 {
@@ -28562,7 +28736,10 @@
 "gene_reaction_rule":"BSU34870 and BSU34890",
 "annotation":{
 "bigg.reaction":"IG3PS",
-"ec-code":"2.4.2.-"
+"ec-code":[
+"4.1.3.-",
+"2.4.2.-"
+]
 }
 },
 {
@@ -28601,7 +28778,10 @@
 },
 "annotation":{
 "bigg.reaction":"AICART",
-"ec-code":"2.1.2.3"
+"ec-code":[
+"3.5.4.10",
+"2.1.2.3"
+]
 }
 },
 {
@@ -28829,7 +29009,10 @@
 },
 "annotation":{
 "bigg.reaction":"HACD7",
-"ec-code":"4.2.1.17"
+"ec-code":[
+"1.1.1.35",
+"4.2.1.17"
+]
 }
 },
 {
@@ -28869,7 +29052,10 @@
 },
 "annotation":{
 "bigg.reaction":"HACD6i",
-"ec-code":"4.2.1.17"
+"ec-code":[
+"1.1.1.35",
+"4.2.1.17"
+]
 }
 },
 {
@@ -28909,7 +29095,10 @@
 },
 "annotation":{
 "bigg.reaction":"HACD5",
-"ec-code":"4.2.1.17"
+"ec-code":[
+"1.1.1.35",
+"4.2.1.17"
+]
 }
 },
 {
@@ -28929,7 +29118,10 @@
 },
 "annotation":{
 "bigg.reaction":"ACACT5r_1",
-"ec-code":"2.3.1.9"
+"ec-code":[
+"2.3.1.16",
+"2.3.1.9"
+]
 }
 },
 {
@@ -28950,7 +29142,10 @@
 },
 "annotation":{
 "bigg.reaction":"HACD4",
-"ec-code":"4.2.1.17"
+"ec-code":[
+"1.1.1.35",
+"4.2.1.17"
+]
 }
 },
 {
@@ -28990,7 +29185,10 @@
 },
 "annotation":{
 "bigg.reaction":"HACD3",
-"ec-code":"4.2.1.17"
+"ec-code":[
+"1.1.1.35",
+"4.2.1.17"
+]
 }
 },
 {
@@ -29029,7 +29227,10 @@
 },
 "annotation":{
 "bigg.reaction":"ACACT3r",
-"ec-code":"2.3.1.9"
+"ec-code":[
+"2.3.1.16",
+"2.3.1.9"
+]
 }
 },
 {
@@ -29050,7 +29251,10 @@
 },
 "annotation":{
 "bigg.reaction":"HACD2i",
-"ec-code":"4.2.1.17"
+"ec-code":[
+"1.1.1.35",
+"4.2.1.17"
+]
 }
 },
 {
@@ -30343,7 +30547,10 @@
 "gene_reaction_rule":"BSU38110",
 "annotation":{
 "bigg.reaction":"FMNRx2",
-"ec-code":"1.-.-.-"
+"ec-code":[
+"1.5.1.34",
+"1.-.-.-"
+]
 }
 },
 {
@@ -30361,7 +30568,10 @@
 "gene_reaction_rule":"BSU38110",
 "annotation":{
 "bigg.reaction":"FLVR_1",
-"ec-code":"1.5.1.34"
+"ec-code":[
+"1.-.-.-",
+"1.5.1.34"
+]
 }
 },
 {
@@ -30493,7 +30703,7 @@
 "gene_reaction_rule":"BSU25160",
 "annotation":{
 "bigg.reaction":"R05884",
-"ec-code":"1.17.1.2"
+"ec-code":"1.17.7.4"
 }
 },
 {
@@ -30546,7 +30756,11 @@
 },
 "annotation":{
 "bigg.reaction":"TARTRDH",
-"ec-code":"1.1.1.93"
+"ec-code":[
+"1.1.1.83",
+"4.1.1.73",
+"1.1.1.93"
+]
 }
 },
 {
@@ -30723,7 +30937,7 @@
 },
 "annotation":{
 "bigg.reaction":"CPPPGO2",
-"ec-code":"1.3.99.22"
+"ec-code":"1.3.98.3"
 }
 },
 {
@@ -30823,7 +31037,10 @@
 },
 "annotation":{
 "bigg.reaction":"HADPCOADH3",
-"ec-code":"4.2.1.17"
+"ec-code":[
+"1.1.1.35",
+"4.2.1.17"
+]
 }
 },
 {
@@ -30937,7 +31154,10 @@
 "gene_reaction_rule":"BSU15570",
 "annotation":{
 "bigg.reaction":"APSR",
-"ec-code":"1.8.4.8"
+"ec-code":[
+"1.8.4.10",
+"1.8.4.8"
+]
 }
 },
 {
@@ -30956,7 +31176,7 @@
 "gene_reaction_rule":"BSU25160",
 "annotation":{
 "bigg.reaction":"R07219",
-"ec-code":"1.17.1.2"
+"ec-code":"1.17.7.4"
 }
 },
 {
@@ -30974,7 +31194,10 @@
 "gene_reaction_rule":"BSU31420",
 "annotation":{
 "bigg.reaction":"R07262",
-"ec-code":"3.8.1.5"
+"ec-code":[
+"4.2.99.20",
+"3.8.1.5"
+]
 }
 },
 {
@@ -31101,7 +31324,10 @@
 },
 "annotation":{
 "bigg.reaction":"DHPTDNR",
-"ec-code":"1.-.-.-"
+"ec-code":[
+"1.5.1.34",
+"1.-.-.-"
+]
 }
 },
 {
@@ -31257,7 +31483,10 @@
 "gene_reaction_rule":"BSU22740 and BSU22760",
 "annotation":{
 "bigg.reaction":"GGTT",
-"ec-code":"2.5.1.30"
+"ec-code":[
+"2.5.1.30",
+"2.5.1.30"
+]
 }
 },
 {
@@ -31394,7 +31623,7 @@
 }
 },
 {
-"id":"R07618_num1",
+"id":"R07618",
 "name":"Dihydrolipoamide dehydrogenase of pyruvate dehydrogenase complex (EC 1.8.1.4);Dihydrolipoamide dehydrogenase of branched-chain alpha-keto acid dehydrogenase (EC 1.8.1.4)(BSU24060)",
 "metabolites":{
 "dhlam_c":-1.0,
@@ -31669,10 +31898,13 @@
 },
 "lower_bound":0.0,
 "upper_bound":1000.0,
-"gene_reaction_rule":"BSU03290 and BSU03300 and BSU03310 and BSU03320",
+"gene_reaction_rule":"BSU03290 and BSU03300",
 "annotation":{
 "bigg.reaction":"NTRIR2x",
-"ec-code":"1.7.1.4"
+"ec-code":[
+"1.7.1.1",
+"1.7.1.4"
+]
 }
 },
 {
@@ -31688,10 +31920,13 @@
 },
 "lower_bound":0.0,
 "upper_bound":1000.0,
-"gene_reaction_rule":"BSU03290 and BSU03300 and BSU03310 and BSU03320",
+"gene_reaction_rule":"BSU03290 and BSU03300",
 "annotation":{
 "bigg.reaction":"NTRIR2y",
-"ec-code":"1.7.1.4"
+"ec-code":[
+"1.7.1.1",
+"1.7.1.4"
+]
 }
 },
 {
@@ -31748,7 +31983,10 @@
 },
 "annotation":{
 "bigg.reaction":"r0390",
-"ec-code":"3.2.1.135"
+"ec-code":[
+"3.2.1.10",
+"3.2.1.135"
+]
 }
 },
 {
@@ -31765,7 +32003,7 @@
 "gene_reaction_rule":"BSU24150",
 "annotation":{
 "bigg.reaction":"ACOADH2",
-"ec-code":"1.3.99.2"
+"ec-code":"1.3.8.1"
 }
 },
 {
@@ -31782,7 +32020,10 @@
 "gene_reaction_rule":"BSU13900 and BSU13910 and BSU07800",
 "annotation":{
 "bigg.reaction":"TREpts",
-"ec-code":"2.7.3.9"
+"ec-code":[
+"2.7.1.69",
+"2.7.3.9"
+]
 }
 },
 {
@@ -31799,7 +32040,7 @@
 "gene_reaction_rule":"BSU24150",
 "annotation":{
 "bigg.reaction":"ACOAD20",
-"ec-code":"1.3.99.2"
+"ec-code":"1.3.8.1"
 }
 },
 {
@@ -31858,7 +32099,7 @@
 }
 },
 {
-"id":"PIabc_num1",
+"id":"PIabc",
 "name":"Phosphate transport ATP-binding protein PstB (TC 3.A.1.7.1);Putative periplasmic phosphate-binding protein PstS, Mycoplasma type(BSU24970);Phosphate transport system permease protein pstC (TC 3.A.1.7.1)(BSU24980);Phosphate ABC transporter, periplasmic phosphate-binding protein PstS (TC 3.A.1.7.1)(BSU24990)",
 "metabolites":{
 "adp_c":1.0,
@@ -31870,13 +32111,13 @@
 },
 "lower_bound":0.0,
 "upper_bound":1000.0,
-"gene_reaction_rule":"BSU24950 and BSU24970 and BSU24980 and BSU24990",
+"gene_reaction_rule":"BSU24950 and BSU24960 and BSU24970 and BSU24980 and BSU24990",
 "annotation":{
 "bigg.reaction":"PIabc"
 }
 },
 {
-"id":"GLCabc_num1",
+"id":"GLCabc",
 "name":"Unspecified monosaccharide ABC transport system, ATP-binding protein;Multiple sugar ABC transporter, ATP-binding protein(BSU32550);Multiple sugar ABC transporter, substrate-binding protein(BSU30270);Multiple sugar ABC transporter, membrane-spanning permease protein MsmF(BSU30280);Multiple sugar ABC transporter, membrane-spanning permease protein MsmG(BSU30290);Unspecified monosaccharide ABC transport system, substrate-binding component(BSU31540);Unspecified monosaccharide ABC transport system, permease component Ia (FIG025991)|Unspecified monosaccharide ABC transport system, permease component Ib (FIG143636)(BSU31560);Unspecified monosaccharide ABC transport system, permease component 2(BSU31570);Multiple sugar ABC transporter, membrane-spanning permease protein MsmG(BSU32580);Multiple sugar ABC transporter, membrane-spanning permease protein MsmF(BSU32590);Multiple sugar ABC transporter, substrate-binding protein(BSU32600)",
 "metabolites":{
 "adp_c":1.0,
@@ -31889,7 +32130,7 @@
 },
 "lower_bound":0.0,
 "upper_bound":1000.0,
-"gene_reaction_rule":"BSU31540 and BSU31550 and BSU31560 and BSU31570",
+"gene_reaction_rule":"BSU35940 and BSU35950 and BSU35960",
 "annotation":{
 "bigg.reaction":"GLCabc"
 }
@@ -31949,7 +32190,11 @@
 "gene_reaction_rule":"BSU02850 and BSU02860 and BSU02870",
 "annotation":{
 "bigg.reaction":"ZNabc",
-"ec-code":"3.6.3.5"
+"ec-code":[
+"7.2.2.9",
+"7.2.2.21",
+"7.2.2.12"
+]
 }
 },
 {
@@ -31991,7 +32236,7 @@
 }
 },
 {
-"id":"RIBabc_num1",
+"id":"RIBabc",
 "name":"Ribose ABC transport system, ATP-binding protein RbsA (TC 3.A.1.2.1);Unspecified monosaccharide ABC transport system, ATP-binding protein(BSU31550);Multiple sugar ABC transporter, ATP-binding protein(BSU32550);Ribose ABC transport system, high affinity permease RbsD (TC 3.A.1.2.1)(BSU35930);Multiple sugar ABC transporter, substrate-binding protein(BSU30270);Multiple sugar ABC transporter, membrane-spanning permease protein MsmF(BSU30280);Multiple sugar ABC transporter, membrane-spanning permease protein MsmG(BSU30290);Unspecified monosaccharide ABC transport system, substrate-binding component(BSU31540);Unspecified monosaccharide ABC transport system, permease component Ia (FIG025991)|Unspecified monosaccharide ABC transport system, permease component Ib (FIG143636)(BSU31560);Unspecified monosaccharide ABC transport system, permease component 2(BSU31570);Multiple sugar ABC transporter, membrane-spanning permease protein MsmG(BSU32580);Multiple sugar ABC transporter, membrane-spanning permease protein MsmF(BSU32590);Multiple sugar ABC transporter, substrate-binding protein(BSU32600);Ribose ABC transport system, permease protein RbsC (TC 3.A.1.2.1)(BSU35950);Ribose ABC transport system, periplasmic ribose-binding protein RbsB (TC 3.A.1.2.1)(BSU35960)",
 "metabolites":{
 "adp_c":1.0,
@@ -32004,13 +32249,13 @@
 },
 "lower_bound":0.0,
 "upper_bound":1000.0,
-"gene_reaction_rule":"BSU35930 and BSU35940 and BSU35950 and BSU35960",
+"gene_reaction_rule":"BSU35940 and BSU35950 and BSU35960",
 "annotation":{
 "bigg.reaction":"RIBabc"
 }
 },
 {
-"id":"GALabc_num1",
+"id":"GALabc",
 "name":"Unspecified monosaccharide ABC transport system, ATP-binding protein;Multiple sugar ABC transporter, ATP-binding protein(BSU32550);Multiple sugar ABC transporter, substrate-binding protein(BSU30270);Multiple sugar ABC transporter, membrane-spanning permease protein MsmF(BSU30280);Multiple sugar ABC transporter, membrane-spanning permease protein MsmG(BSU30290);Unspecified monosaccharide ABC transport system, substrate-binding component(BSU31540);Unspecified monosaccharide ABC transport system, permease component Ia (FIG025991)|Unspecified monosaccharide ABC transport system, permease component Ib (FIG143636)(BSU31560);Unspecified monosaccharide ABC transport system, permease component 2(BSU31570);Multiple sugar ABC transporter, membrane-spanning permease protein MsmG(BSU32580);Multiple sugar ABC transporter, membrane-spanning permease protein MsmF(BSU32590);Multiple sugar ABC transporter, substrate-binding protein(BSU32600)",
 "metabolites":{
 "adp_c":1.0,
@@ -32023,7 +32268,7 @@
 },
 "lower_bound":0.0,
 "upper_bound":1000.0,
-"gene_reaction_rule":"BSU31540 and BSU31550 and BSU31560 and BSU31570",
+"gene_reaction_rule":"BSU35940 and BSU35950 and BSU35960",
 "annotation":{
 "bigg.reaction":"GALabc"
 }
@@ -32042,32 +32287,13 @@
 },
 "lower_bound":0.0,
 "upper_bound":1000.0,
-"gene_reaction_rule":"BSU29340 and BSU29350 and BSU29360 and BSU29380 and BSU29370",
+"gene_reaction_rule":"BSU39500 and BSU39490 and BSU39480",
 "annotation":{
 "bigg.reaction":"HISabc"
 }
 },
 {
-"id":"XYLabc_num1",
-"name":"Unspecified monosaccharide ABC transport system, ATP-binding protein;Multiple sugar ABC transporter, ATP-binding protein(BSU32550);Multiple sugar ABC transporter, substrate-binding protein(BSU30270);Multiple sugar ABC transporter, membrane-spanning permease protein MsmF(BSU30280);Multiple sugar ABC transporter, membrane-spanning permease protein MsmG(BSU30290);Unspecified monosaccharide ABC transport system, substrate-binding component(BSU31540);Unspecified monosaccharide ABC transport system, permease component Ia (FIG025991)|Unspecified monosaccharide ABC transport system, permease component Ib (FIG143636)(BSU31560);Unspecified monosaccharide ABC transport system, permease component 2(BSU31570);Multiple sugar ABC transporter, membrane-spanning permease protein MsmG(BSU32580);Multiple sugar ABC transporter, membrane-spanning permease protein MsmF(BSU32590);Multiple sugar ABC transporter, substrate-binding protein(BSU32600)",
-"metabolites":{
-"adp_c":1.0,
-"atp_c":-1.0,
-"h2o_c":-1.0,
-"h_c":1.0,
-"pi_c":1.0,
-"xyl__D_c":1.0,
-"xyl__D_e":-1.0
-},
-"lower_bound":0.0,
-"upper_bound":1000.0,
-"gene_reaction_rule":"BSU31540 and BSU31550 and BSU31560 and BSU31570",
-"annotation":{
-"bigg.reaction":"XYLabc"
-}
-},
-{
-"id":"MALTabc_num1",
+"id":"MALTabc",
 "name":"Predicted rhamnose oligosaccharide ABC transport system, substrate-binding component;Predicted rhamnose oligosaccharide ABC transport system, permease component 2(BSU06980);Predicted rhamnose oligosaccharide ABC transport system, permease component(BSU06990);ABC-type polysaccharide transport system, permease component(BSU07110)",
 "metabolites":{
 "adp_c":1.0,
@@ -32080,7 +32306,7 @@
 },
 "lower_bound":0.0,
 "upper_bound":1000.0,
-"gene_reaction_rule":"BSU06970 and BSU06980 and BSU06990",
+"gene_reaction_rule":"BSU38810 and BSU34590 and BSU34600 and BSU34610",
 "annotation":{
 "bigg.reaction":"MALTabc"
 }
@@ -32105,7 +32331,7 @@
 }
 },
 {
-"id":"ARBabc_num1",
+"id":"ARBabc",
 "name":"Unspecified monosaccharide ABC transport system, ATP-binding protein;Multiple sugar ABC transporter, ATP-binding protein(BSU32550);alpha-arabinosides ABC transport system, permease protein araQ(BSU28730);alpha-arabinosides ABC transport system, permease protein araP(BSU28740);alpha-arabinosides ABC transport system, substrate-binding protein araN(BSU28750);Multiple sugar ABC transporter, substrate-binding protein(BSU30270);Multiple sugar ABC transporter, membrane-spanning permease protein MsmF(BSU30280);Multiple sugar ABC transporter, membrane-spanning permease protein MsmG(BSU30290);Unspecified monosaccharide ABC transport system, substrate-binding component(BSU31540);Unspecified monosaccharide ABC transport system, permease component Ia (FIG025991)|Unspecified monosaccharide ABC transport system, permease component Ib (FIG143636)(BSU31560);Unspecified monosaccharide ABC transport system, permease component 2(BSU31570);Multiple sugar ABC transporter, membrane-spanning permease protein MsmG(BSU32580);Multiple sugar ABC transporter, membrane-spanning permease protein MsmF(BSU32590);Multiple sugar ABC transporter, substrate-binding protein(BSU32600)",
 "metabolites":{
 "adp_c":1.0,
@@ -32197,11 +32423,11 @@
 "gene_reaction_rule":"BSU02980 and BSU02990 and BSU03000",
 "annotation":{
 "bigg.reaction":"GLYBabc",
-"ec-code":"3.6.3.32"
+"ec-code":"7.6.2.9"
 }
 },
 {
-"id":"METDabc_num1",
+"id":"METDabc",
 "name":"Methionine ABC transporter ATP-binding protein;ABC transporter, ATP-binding protein(BSU09070);ABC transporter, ATP-binding protein(BSU09080);Methionine ABC transporter substrate-binding protein(BSU09110);ABC transporter, permease protein(BSU30410);ABC transporter, ATP-binding protein(BSU30450);Methionine ABC transporter substrate-binding protein(BSU32730);Methionine ABC transporter permease protein(BSU32740)",
 "metabolites":{
 "adp_c":1.0,
@@ -32313,7 +32539,7 @@
 "gene_reaction_rule":"BSU02980 and BSU02990 and BSU03000",
 "annotation":{
 "bigg.reaction":"CTBTabcpp",
-"ec-code":"3.6.3.32"
+"ec-code":"7.6.2.9"
 }
 },
 {
@@ -32333,30 +32559,11 @@
 "gene_reaction_rule":"BSU02980 and BSU02990 and BSU03000",
 "annotation":{
 "bigg.reaction":"rxn05193",
-"ec-code":"3.6.3.32"
+"ec-code":"7.6.2.9"
 }
 },
 {
-"id":"GLCGLYCabcpp_syn_num1",
-"name":"Unspecified monosaccharide ABC transport system, ATP-binding protein;Multiple sugar ABC transporter, ATP-binding protein(BSU32550);Multiple sugar ABC transporter, substrate-binding protein(BSU30270);Multiple sugar ABC transporter, membrane-spanning permease protein MsmF(BSU30280);Multiple sugar ABC transporter, membrane-spanning permease protein MsmG(BSU30290);Unspecified monosaccharide ABC transport system, substrate-binding component(BSU31540);Unspecified monosaccharide ABC transport system, permease component Ia (FIG025991)|Unspecified monosaccharide ABC transport system, permease component Ib (FIG143636)(BSU31560);Unspecified monosaccharide ABC transport system, permease component 2(BSU31570);Multiple sugar ABC transporter, membrane-spanning permease protein MsmG(BSU32580);Multiple sugar ABC transporter, membrane-spanning permease protein MsmF(BSU32590);Multiple sugar ABC transporter, substrate-binding protein(BSU32600)",
-"metabolites":{
-"adp_c":1.0,
-"atp_c":-1.0,
-"glcglyc_c":1.0,
-"glcglyc_e":-1.0,
-"h2o_c":-1.0,
-"h_c":1.0,
-"pi_c":1.0
-},
-"lower_bound":0.0,
-"upper_bound":1000.0,
-"gene_reaction_rule":"BSU31540 and BSU31550 and BSU31560 and BSU31570",
-"annotation":{
-"bigg.reaction":"GLCGLYCabcpp_syn"
-}
-},
-{
-"id":"FE3abc_num1",
+"id":"FE3abc",
 "name":"Iron compound ABC uptake transporter ATP-binding protein;component of iron-uptake system(BSU01610);component of iron-uptake system(BSU01620);component of iron-uptake system(BSU01630);Iron compound ABC uptake transporter permease protein(BSU03800);Iron compound ABC uptake transporter permease protein(BSU03810);Iron compound ABC uptake transporter substrate-binding protein(BSU03830)",
 "metabolites":{
 "adp_c":1.0,
@@ -32369,7 +32576,7 @@
 },
 "lower_bound":0.0,
 "upper_bound":1000.0,
-"gene_reaction_rule":"BSU03800 and BSU03810 and BSU03820 and BSU03830",
+"gene_reaction_rule":"BSU01610 and BSU01620 and BSU01630",
 "annotation":{
 "bigg.reaction":"FE3abc"
 }
@@ -32451,7 +32658,7 @@
 }
 },
 {
-"id":"HXANt2r_num1",
+"id":"HXANt2r",
 "name":"Xanthine/uracil/thiamine/ascorbate permease family protein;xanthine permease(BSU22060);Xanthine permease(BSU32430);Xanthine permease(BSU32440);Xanthine permease(BSU37940)",
 "metabolites":{
 "h_c":1.0,
@@ -32461,7 +32668,7 @@
 },
 "lower_bound":0,
 "upper_bound":1000.0,
-"gene_reaction_rule":"BSU29990",
+"gene_reaction_rule":"BSU22060",
 "notes":{
 "reflection":"HXANt2r_reverse"
 },
@@ -32470,7 +32677,7 @@
 }
 },
 {
-"id":"XANt2_num1",
+"id":"XANt2",
 "name":"Xanthine/uracil/thiamine/ascorbate permease family protein;xanthine permease(BSU22060);Xanthine permease(BSU32430);Xanthine permease(BSU32440);Xanthine permease(BSU37940)",
 "metabolites":{
 "h_c":1.0,
@@ -32707,7 +32914,7 @@
 }
 },
 {
-"id":"METabc_num1",
+"id":"METabc",
 "name":"Methionine ABC transporter ATP-binding protein;ABC transporter, ATP-binding protein(BSU09070);ABC transporter, ATP-binding protein(BSU09080);Methionine ABC transporter substrate-binding protein(BSU09110);ABC transporter, permease protein(BSU30410);ABC transporter, ATP-binding protein(BSU30450);Methionine ABC transporter substrate-binding protein(BSU32730);Methionine ABC transporter permease protein(BSU32740)",
 "metabolites":{
 "adp_c":1.0,
@@ -32761,7 +32968,7 @@
 }
 },
 {
-"id":"GLCpts_num1",
+"id":"GLCpts",
 "name":"PTS system, glucose-specific IIBC component (EC 2.7.1.69);PTS system, maltose and glucose-specific IIB component (EC 2.7.1.69)|PTS system, maltose and glucose-specific IIC component (EC 2.7.1.69)(BSU08200);Phosphoenolpyruvate-protein phosphotransferase of PTS system (EC 2.7.3.9)(BSU13910);PTS system, glucose-specific IIA component (EC 2.7.1.69)|PTS system, glucose-specific IIB component (EC 2.7.1.69)|PTS system, glucose-specific IIC component (EC 2.7.1.69)(BSU13890);PTS system, glucose-specific IIA component(BSU22230);Phosphocarrier protein of PTS system(BSU13900)",
 "metabolites":{
 "g6p_A_c":1.0,
@@ -32774,7 +32981,10 @@
 "gene_reaction_rule":"BSU13890 and BSU13900 and BSU13910",
 "annotation":{
 "bigg.reaction":"GLCpts",
-"ec-code":"2.7.3.9"
+"ec-code":[
+"2.7.1.69",
+"2.7.3.9"
+]
 }
 },
 {
@@ -32871,7 +33081,10 @@
 "gene_reaction_rule":"BSU10270",
 "annotation":{
 "bigg.reaction":"rxn05247",
-"ec-code":"6.2.1.16"
+"ec-code":[
+"6.2.1.3",
+"6.2.1.16"
+]
 }
 },
 {
@@ -32891,7 +33104,10 @@
 "gene_reaction_rule":"BSU10270",
 "annotation":{
 "bigg.reaction":"rxn05248",
-"ec-code":"6.2.1.16"
+"ec-code":[
+"6.2.1.3",
+"6.2.1.16"
+]
 }
 },
 {
@@ -32911,7 +33127,10 @@
 "gene_reaction_rule":"BSU10270",
 "annotation":{
 "bigg.reaction":"rxn05249",
-"ec-code":"6.2.1.16"
+"ec-code":[
+"6.2.1.3",
+"6.2.1.16"
+]
 }
 },
 {
@@ -32931,7 +33150,10 @@
 "gene_reaction_rule":"BSU10270",
 "annotation":{
 "bigg.reaction":"rxn05250",
-"ec-code":"6.2.1.16"
+"ec-code":[
+"6.2.1.3",
+"6.2.1.16"
+]
 }
 },
 {
@@ -32951,7 +33173,10 @@
 "gene_reaction_rule":"BSU10270",
 "annotation":{
 "bigg.reaction":"rxn05251",
-"ec-code":"6.2.1.16"
+"ec-code":[
+"6.2.1.3",
+"6.2.1.16"
+]
 }
 },
 {
@@ -32971,7 +33196,10 @@
 "gene_reaction_rule":"BSU10270",
 "annotation":{
 "bigg.reaction":"rxn05252",
-"ec-code":"6.2.1.16"
+"ec-code":[
+"6.2.1.3",
+"6.2.1.16"
+]
 }
 },
 {
@@ -33033,20 +33261,6 @@
 }
 },
 {
-"id":"FE3tex",
-"name":"Ferrous iron transport peroxidase EfeB;Ferrous iron transport periplasmic protein EfeO(BSU38270)",
-"metabolites":{
-"fe3_c":1.0,
-"fe3_e":-1.0
-},
-"lower_bound":0.0,
-"upper_bound":1000.0,
-"gene_reaction_rule":"BSU38260 and BSU38270",
-"annotation":{
-"bigg.reaction":"FE3tex"
-}
-},
-{
 "id":"rxn05294_num1",
 "name":"DNA polymerase III beta subunit;DNA gyrase subunit B(BSU00060);DNA gyrase subunit A(BSU00070);DNA polymerase III subunits gamma and Tau(BSU00190);DNA polymerase III delta prime subunit(BSU00310);DNA-cytosine methyltransferase (EC 2.1.1.37)(BSU06060);DNA ligase (EC 6.5.1.2)(BSU06620);ATP-dependent DNA ligase (EC 6.5.1.1) clustered with Ku protein, LigD(BSU13400);DNA topoisomerase I (EC 5.99.1.2)(BSU16120);DNA polymerase III alpha subunit (EC 2.7.7.7)(BSU16580);DNA polymerase III alpha subunit (EC 2.7.7.7)(BSU29230);Probable DNA polymerase yorL (EC 2.7.7.7)(BSU20340);ATP-dependent DNA ligase (EC 6.5.1.1)(BSU20500);DNA polymerase III delta subunit (EC 2.7.7.7)(BSU25560);Topoisomerase IV subunit B (EC 5.99.1.-)(BSU18090);Topoisomerase IV subunit A (EC 5.99.1.-)(BSU18100);DNA primase (EC 2.7.7.-)(BSU25210);Replicative DNA helicase (EC 3.6.1.-) [SA14-24](BSU40440);ATP-dependent DNA helicase UvrD/PcrA(BSU06610);Helicase PriA essential for oriC/DnaA-independent DNA replication(BSU15710);Chromosomal replication initiator protein DnaA(BSU00010);Chromosome partition protein smc(BSU15940);Chromosome replication initiation protein dnaD(BSU22350);DNA-binding protein HBsu(BSU22790);Segregation and condensation protein B(BSU23210);Segregation and condensation protein A(BSU23220);Helicase loader DnaI(BSU28980);Helicase loader DnaB(BSU28990);Single-stranded DNA-binding protein(BSU40900)",
 "metabolites":{
@@ -33065,7 +33279,15 @@
 },
 "annotation":{
 "bigg.reaction":"rxn05294",
-"ec-code":"3.6.1.-"
+"ec-code":[
+"2.1.1.37",
+"6.5.1.2",
+"5.99.1.2",
+"2.7.7.7",
+"5.99.1.-",
+"2.7.7.-",
+"3.6.1.-"
+]
 }
 },
 {
@@ -33084,7 +33306,13 @@
 "gene_reaction_rule":"BSU01430 and BSU01070 and BSU01080 and BSU25200 and BSU22450 and BSU08930 and BSU15930 and BSU41050 and BSU16030 and BSU27500 and BSU40410 and BSU40400 and BSU09510 and BSU16600 and BSU15690",
 "annotation":{
 "bigg.reaction":"rxn05295",
-"ec-code":"2.7.7.25"
+"ec-code":[
+"2.7.7.6",
+"3.1.26.3",
+"2.1.1.61",
+"2.1.1.-",
+"2.7.7.25"
+]
 }
 },
 {
@@ -35827,7 +36055,10 @@
 "gene_reaction_rule":"BSU13900 and BSU13910 and BSU07700",
 "annotation":{
 "bigg.reaction":"ACGApts",
-"ec-code":"2.7.3.9"
+"ec-code":[
+"2.7.1.69",
+"2.7.3.9"
+]
 }
 },
 {
@@ -36049,7 +36280,10 @@
 "gene_reaction_rule":"BSU13900 and BSU13910 and BSU39270",
 "annotation":{
 "bigg.reaction":"ARBTptspp",
-"ec-code":"2.7.1.69"
+"ec-code":[
+"2.7.3.9",
+"2.7.1.69"
+]
 }
 },
 {
@@ -36088,7 +36322,7 @@
 "gene_reaction_rule":"BSU02980 and BSU02990 and BSU03000",
 "annotation":{
 "bigg.reaction":"ARSENBabc",
-"ec-code":"3.6.3.32"
+"ec-code":"7.6.2.9"
 }
 },
 {
@@ -36273,7 +36507,11 @@
 "gene_reaction_rule":"BSU13850",
 "annotation":{
 "bigg.reaction":"CD2abc",
-"ec-code":"3.6.3.5"
+"ec-code":[
+"7.2.2.9",
+"7.2.2.21",
+"7.2.2.12"
+]
 }
 },
 {
@@ -36298,7 +36536,7 @@
 }
 },
 {
-"id":"CELBpts_num1",
+"id":"CELBpts",
 "name":"PTS system, cellobiose-specific IIB component (EC 2.7.1.69);PTS system, cellobiose-specific IIB component (EC 2.7.1.69)|PTS system, lichenan-, cellobiose-specific IIB component (EC 2.7.1.69)(BSU38590);PTS system, cellobiose-specific IIA component (EC 2.7.1.69)(BSU05820);PTS system, cellobiose-specific IIA component (EC 2.7.1.69)(BSU38570);PTS system, cellobiose-specific IIC component (EC 2.7.1.69)(BSU05830);PTS system, cellobiose-specific IIC component (EC 2.7.1.69)(BSU38390);PTS system, cellobiose-specific IIC component (EC 2.7.1.69)(BSU38580)",
 "metabolites":{
 "6pgg_c":1.0,
@@ -36308,7 +36546,7 @@
 },
 "lower_bound":0.0,
 "upper_bound":1000.0,
-"gene_reaction_rule":"BSU38390 and BSU38570 and BSU38590",
+"gene_reaction_rule":"BSU39270 and BSU13900 and BSU13910",
 "annotation":{
 "bigg.reaction":"CELBpts",
 "ec-code":"2.7.1.69"
@@ -36404,7 +36642,7 @@
 "gene_reaction_rule":"BSU03950",
 "annotation":{
 "bigg.reaction":"Cut1",
-"ec-code":"3.6.3.4"
+"ec-code":"7.2.2.9"
 }
 },
 {
@@ -36780,7 +37018,7 @@
 },
 "lower_bound":0.0,
 "upper_bound":1000.0,
-"gene_reaction_rule":"BSU35930 and BSU35940 and BSU35950 and BSU35960",
+"gene_reaction_rule":"BSU35940 and BSU35950 and BSU35960",
 "annotation":{
 "bigg.reaction":"DRIBabc"
 }
@@ -36878,7 +37116,7 @@
 }
 },
 {
-"id":"FE2abc_num1",
+"id":"FE2abc",
 "name":"Iron compound ABC uptake transporter ATP-binding protein;component of iron-uptake system(BSU01610);component of iron-uptake system(BSU01620);component of iron-uptake system(BSU01630);Iron compound ABC uptake transporter permease protein(BSU03800);Iron compound ABC uptake transporter permease protein(BSU03810);Iron compound ABC uptake transporter substrate-binding protein(BSU03830)",
 "metabolites":{
 "adp_c":1.0,
@@ -36891,13 +37129,13 @@
 },
 "lower_bound":0.0,
 "upper_bound":1000.0,
-"gene_reaction_rule":"BSU01610 and BSU01620 and BSU01630",
+"gene_reaction_rule":"BSU38260 and BSUBSU38270 and BSU38280",
 "annotation":{
 "bigg.reaction":"FE2abc"
 }
 },
 {
-"id":"FEDCabc_num1",
+"id":"FEDCabc",
 "name":"Iron(III) dicitrate transport ATP-binding protein FecE (TC 3.A.1.14.1);Iron(III) dicitrate transport system, periplasmic iron-binding protein FecB (TC 3.A.1.14.1)(BSU08440);Iron(III) dicitrate transport system permease protein fecD (TC 3.A.1.14.1)(BSU08450);Iron(III) dicitrate transport system permease protein fecD (TC 3.A.1.14.1)(BSU08460)",
 "metabolites":{
 "adp_c":1.0,
@@ -36912,7 +37150,7 @@
 },
 "lower_bound":0.0,
 "upper_bound":1000.0,
-"gene_reaction_rule":"BSU08440 and BSU08450 and BSU08460",
+"gene_reaction_rule":"BSU07490 and BSU07500 and BSU07510 and BSU07520",
 "annotation":{
 "bigg.reaction":"FEDCabc"
 }
@@ -36956,7 +37194,7 @@
 }
 },
 {
-"id":"FRUptspp_num1",
+"id":"FRUptspp",
 "name":"PTS system, fructose-specific IIB component (EC 2.7.1.69);PTS system, fructose-specific IIA component (EC 2.7.1.69)|PTS system, fructose-specific IIB component (EC 2.7.1.69)|PTS system, fructose-specific IIC component (EC 2.7.1.69)(BSU14400);PTS system, fructose-specific IIA component (EC 2.7.1.69)(BSU27070);Phosphocarrier protein of PTS system(BSU13900);PTS system, fructose-specific IID component (EC 2.7.1.69)(BSU27040);PTS system, fructose-specific IIC component (EC 2.7.1.69)(BSU27050)",
 "metabolites":{
 "f1p_c":1.0,
@@ -36966,7 +37204,7 @@
 },
 "lower_bound":0.0,
 "upper_bound":1000.0,
-"gene_reaction_rule":"BSU13900 and BSU14400 and BSU27040",
+"gene_reaction_rule":"BSU13900 and BSU13910 and BSU14400 and BSU12010",
 "annotation":{
 "bigg.reaction":"FRUptspp",
 "ec-code":"2.7.1.69"
@@ -37133,7 +37371,10 @@
 "gene_reaction_rule":"BSU13900 and BSU13910 and BSU02350",
 "annotation":{
 "bigg.reaction":"GAMpts",
-"ec-code":"2.7.1.69"
+"ec-code":[
+"2.7.3.9",
+"2.7.1.69"
+]
 }
 },
 {
@@ -37153,7 +37394,7 @@
 "gene_reaction_rule":"BSU02980 and BSU02990 and BSU03000",
 "annotation":{
 "bigg.reaction":"GBBTNabc",
-"ec-code":"3.6.3.32"
+"ec-code":"7.6.2.9"
 }
 },
 {
@@ -37435,25 +37676,6 @@
 }
 },
 {
-"id":"LCTSabc_num1",
-"name":"Predicted rhamnose oligosaccharide ABC transport system, substrate-binding component;Predicted rhamnose oligosaccharide ABC transport system, permease component 2(BSU06980);Predicted rhamnose oligosaccharide ABC transport system, permease component(BSU06990);ABC-type polysaccharide transport system, permease component(BSU07110)",
-"metabolites":{
-"adp_c":1.0,
-"atp_c":-1.0,
-"h2o_c":-1.0,
-"h_c":1.0,
-"lcts_c":1.0,
-"lcts_e":-1.0,
-"pi_c":1.0
-},
-"lower_bound":0.0,
-"upper_bound":1000.0,
-"gene_reaction_rule":"BSU06970 and BSU06980 and BSU06990",
-"annotation":{
-"bigg.reaction":"LCTSabc"
-}
-},
-{
 "id":"LCYSTabcpp",
 "name":"Alkanesulfonates ABC transporter ATP-binding protein;Alkanesulfonates-binding protein(BSU08840);Alkanesulfonates transport system permease protein(BSU08850)",
 "metabolites":{
@@ -37521,7 +37743,7 @@
 },
 "lower_bound":0,
 "upper_bound":1000.0,
-"gene_reaction_rule":"BSU07570",
+"gene_reaction_rule":"BSU38770",
 "notes":{
 "reflection":"MAL_Dt2_reverse"
 },
@@ -37562,7 +37784,10 @@
 "gene_reaction_rule":"BSU13900 and BSU13910 and BSU08200",
 "annotation":{
 "bigg.reaction":"MALTpts",
-"ec-code":"2.7.3.9"
+"ec-code":[
+"2.7.1.69",
+"2.7.3.9"
+]
 }
 },
 {
@@ -37614,7 +37839,7 @@
 },
 "lower_bound":0.0,
 "upper_bound":1000.0,
-"gene_reaction_rule":"BSU12010 and BSU13900 and BSU13910",
+"gene_reaction_rule":"BSU27070 and BSU27060 and BSU27050 and BSU27040 and BSU13900 and BSU13910",
 "annotation":{
 "bigg.reaction":"MANpts"
 }
@@ -37682,7 +37907,7 @@
 },
 "lower_bound":0.0,
 "upper_bound":1000.0,
-"gene_reaction_rule":"BSU13900 and BSU13910 and BSU03981",
+"gene_reaction_rule":"BSU13900 and BSU13910 and BSU03981 and BSU03982",
 "annotation":{
 "bigg.reaction":"MNLpts",
 "ec-code":"2.7.3.9"
@@ -38022,25 +38247,6 @@
 }
 },
 {
-"id":"RIBabc1",
-"name":"Ribose ABC transport system, ATP-binding protein RbsA (TC 3.A.1.2.1);Ribose ABC transport system, high affinity permease RbsD (TC 3.A.1.2.1)(BSU35930);Ribose ABC transport system, permease protein RbsC (TC 3.A.1.2.1)(BSU35950);Ribose ABC transport system, periplasmic ribose-binding protein RbsB (TC 3.A.1.2.1)(BSU35960)",
-"metabolites":{
-"adp_c":1.0,
-"atp_c":-1.0,
-"h2o_c":-1.0,
-"h_c":1.0,
-"pi_c":1.0,
-"rib__D_c":-1.0,
-"rib__D_e":1.0
-},
-"lower_bound":0.0,
-"upper_bound":1000.0,
-"gene_reaction_rule":"BSU35930 and BSU35940 and BSU35950 and BSU35960",
-"annotation":{
-"bigg.reaction":"RIBabc1"
-}
-},
-{
 "id":"RIBFLVt2",
 "name":"Substrate-specific component RibU of riboflavin ECF transporter",
 "metabolites":{
@@ -38060,7 +38266,7 @@
 }
 },
 {
-"id":"RMNt_num1",
+"id":"RMNt",
 "name":"Predicted rhamnose oligosaccharide ABC transport system, substrate-binding component;Predicted rhamnose oligosaccharide ABC transport system, permease component 2(BSU06980);Predicted rhamnose oligosaccharide ABC transport system, permease component(BSU06990);ABC-type polysaccharide transport system, permease component(BSU07110)",
 "metabolites":{
 "h_c":1.0,
@@ -38070,7 +38276,7 @@
 },
 "lower_bound":0,
 "upper_bound":1000.0,
-"gene_reaction_rule":"BSU06970 and BSU06980 and BSU06990",
+"gene_reaction_rule":"BSU20080",
 "notes":{
 "reflection":"RMNt_reverse"
 },
@@ -38092,7 +38298,10 @@
 "gene_reaction_rule":"BSU13900 and BSU13910 and BSU39270",
 "annotation":{
 "bigg.reaction":"SALCpts",
-"ec-code":"2.7.1.69"
+"ec-code":[
+"2.7.3.9",
+"2.7.1.69"
+]
 }
 },
 {
@@ -38202,7 +38411,10 @@
 "gene_reaction_rule":"BSU13900 and BSU13910 and BSU38050",
 "annotation":{
 "bigg.reaction":"SUCpts",
-"ec-code":"2.7.1.69"
+"ec-code":[
+"2.7.3.9",
+"2.7.1.69"
+]
 }
 },
 {
@@ -38776,7 +38988,7 @@
 "gene_reaction_rule":"BSU37170",
 "annotation":{
 "bigg.reaction":"ACOAD7",
-"ec-code":"1.3.99.2"
+"ec-code":"1.3.8.1"
 }
 },
 {
@@ -38840,7 +39052,10 @@
 "gene_reaction_rule":"BSU10270",
 "annotation":{
 "bigg.reaction":"FACOAL140",
-"ec-code":"6.2.1.16"
+"ec-code":[
+"6.2.1.3",
+"6.2.1.16"
+]
 }
 },
 {
@@ -38918,7 +39133,10 @@
 },
 "annotation":{
 "bigg.reaction":"MLTG1",
-"ec-code":"3.2.1.135"
+"ec-code":[
+"3.2.1.10",
+"3.2.1.135"
+]
 }
 },
 {
@@ -38956,7 +39174,7 @@
 },
 "lower_bound":0,
 "upper_bound":1000.0,
-"gene_reaction_rule":"BSU37250 and BSU37270 and BSU37280",
+"gene_reaction_rule":"BSU37250 and BSU37280 and BSU37270",
 "notes":{
 "reflection":"NTR3B_reverse"
 },
@@ -38980,7 +39198,7 @@
 "gene_reaction_rule":"BSU25070",
 "annotation":{
 "bigg.reaction":"HDS",
-"ec-code":"1.17.4.3"
+"ec-code":"1.17.7.1"
 }
 },
 {
@@ -39736,7 +39954,10 @@
 "gene_reaction_rule":"BSU32370",
 "annotation":{
 "bigg.reaction":"UACGALPpp",
-"ec-code":"3.6.1.45"
+"ec-code":[
+"3.1.3.5",
+"3.6.1.45"
+]
 }
 },
 {
@@ -39753,7 +39974,10 @@
 "gene_reaction_rule":"BSU32370",
 "annotation":{
 "bigg.reaction":"UACGAMPpp",
-"ec-code":"3.6.1.45"
+"ec-code":[
+"3.1.3.5",
+"3.6.1.45"
+]
 }
 },
 {
@@ -39770,7 +39994,10 @@
 "gene_reaction_rule":"BSU32370",
 "annotation":{
 "bigg.reaction":"UDPGALPpp",
-"ec-code":"3.6.1.45"
+"ec-code":[
+"3.1.3.5",
+"3.6.1.45"
+]
 }
 },
 {
@@ -39787,7 +40014,10 @@
 "gene_reaction_rule":"BSU32370",
 "annotation":{
 "bigg.reaction":"UGLCURPpp",
-"ec-code":"3.6.1.45"
+"ec-code":[
+"3.1.3.5",
+"3.6.1.45"
+]
 }
 },
 {
@@ -39825,7 +40055,10 @@
 "gene_reaction_rule":"BSU10270",
 "annotation":{
 "bigg.reaction":"FACOAL181",
-"ec-code":"6.2.1.16"
+"ec-code":[
+"6.2.1.3",
+"6.2.1.16"
+]
 }
 },
 {
@@ -39845,7 +40078,10 @@
 "gene_reaction_rule":"BSU10270",
 "annotation":{
 "bigg.reaction":"FACOAL180",
-"ec-code":"6.2.1.16"
+"ec-code":[
+"6.2.1.3",
+"6.2.1.16"
+]
 }
 },
 {
@@ -39865,7 +40101,10 @@
 "gene_reaction_rule":"BSU10270",
 "annotation":{
 "bigg.reaction":"FACOAL161",
-"ec-code":"6.2.1.16"
+"ec-code":[
+"6.2.1.3",
+"6.2.1.16"
+]
 }
 },
 {
@@ -40049,10 +40288,14 @@
 },
 "lower_bound":0.0,
 "upper_bound":1000.0,
-"gene_reaction_rule":"BSU08060 and BSU08070",
+"gene_reaction_rule":"BSU08060 and BSU08070 and BSU08080 and BSU08090",
 "annotation":{
 "bigg.reaction":"rxn09953",
-"ec-code":"2.3.1.-"
+"ec-code":[
+"1.8.1.4",
+"1.2.4.-",
+"2.3.1.-"
+]
 }
 },
 {
@@ -40072,7 +40315,10 @@
 },
 "annotation":{
 "bigg.reaction":"BG_MADG",
-"ec-code":"3.2.1.21"
+"ec-code":[
+"3.2.1.86",
+"3.2.1.21"
+]
 }
 },
 {
@@ -40092,7 +40338,10 @@
 },
 "annotation":{
 "bigg.reaction":"BG_MBDG",
-"ec-code":"3.2.1.21"
+"ec-code":[
+"3.2.1.86",
+"3.2.1.21"
+]
 }
 },
 {
@@ -40220,7 +40469,7 @@
 "gene_reaction_rule":"BSU37170",
 "annotation":{
 "bigg.reaction":"ACOAD2",
-"ec-code":"1.3.99.2"
+"ec-code":"1.3.8.1"
 }
 },
 {
@@ -40238,7 +40487,7 @@
 "gene_reaction_rule":"BSU37170",
 "annotation":{
 "bigg.reaction":"ACOAD3",
-"ec-code":"1.3.99.2"
+"ec-code":"1.3.8.1"
 }
 },
 {
@@ -40256,7 +40505,7 @@
 "gene_reaction_rule":"BSU37170",
 "annotation":{
 "bigg.reaction":"ACOAD4_1",
-"ec-code":"1.3.99.2"
+"ec-code":"1.3.8.1"
 }
 },
 {
@@ -40274,7 +40523,7 @@
 "gene_reaction_rule":"BSU37170",
 "annotation":{
 "bigg.reaction":"ACOAD5",
-"ec-code":"1.3.99.2"
+"ec-code":"1.3.8.1"
 }
 },
 {
@@ -40292,7 +40541,7 @@
 "gene_reaction_rule":"BSU37170",
 "annotation":{
 "bigg.reaction":"ACOAD6",
-"ec-code":"1.3.99.2"
+"ec-code":"1.3.8.1"
 }
 },
 {
@@ -40308,10 +40557,10 @@
 },
 "lower_bound":0.0,
 "upper_bound":1000.0,
-"gene_reaction_rule":"BSU36800 and BSU36810 and BSU36820 and BSU36830 and BSU36840 and BSU36850 and BSU36860 and BSU36870 and BSU36880",
+"gene_reaction_rule":"BSU36800 and BSU36810 and BSU36820 and BSU36830 and BSU36840 and BSU36850 and BSU36860 and BSU36870",
 "annotation":{
 "bigg.reaction":"ATPS4r",
-"ec-code":"3.6.3.14"
+"ec-code":"7.1.2.2"
 }
 },
 {
@@ -40493,7 +40742,7 @@
 }
 },
 {
-"id":"26DPAi_num1",
+"id":"26DPAi",
 "name":"Dipicolinate synthase subunit A (EC 4.2.1.52);Dipicolinate synthase subunit B(BSU16740)",
 "metabolites":{
 "23dhdp_c":-1.0,
@@ -40504,7 +40753,7 @@
 },
 "lower_bound":0,
 "upper_bound":1000.0,
-"gene_reaction_rule":"BSU16730",
+"gene_reaction_rule":"BSU16730 and BSU16740",
 "notes":{
 "reflection":"26DPAi_reverse"
 },
@@ -40570,7 +40819,7 @@
 "gene_reaction_rule":"BSU02980 and BSU02990 and BSU03000",
 "annotation":{
 "bigg.reaction":"rxn10072",
-"ec-code":"3.6.3.32"
+"ec-code":"7.6.2.9"
 }
 },
 {
@@ -40590,7 +40839,7 @@
 "gene_reaction_rule":"BSU02980 and BSU02990 and BSU03000",
 "annotation":{
 "bigg.reaction":"PROLBabc",
-"ec-code":"3.6.3.32"
+"ec-code":"7.6.2.9"
 }
 },
 {
@@ -40669,7 +40918,7 @@
 },
 "annotation":{
 "bigg.reaction":"rxn10194",
-"ec-code":"3.6.3.40"
+"ec-code":"7.5.2.4"
 }
 },
 {
@@ -40689,7 +40938,7 @@
 },
 "annotation":{
 "bigg.reaction":"rxn10195",
-"ec-code":"3.6.3.40"
+"ec-code":"7.5.2.4"
 }
 },
 {
@@ -40709,7 +40958,7 @@
 },
 "annotation":{
 "bigg.reaction":"rxn10196",
-"ec-code":"3.6.3.40"
+"ec-code":"7.5.2.4"
 }
 },
 {
@@ -43437,7 +43686,11 @@
 "gene_reaction_rule":"BSU33490",
 "annotation":{
 "bigg.reaction":"HG2abc",
-"ec-code":"3.6.3.5"
+"ec-code":[
+"7.2.2.9",
+"7.2.2.21",
+"7.2.2.12"
+]
 }
 },
 {
@@ -43457,7 +43710,11 @@
 "gene_reaction_rule":"BSU33490",
 "annotation":{
 "bigg.reaction":"rxn10344",
-"ec-code":"3.6.3.5"
+"ec-code":[
+"7.2.2.9",
+"7.2.2.21",
+"7.2.2.12"
+]
 }
 },
 {
@@ -43524,7 +43781,7 @@
 "gene_reaction_rule":"BSU02980 and BSU02990 and BSU03000",
 "annotation":{
 "bigg.reaction":"GLYabc",
-"ec-code":"3.6.3.32"
+"ec-code":"7.6.2.9"
 }
 },
 {
@@ -44077,7 +44334,7 @@
 },
 {
 "id":"EX_phe__L_e",
-"name":"",
+"name":"L-Phenylalanine exchange",
 "metabolites":{
 "phe__L_e":-1.0
 },
@@ -44090,7 +44347,7 @@
 },
 {
 "id":"EX_tartr__L_e",
-"name":"",
+"name":"(R\uff0cR)-Tartaric acid exchange",
 "metabolites":{
 "tartr__L_e":-1.0
 },
@@ -44103,7 +44360,7 @@
 },
 {
 "id":"EX_ptrc_e",
-"name":"",
+"name":"Putrescine exchange",
 "metabolites":{
 "ptrc_e":-1.0
 },
@@ -44116,7 +44373,7 @@
 },
 {
 "id":"EX_stys_e",
-"name":"",
+"name":"Stachyose exchange",
 "metabolites":{
 "stys_e":-1.0
 },
@@ -44129,7 +44386,7 @@
 },
 {
 "id":"EX_C00246_e",
-"name":"",
+"name":"Butanoic acid exchange",
 "metabolites":{
 "C00246_e":-1.0
 },
@@ -44142,7 +44399,7 @@
 },
 {
 "id":"EX_d5kg_e",
-"name":"",
+"name":"2-Deoxy-5-keto-D-gluconic acid exchange",
 "metabolites":{
 "d5kg_e":-1.0
 },
@@ -44328,7 +44585,7 @@
 },
 {
 "id":"EX_cpd16500_e",
-"name":"",
+"name":"meso-2,3-butanediol exchange",
 "metabolites":{
 "cpd16500_e":-1.0
 },
@@ -44341,7 +44598,7 @@
 },
 {
 "id":"EX_actn__R_e",
-"name":"",
+"name":"Acetoin exchange",
 "metabolites":{
 "actn__R_e":-1.0
 },
@@ -44354,7 +44611,7 @@
 },
 {
 "id":"EX_actn__S_e",
-"name":"",
+"name":"(S)-acetoin exchange",
 "metabolites":{
 "actn__S_e":-1.0
 },
@@ -44458,7 +44715,7 @@
 },
 {
 "id":"EX_C19891_e",
-"name":"",
+"name":"D-chiro-Inositol exchange",
 "metabolites":{
 "C19891_e":-1.0
 },
@@ -44471,7 +44728,7 @@
 },
 {
 "id":"EX_C06153_e",
-"name":"",
+"name":"Scyllo-inositol exchange",
 "metabolites":{
 "C06153_e":-1.0
 },
@@ -44480,6 +44737,102 @@
 "gene_reaction_rule":"",
 "annotation":{
 "bigg.reaction":"EX_C06153_e"
+}
+},
+{
+"id":"PDH",
+"name":"Complex that carries out the oxidative decarboxylation of pyruvate to form acetyl-CoA",
+"metabolites":{
+"accoa_c":1.0,
+"co2_c":1.0,
+"coa_c":-1.0,
+"nad_c":-1.0,
+"nadh_c":1.0,
+"pyr_c":-1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"BSU14580 and BSU14590 and BSU14600 and BSU14610"
+},
+{
+"id":"GSNabc",
+"name":"guanosine ABC transporter",
+"metabolites":{
+"adp_c":1.0,
+"atp_c":-1.0,
+"gsn_c":1.0,
+"gsn_e":-1.0,
+"h2o_c":-1.0,
+"h_c":1.0,
+"pi_c":1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"BSU31540 and BSU31550 and BSU31560 and BSU31570"
+},
+{
+"id":"AKGDH",
+"name":"2-oxoglutarate dehydrogenase complex",
+"metabolites":{
+"akg_c":-1.0,
+"co2_c":1.0,
+"coa_c":-1.0,
+"nad_c":-1.0,
+"nadh_c":1.0,
+"succoa_c":1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"BSU19360 and BSU19370 and BSU14610"
+},
+{
+"id":"FCLT3",
+"name":"Coproporphyrin III ferrochelatase",
+"metabolites":{
+"2h_c":1.0,
+"cppp9_c":-1.0,
+"fe2_c":-1.0,
+"fecpp3_c":1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"BSU10130",
+"annotation":{
+"ec-code":"4.99.1.9"
+}
+},
+{
+"id":"ICDHyr",
+"name":"Isocitrate dehydrogenase [NADP] (EC 1.1.1.42)",
+"metabolites":{
+"akg_c":1.0,
+"co2_c":1.0,
+"icit_c":-1.0,
+"nadp_c":-1.0,
+"nadph_c":1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"BSU29130",
+"annotation":{
+"ec-code":"1.1.1.42"
+}
+},
+{
+"id":"GTPCI_num1",
+"name":"GTP cyclohydrolase I (EC 3.5.4.16) type 1;GTP cyclohydrolase I (EC 3.5.4.16) type 2(BSU03340)",
+"metabolites":{
+"ahdt_c":1.0,
+"for_c":1.0,
+"gtp_c":-1.0,
+"h2o_c":-1.0,
+"h_c":1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"BSU22780",
+"annotation":{
+"ec-code":"3.5.4.16"
 }
 },
 {
@@ -44541,7 +44894,7 @@
 "so4_e":1.0
 },
 "lower_bound":0,
-"upper_bound":5.0,
+"upper_bound":1000.0,
 "gene_reaction_rule":"",
 "notes":{
 "reflection":"EX_so4_e"
@@ -44636,24 +44989,6 @@
 "gene_reaction_rule":"",
 "notes":{
 "reflection":"EX_fe3_e"
-}
-},
-{
-"id":"GLMS_syn_reverse_num1",
-"name":"",
-"metabolites":{
-"akg_c":-1.0,
-"fdxox_c":1.0,
-"fdxrd_c":-1.0,
-"gln__L_c":-1.0,
-"glu__L_c":2.0,
-"h_c":-2.0
-},
-"lower_bound":0,
-"upper_bound":1000.0,
-"gene_reaction_rule":"BSU18450 and BSU18440",
-"notes":{
-"reflection":"GLMS_syn"
 }
 },
 {
@@ -44895,7 +45230,7 @@
 },
 "lower_bound":0,
 "upper_bound":1000.0,
-"gene_reaction_rule":"BSU10130",
+"gene_reaction_rule":"BSU38260",
 "notes":{
 "reflection":"FCLT"
 }
@@ -44993,7 +45328,7 @@
 },
 "lower_bound":0,
 "upper_bound":1000.0,
-"gene_reaction_rule":"BSU04640 and BSU17640",
+"gene_reaction_rule":"BSU04640",
 "notes":{
 "reflection":"ALAR"
 }
@@ -45774,7 +46109,7 @@
 }
 },
 {
-"id":"METS_1_reverse_num1",
+"id":"METS_1_reverse",
 "name":"",
 "metabolites":{
 "5mthf_c":1.0,
@@ -47079,7 +47414,7 @@
 },
 "lower_bound":0,
 "upper_bound":1000.0,
-"gene_reaction_rule":"BSU32470 and BSU32480 and BSU32490 and BSU32510 and BSU32500",
+"gene_reaction_rule":"BSU32470 and BSU32480 and BSU32490 and BSU32510",
 "notes":{
 "reflection":"HXAND"
 }
@@ -47404,7 +47739,7 @@
 }
 },
 {
-"id":"TRDR_reverse_num1",
+"id":"TRDR_reverse",
 "name":"",
 "metabolites":{
 "h_c":1.0,
@@ -47415,7 +47750,7 @@
 },
 "lower_bound":0,
 "upper_bound":1000.0,
-"gene_reaction_rule":"BSU34790 and BSU32110",
+"gene_reaction_rule":"BSU34790",
 "notes":{
 "reflection":"TRDR"
 }
@@ -47511,7 +47846,7 @@
 },
 "lower_bound":0,
 "upper_bound":1000.0,
-"gene_reaction_rule":"BSU32470 and BSU32480 and BSU32490 and BSU32510 and BSU32500",
+"gene_reaction_rule":"BSU32470 and BSU32480 and BSU32490 and BSU32510",
 "notes":{
 "reflection":"XAND"
 }
@@ -48022,38 +48357,6 @@
 "gene_reaction_rule":"BSU37120",
 "notes":{
 "reflection":"FBA2"
-}
-},
-{
-"id":"PDHbr_reverse",
-"name":"",
-"metabolites":{
-"accoa_c":1.0,
-"adhlam_c":-1.0,
-"coa_c":-1.0,
-"dhlam_c":1.0
-},
-"lower_bound":0,
-"upper_bound":1000.0,
-"gene_reaction_rule":"BSU08080 and BSU14600",
-"notes":{
-"reflection":"PDHbr"
-}
-},
-{
-"id":"AKGDb_reverse",
-"name":"",
-"metabolites":{
-"coa_c":-1.0,
-"dhlam_c":1.0,
-"sdhlam_c":-1.0,
-"succoa_c":1.0
-},
-"lower_bound":0,
-"upper_bound":1000.0,
-"gene_reaction_rule":"BSU19360",
-"notes":{
-"reflection":"AKGDb"
 }
 },
 {
@@ -48585,38 +48888,6 @@
 }
 },
 {
-"id":"R03270_reverse",
-"name":"",
-"metabolites":{
-"2ahethmpp_c":1.0,
-"adhlam_c":-1.0,
-"lpam_c":1.0,
-"thmpp_c":-1.0
-},
-"lower_bound":0,
-"upper_bound":1000.0,
-"gene_reaction_rule":"BSU14580 and BSU14590",
-"notes":{
-"reflection":"R03270"
-}
-},
-{
-"id":"R03316_reverse",
-"name":"",
-"metabolites":{
-"HC01435_c":1.0,
-"lpam_c":1.0,
-"sdhlam_c":-1.0,
-"thmpp_c":-1.0
-},
-"lower_bound":0,
-"upper_bound":1000.0,
-"gene_reaction_rule":"BSU19370",
-"notes":{
-"reflection":"R03316"
-}
-},
-{
 "id":"G6PI3_reverse",
 "name":"",
 "metabolites":{
@@ -48808,7 +49079,7 @@
 }
 },
 {
-"id":"IPPMIb_reverse_num1",
+"id":"IPPMIb_reverse",
 "name":"",
 "metabolites":{
 "2ippm_c":-1.0,
@@ -48817,7 +49088,7 @@
 },
 "lower_bound":0,
 "upper_bound":1000.0,
-"gene_reaction_rule":"BSU28260",
+"gene_reaction_rule":"BSU28260 and BSU28250",
 "notes":{
 "reflection":"IPPMIb"
 }
@@ -50471,7 +50742,7 @@
 }
 },
 {
-"id":"R07618_reverse_num1",
+"id":"R07618_reverse",
 "name":"",
 "metabolites":{
 "dhlam_c":1.0,
@@ -50700,7 +50971,7 @@
 }
 },
 {
-"id":"HXANt2r_reverse_num1",
+"id":"HXANt2r_reverse",
 "name":"",
 "metabolites":{
 "h_c":-1.0,
@@ -50710,13 +50981,13 @@
 },
 "lower_bound":0,
 "upper_bound":1000.0,
-"gene_reaction_rule":"BSU29990",
+"gene_reaction_rule":"BSU22060",
 "notes":{
 "reflection":"HXANt2r"
 }
 },
 {
-"id":"XANt2_reverse_num1",
+"id":"XANt2_reverse",
 "name":"",
 "metabolites":{
 "h_c":-1.0,
@@ -52966,7 +53237,7 @@
 },
 "lower_bound":0,
 "upper_bound":1000.0,
-"gene_reaction_rule":"BSU07570",
+"gene_reaction_rule":"BSU38770",
 "notes":{
 "reflection":"MAL_Dt2"
 }
@@ -53196,7 +53467,7 @@
 }
 },
 {
-"id":"RMNt_reverse_num1",
+"id":"RMNt_reverse",
 "name":"",
 "metabolites":{
 "h_c":-1.0,
@@ -53206,7 +53477,7 @@
 },
 "lower_bound":0,
 "upper_bound":1000.0,
-"gene_reaction_rule":"BSU06970 and BSU06980 and BSU06990",
+"gene_reaction_rule":"BSU20080",
 "notes":{
 "reflection":"RMNt"
 }
@@ -53771,7 +54042,7 @@
 },
 "lower_bound":0,
 "upper_bound":1000.0,
-"gene_reaction_rule":"BSU37250 and BSU37270 and BSU37280",
+"gene_reaction_rule":"BSU37250 and BSU37280 and BSU37270",
 "notes":{
 "reflection":"NTR3B"
 }
@@ -54241,7 +54512,7 @@
 }
 },
 {
-"id":"26DPAi_reverse_num1",
+"id":"26DPAi_reverse",
 "name":"",
 "metabolites":{
 "23dhdp_c":1.0,
@@ -54252,7 +54523,7 @@
 },
 "lower_bound":0,
 "upper_bound":1000.0,
-"gene_reaction_rule":"BSU16730",
+"gene_reaction_rule":"BSU16730 and BSU16740",
 "notes":{
 "reflection":"26DPAi"
 }
@@ -56375,64 +56646,6 @@
 }
 },
 {
-"id":"PDHam1hi_num2",
-"name":"Pyruvate dehydrogenase E1 component alpha subunit (EC 1.2.4.1);Pyruvate dehydrogenase E1 component beta subunit (EC 1.2.4.1)(BSU14590);Acetolactate synthase small subunit (EC 2.2.1.6)(BSU28300);Acetolactate synthase large subunit (EC 2.2.1.6)(BSU28310);Acetolactate synthase, catabolic (EC 2.2.1.6)(BSU36010)",
-"metabolites":{
-"2ahethmpp_c":1.0,
-"co2_c":1.0,
-"h_c":-1.0,
-"pyr_c":-1.0,
-"thmpp_c":-1.0
-},
-"lower_bound":0.0,
-"upper_bound":1000.0,
-"gene_reaction_rule":"BSU28300 and BSU28310",
-"annotation":{
-"bigg.reaction":"PDHam1hi",
-"ec-code":"2.2.1.6"
-}
-},
-{
-"id":"PDHam1hi_num3",
-"name":"Pyruvate dehydrogenase E1 component alpha subunit (EC 1.2.4.1);Pyruvate dehydrogenase E1 component beta subunit (EC 1.2.4.1)(BSU14590);Acetolactate synthase small subunit (EC 2.2.1.6)(BSU28300);Acetolactate synthase large subunit (EC 2.2.1.6)(BSU28310);Acetolactate synthase, catabolic (EC 2.2.1.6)(BSU36010)",
-"metabolites":{
-"2ahethmpp_c":1.0,
-"co2_c":1.0,
-"h_c":-1.0,
-"pyr_c":-1.0,
-"thmpp_c":-1.0
-},
-"lower_bound":0.0,
-"upper_bound":1000.0,
-"gene_reaction_rule":"BSU36010",
-"annotation":{
-"bigg.reaction":"PDHam1hi",
-"ec-code":"2.2.1.6"
-}
-},
-{
-"id":"GLMS_syn_num2",
-"name":"Ferredoxin-dependent glutamate synthase (EC 1.4.7.1)",
-"metabolites":{
-"akg_c":1.0,
-"fdxox_c":-1.0,
-"fdxrd_c":1.0,
-"gln__L_c":1.0,
-"glu__L_c":-2.0,
-"h_c":2.0
-},
-"lower_bound":0,
-"upper_bound":1000.0,
-"gene_reaction_rule":"BSU06590 and BSU18440",
-"notes":{
-"reflection":"GLMS_syn_reverse"
-},
-"annotation":{
-"bigg.reaction":"GLMS_syn",
-"ec-code":"1.4.7.1"
-}
-},
-{
 "id":"R00026_num2",
 "name":"Beta-glucosidase (EC 3.2.1.21);6-phospho-beta-glucosidase (EC 3.2.1.86)|Beta-glucosidase (EC 3.2.1.21)(BSU03410);6-phospho-beta-glucosidase (EC 3.2.1.86)|Beta-glucosidase (EC 3.2.1.21)(BSU39260)",
 "metabolites":{
@@ -56444,7 +56657,10 @@
 "gene_reaction_rule":"BSU03410",
 "annotation":{
 "bigg.reaction":"R00026",
-"ec-code":"3.2.1.86"
+"ec-code":[
+"3.2.1.21",
+"3.2.1.86"
+]
 }
 },
 {
@@ -56459,7 +56675,10 @@
 "gene_reaction_rule":"BSU05840",
 "annotation":{
 "bigg.reaction":"R00026",
-"ec-code":"3.2.1.86"
+"ec-code":[
+"3.2.1.21",
+"3.2.1.86"
+]
 }
 },
 {
@@ -56477,25 +56696,6 @@
 "annotation":{
 "bigg.reaction":"NADK",
 "ec-code":"2.7.1.23"
-}
-},
-{
-"id":"GLUSy_num2",
-"name":"Glutamate synthase [NADPH] small chain (EC 1.4.1.13);Glutamate synthase [NADPH] large chain (EC 1.4.1.13)(BSU18450)",
-"metabolites":{
-"akg_c":-1.0,
-"gln__L_c":-1.0,
-"glu__L_c":2.0,
-"h_c":-1.0,
-"nadp_c":1.0,
-"nadph_c":-1.0
-},
-"lower_bound":0.0,
-"upper_bound":1000.0,
-"gene_reaction_rule":"BSU06590 and BSU18440",
-"annotation":{
-"bigg.reaction":"GLUSy",
-"ec-code":"1.4.1.13"
 }
 },
 {
@@ -56533,7 +56733,10 @@
 "gene_reaction_rule":"BSU07330",
 "annotation":{
 "bigg.reaction":"NTD7",
-"ec-code":"3.1.4.16"
+"ec-code":[
+"3.1.3.5",
+"3.1.4.16"
+]
 }
 },
 {
@@ -56551,7 +56754,10 @@
 "gene_reaction_rule":"BSU29880",
 "annotation":{
 "bigg.reaction":"ME1",
-"ec-code":"1.-.-.-"
+"ec-code":[
+"1.1.1.38",
+"1.-.-.-"
+]
 }
 },
 {
@@ -56569,7 +56775,10 @@
 "gene_reaction_rule":"BSU37050",
 "annotation":{
 "bigg.reaction":"ME1",
-"ec-code":"1.-.-.-"
+"ec-code":[
+"1.1.1.38",
+"1.-.-.-"
+]
 }
 },
 {
@@ -56608,7 +56817,10 @@
 },
 "annotation":{
 "bigg.reaction":"ACACT1x",
-"ec-code":"2.3.1.9"
+"ec-code":[
+"2.3.1.16",
+"2.3.1.9"
+]
 }
 },
 {
@@ -56627,7 +56839,10 @@
 },
 "annotation":{
 "bigg.reaction":"ACACT1x",
-"ec-code":"2.3.1.9"
+"ec-code":[
+"2.3.1.16",
+"2.3.1.9"
+]
 }
 },
 {
@@ -56882,7 +57097,10 @@
 },
 "annotation":{
 "bigg.reaction":"MDHm",
-"ec-code":"1.1.1.272"
+"ec-code":[
+"1.1.1.37",
+"1.1.1.272"
+]
 }
 },
 {
@@ -56953,7 +57171,7 @@
 },
 "lower_bound":0,
 "upper_bound":1000.0,
-"gene_reaction_rule":"BSU04640",
+"gene_reaction_rule":"BSU17640",
 "notes":{
 "reflection":"ALAR_reverse"
 },
@@ -56977,7 +57195,10 @@
 },
 "annotation":{
 "bigg.reaction":"UAG4Ei",
-"ec-code":"5.1.3.12"
+"ec-code":[
+"5.1.3.2",
+"5.1.3.12"
+]
 }
 },
 {
@@ -57027,7 +57248,10 @@
 "gene_reaction_rule":"BSU34640",
 "annotation":{
 "bigg.reaction":"LYSDC",
-"ec-code":"4.1.1.18"
+"ec-code":[
+"4.1.1.19",
+"4.1.1.18"
+]
 }
 },
 {
@@ -57100,7 +57324,10 @@
 },
 "annotation":{
 "bigg.reaction":"GTHRDH_syn",
-"ec-code":"3.4.11.4"
+"ec-code":[
+"2.3.2.2",
+"3.4.11.4"
+]
 }
 },
 {
@@ -57120,7 +57347,10 @@
 },
 "annotation":{
 "bigg.reaction":"GTHRDH_syn",
-"ec-code":"3.4.11.4"
+"ec-code":[
+"2.3.2.2",
+"3.4.11.4"
+]
 }
 },
 {
@@ -57155,7 +57385,10 @@
 "gene_reaction_rule":"BSU07330",
 "annotation":{
 "bigg.reaction":"NTD4",
-"ec-code":"3.1.4.16"
+"ec-code":[
+"3.1.3.5",
+"3.1.4.16"
+]
 }
 },
 {
@@ -57172,7 +57405,41 @@
 "gene_reaction_rule":"BSU12160",
 "annotation":{
 "bigg.reaction":"FDH",
-"ec-code":"1.2.1.2"
+"ec-code":"1.17.1.9"
+}
+},
+{
+"id":"FDH_num3",
+"name":"Putative formate dehydrogenase yrhE (EC 1.2.1.2);formate dehydrogenase, alpha subunit(BSU12160);formate dehydrogenase, alpha subunit(BSU18570);Formate dehydrogenase chain D (EC 1.2.1.2)(BSU36710)",
+"metabolites":{
+"co2_c":1.0,
+"for_c":-1.0,
+"nad_c":-1.0,
+"nadh_c":1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"BSU18570",
+"annotation":{
+"bigg.reaction":"FDH",
+"ec-code":"1.17.1.9"
+}
+},
+{
+"id":"FDH_num4",
+"name":"Putative formate dehydrogenase yrhE (EC 1.2.1.2);formate dehydrogenase, alpha subunit(BSU12160);formate dehydrogenase, alpha subunit(BSU18570);Formate dehydrogenase chain D (EC 1.2.1.2)(BSU36710)",
+"metabolites":{
+"co2_c":1.0,
+"for_c":-1.0,
+"nad_c":-1.0,
+"nadh_c":1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"BSU36710",
+"annotation":{
+"bigg.reaction":"FDH",
+"ec-code":"1.17.1.9"
 }
 },
 {
@@ -57264,7 +57531,10 @@
 "gene_reaction_rule":"BSU29300",
 "annotation":{
 "bigg.reaction":"RBFK",
-"ec-code":"2.7.7.2"
+"ec-code":[
+"2.7.1.26",
+"2.7.7.2"
+]
 }
 },
 {
@@ -57281,7 +57551,10 @@
 "gene_reaction_rule":"BSU00270",
 "annotation":{
 "bigg.reaction":"ARGDC",
-"ec-code":"4.1.1.18"
+"ec-code":[
+"4.1.1.19",
+"4.1.1.18"
+]
 }
 },
 {
@@ -57406,7 +57679,10 @@
 },
 "annotation":{
 "bigg.reaction":"ACODA",
-"ec-code":"3.5.1.14"
+"ec-code":[
+"3.5.1.16",
+"3.5.1.14"
+]
 }
 },
 {
@@ -57426,7 +57702,10 @@
 },
 "annotation":{
 "bigg.reaction":"ACODA",
-"ec-code":"3.5.1.14"
+"ec-code":[
+"3.5.1.16",
+"3.5.1.14"
+]
 }
 },
 {
@@ -57446,7 +57725,10 @@
 },
 "annotation":{
 "bigg.reaction":"PHETA1",
-"ec-code":"2.6.1.9"
+"ec-code":[
+"2.6.1.57",
+"2.6.1.9"
+]
 }
 },
 {
@@ -57576,7 +57858,10 @@
 },
 "annotation":{
 "bigg.reaction":"TYRTA",
-"ec-code":"2.6.1.9"
+"ec-code":[
+"2.6.1.57",
+"2.6.1.9"
+]
 }
 },
 {
@@ -57731,7 +58016,10 @@
 },
 "annotation":{
 "bigg.reaction":"MACCOAT",
-"ec-code":"2.3.1.9"
+"ec-code":[
+"2.3.1.16",
+"2.3.1.9"
+]
 }
 },
 {
@@ -57751,43 +58039,10 @@
 },
 "annotation":{
 "bigg.reaction":"MACCOAT",
-"ec-code":"2.3.1.9"
-}
-},
-{
-"id":"METS_1_num2",
-"name":"Methionine synthase II (cobalamin-independent)",
-"metabolites":{
-"5mthf_c":-1.0,
-"hcys__L_c":-1.0,
-"met__L_c":1.0,
-"thf_c":1.0
-},
-"lower_bound":0,
-"upper_bound":1000.0,
-"gene_reaction_rule":"BSU38950 and BSU38960",
-"notes":{
-"reflection":"METS_1_reverse"
-},
-"annotation":{
-"bigg.reaction":"METS_1"
-}
-},
-{
-"id":"GLGC_num2",
-"name":"Glucose-1-phosphate adenylyltransferase (EC 2.7.7.27);Glycogen biosynthesis protein GlgD, glucose-1-phosphate adenylyltransferase family(BSU30960)",
-"metabolites":{
-"adpglc_c":1.0,
-"atp_c":-1.0,
-"g1p_c":-1.0,
-"ppi_c":1.0
-},
-"lower_bound":0.0,
-"upper_bound":1000.0,
-"gene_reaction_rule":"BSU30970",
-"annotation":{
-"bigg.reaction":"GLGC",
-"ec-code":"2.7.7.27"
+"ec-code":[
+"2.3.1.16",
+"2.3.1.9"
+]
 }
 },
 {
@@ -57805,7 +58060,10 @@
 "gene_reaction_rule":"BSU07330",
 "annotation":{
 "bigg.reaction":"NTD2",
-"ec-code":"3.1.4.16"
+"ec-code":[
+"3.1.3.5",
+"3.1.4.16"
+]
 }
 },
 {
@@ -57996,7 +58254,10 @@
 "gene_reaction_rule":"BSU07330",
 "annotation":{
 "bigg.reaction":"NTD11pp",
-"ec-code":"3.1.4.16"
+"ec-code":[
+"3.1.3.5",
+"3.1.4.16"
+]
 }
 },
 {
@@ -58014,7 +58275,7 @@
 "gene_reaction_rule":"BSU32820",
 "annotation":{
 "bigg.reaction":"ACOAD1",
-"ec-code":"1.3.99.2"
+"ec-code":"1.3.8.1"
 }
 },
 {
@@ -58032,7 +58293,7 @@
 "gene_reaction_rule":"BSU04520",
 "annotation":{
 "bigg.reaction":"ACOAD1",
-"ec-code":"1.3.99.2"
+"ec-code":"1.3.8.1"
 }
 },
 {
@@ -58052,7 +58313,10 @@
 },
 "annotation":{
 "bigg.reaction":"ACACT2r",
-"ec-code":"2.3.1.9"
+"ec-code":[
+"2.3.1.16",
+"2.3.1.9"
+]
 }
 },
 {
@@ -58072,7 +58336,10 @@
 },
 "annotation":{
 "bigg.reaction":"ACACT2r",
-"ec-code":"2.3.1.9"
+"ec-code":[
+"2.3.1.16",
+"2.3.1.9"
+]
 }
 },
 {
@@ -58152,7 +58419,10 @@
 "gene_reaction_rule":"BSU07330",
 "annotation":{
 "bigg.reaction":"NTD9",
-"ec-code":"3.1.4.16"
+"ec-code":[
+"3.1.3.5",
+"3.1.4.16"
+]
 }
 },
 {
@@ -58188,7 +58458,10 @@
 "gene_reaction_rule":"BSU18480",
 "annotation":{
 "bigg.reaction":"PRO1xm",
-"ec-code":"1.5.99.8"
+"ec-code":[
+"1.5.1.2",
+"1.5.99.8"
+]
 }
 },
 {
@@ -58206,7 +58479,10 @@
 "gene_reaction_rule":"BSU23800",
 "annotation":{
 "bigg.reaction":"PRO1xm",
-"ec-code":"1.5.99.8"
+"ec-code":[
+"1.5.1.2",
+"1.5.99.8"
+]
 }
 },
 {
@@ -58224,7 +58500,10 @@
 "gene_reaction_rule":"BSU03200",
 "annotation":{
 "bigg.reaction":"PRO1xm",
-"ec-code":"1.5.99.8"
+"ec-code":[
+"1.5.1.2",
+"1.5.99.8"
+]
 }
 },
 {
@@ -58297,7 +58576,10 @@
 "gene_reaction_rule":"BSU28560",
 "annotation":{
 "bigg.reaction":"FACOAL160p",
-"ec-code":"6.2.1.16"
+"ec-code":[
+"6.2.1.3",
+"6.2.1.16"
+]
 }
 },
 {
@@ -58314,10 +58596,13 @@
 },
 "lower_bound":0.0,
 "upper_bound":1000.0,
-"gene_reaction_rule":"BSU18250",
+"gene_reaction_rule":"BSU04170",
 "annotation":{
 "bigg.reaction":"FACOAL160p",
-"ec-code":"6.2.1.16"
+"ec-code":[
+"6.2.1.3",
+"6.2.1.16"
+]
 }
 },
 {
@@ -58334,10 +58619,59 @@
 },
 "lower_bound":0.0,
 "upper_bound":1000.0,
+"gene_reaction_rule":"BSU10360",
+"annotation":{
+"bigg.reaction":"FACOAL160p",
+"ec-code":[
+"6.2.1.3",
+"6.2.1.16"
+]
+}
+},
+{
+"id":"FACOAL160p_num5",
+"name":"Long-chain-fatty-acid--CoA ligase (EC 6.2.1.3);Acetoacetyl-CoA synthetase [leucine] (EC 6.2.1.16)|Long-chain-fatty-acid--CoA ligase (EC 6.2.1.3)(BSU18250)",
+"metabolites":{
+"amp_c":1.0,
+"atp_c":-1.0,
+"coa_c":-1.0,
+"h_c":-1.0,
+"hdca_c":-1.0,
+"pmtcoa_c":1.0,
+"ppi_c":1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"BSU18250",
+"annotation":{
+"bigg.reaction":"FACOAL160p",
+"ec-code":[
+"6.2.1.3",
+"6.2.1.16"
+]
+}
+},
+{
+"id":"FACOAL160p_num6",
+"name":"Long-chain-fatty-acid--CoA ligase (EC 6.2.1.3);Acetoacetyl-CoA synthetase [leucine] (EC 6.2.1.16)|Long-chain-fatty-acid--CoA ligase (EC 6.2.1.3)(BSU18250)",
+"metabolites":{
+"amp_c":1.0,
+"atp_c":-1.0,
+"coa_c":-1.0,
+"h_c":-1.0,
+"hdca_c":-1.0,
+"pmtcoa_c":1.0,
+"ppi_c":1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
 "gene_reaction_rule":"BSU17180",
 "annotation":{
 "bigg.reaction":"FACOAL160p",
-"ec-code":"6.2.1.16"
+"ec-code":[
+"6.2.1.3",
+"6.2.1.16"
+]
 }
 },
 {
@@ -58426,26 +58760,6 @@
 "annotation":{
 "bigg.reaction":"GCALDDm",
 "ec-code":"1.2.1.3"
-}
-},
-{
-"id":"AACOAT_num2",
-"name":"Acetoacetyl-CoA synthetase [leucine] (EC 6.2.1.16)|Long-chain-fatty-acid--CoA ligase (EC 6.2.1.3)",
-"metabolites":{
-"aacoa_c":1.0,
-"acac_c":-1.0,
-"amp_c":1.0,
-"atp_c":-1.0,
-"coa_c":-1.0,
-"h_c":-1.0,
-"ppi_c":1.0
-},
-"lower_bound":0.0,
-"upper_bound":1000.0,
-"gene_reaction_rule":"BSU18250",
-"annotation":{
-"bigg.reaction":"AACOAT",
-"ec-code":"6.2.1.3"
 }
 },
 {
@@ -58581,7 +58895,10 @@
 "gene_reaction_rule":"BSU07330",
 "annotation":{
 "bigg.reaction":"3NTD7l",
-"ec-code":"3.1.4.16"
+"ec-code":[
+"3.1.3.5",
+"3.1.4.16"
+]
 }
 },
 {
@@ -58599,7 +58916,10 @@
 "gene_reaction_rule":"BSU07330",
 "annotation":{
 "bigg.reaction":"NTD5",
-"ec-code":"3.1.4.16"
+"ec-code":[
+"3.1.3.5",
+"3.1.4.16"
+]
 }
 },
 {
@@ -58637,7 +58957,10 @@
 "gene_reaction_rule":"BSU07330",
 "annotation":{
 "bigg.reaction":"NTD3",
-"ec-code":"3.1.4.16"
+"ec-code":[
+"3.1.3.5",
+"3.1.4.16"
+]
 }
 },
 {
@@ -58672,7 +58995,10 @@
 "gene_reaction_rule":"BSU27910",
 "annotation":{
 "bigg.reaction":"CHORM",
-"ec-code":"5.4.99.5"
+"ec-code":[
+"2.5.1.54",
+"5.4.99.5"
+]
 }
 },
 {
@@ -58687,7 +59013,10 @@
 "gene_reaction_rule":"BSU29750",
 "annotation":{
 "bigg.reaction":"CHORM",
-"ec-code":"5.4.99.5"
+"ec-code":[
+"2.5.1.54",
+"5.4.99.5"
+]
 }
 },
 {
@@ -58831,7 +59160,10 @@
 },
 "annotation":{
 "bigg.reaction":"HPDOAi",
-"ec-code":"1.-.-.-"
+"ec-code":[
+"1.5.1.34",
+"1.-.-.-"
+]
 }
 },
 {
@@ -58852,7 +59184,10 @@
 },
 "annotation":{
 "bigg.reaction":"HPDOAi",
-"ec-code":"1.-.-.-"
+"ec-code":[
+"1.5.1.34",
+"1.-.-.-"
+]
 }
 },
 {
@@ -58873,7 +59208,10 @@
 },
 "annotation":{
 "bigg.reaction":"HPDOAi",
-"ec-code":"1.-.-.-"
+"ec-code":[
+"1.5.1.34",
+"1.-.-.-"
+]
 }
 },
 {
@@ -58934,26 +59272,6 @@
 }
 },
 {
-"id":"PPCOAC_num2",
-"name":"Acetyl-coenzyme A carboxyl transferase alpha chain (EC 6.4.1.2)|Acetyl-coenzyme A carboxyl transferase beta chain (EC 6.4.1.2)|Propionyl-CoA carboxylase beta chain (EC 6.4.1.3)",
-"metabolites":{
-"adp_c":1.0,
-"atp_c":-1.0,
-"h_c":1.0,
-"hco3_c":-1.0,
-"mmcoa__S_c":1.0,
-"pi_c":1.0,
-"ppcoa_c":-1.0
-},
-"lower_bound":0.0,
-"upper_bound":1000.0,
-"gene_reaction_rule":"BSU23920",
-"annotation":{
-"bigg.reaction":"PPCOAC",
-"ec-code":"6.4.1.3"
-}
-},
-{
 "id":"PUNP5_num2",
 "name":"Purine nucleoside phosphorylase (EC 2.4.2.1)",
 "metabolites":{
@@ -58989,7 +59307,10 @@
 "gene_reaction_rule":"BSU07330",
 "annotation":{
 "bigg.reaction":"3NTD2pp",
-"ec-code":"3.1.4.16"
+"ec-code":[
+"3.1.3.5",
+"3.1.4.16"
+]
 }
 },
 {
@@ -59006,7 +59327,10 @@
 "gene_reaction_rule":"BSU00150",
 "annotation":{
 "bigg.reaction":"DGNSKm",
-"ec-code":"2.7.1.113"
+"ec-code":[
+"2.7.1.76",
+"2.7.1.113"
+]
 }
 },
 {
@@ -59024,7 +59348,10 @@
 "gene_reaction_rule":"BSU07330",
 "annotation":{
 "bigg.reaction":"NTD8",
-"ec-code":"3.1.4.16"
+"ec-code":[
+"3.1.3.5",
+"3.1.4.16"
+]
 }
 },
 {
@@ -59049,27 +59376,6 @@
 }
 },
 {
-"id":"TRDR_num2",
-"name":"Thioredoxin reductase (EC 1.8.1.9);thioredoxin reductase (NADPH)(BSU03270)",
-"metabolites":{
-"h_c":-1.0,
-"nadp_c":1.0,
-"nadph_c":-1.0,
-"trdox_c":-1.0,
-"trdrd_c":1.0
-},
-"lower_bound":0,
-"upper_bound":1000.0,
-"gene_reaction_rule":"BSU03270 and BSU32110",
-"notes":{
-"reflection":"TRDR_reverse"
-},
-"annotation":{
-"bigg.reaction":"TRDR",
-"ec-code":"1.8.1.9"
-}
-},
-{
 "id":"RNDR1_num2",
 "name":"Ribonucleotide reductase of class Ib (aerobic), alpha subunit (EC 1.17.4.1);Ribonucleotide reductase of class Ib (aerobic), beta subunit (EC 1.17.4.1)(BSU17390);SPBc2 prophage-derived ribonucleoside-diphosphate reductase subunit beta (EC 1.17.4.1) (Ribonucleotide reductase small subunit)(BSU20040);Ribonucleoside-diphosphate reductase nrdEB subunit alpha (EC 1.17.4.1) (Ribonucleotide reductase large subunit) [Cleaved into: Bsu nrdEB intein](BSU20060);Ribonucleotide reduction protein NrdI(BSU17370)",
 "metabolites":{
@@ -59081,7 +59387,7 @@
 },
 "lower_bound":0.0,
 "upper_bound":1000.0,
-"gene_reaction_rule":"BSU17380 and BSU17390 and BSU20040 and BSU20060 and BSU17370",
+"gene_reaction_rule":"BSU20040 and BSU20060",
 "annotation":{
 "bigg.reaction":"RNDR1",
 "ec-code":"1.17.4.1"
@@ -59099,7 +59405,7 @@
 },
 "lower_bound":0.0,
 "upper_bound":1000.0,
-"gene_reaction_rule":"BSU17380 and BSU17390 and BSU20040 and BSU20060 and BSU17370",
+"gene_reaction_rule":"BSU20040 and BSU20060",
 "annotation":{
 "bigg.reaction":"RNDR4",
 "ec-code":"1.17.4.1"
@@ -59117,7 +59423,7 @@
 },
 "lower_bound":0.0,
 "upper_bound":1000.0,
-"gene_reaction_rule":"BSU17380 and BSU17390 and BSU20040 and BSU20060 and BSU17370",
+"gene_reaction_rule":"BSU20040 and BSU20060",
 "annotation":{
 "bigg.reaction":"RNDR2",
 "ec-code":"1.17.4.1"
@@ -59138,7 +59444,10 @@
 "gene_reaction_rule":"BSU10930",
 "annotation":{
 "bigg.reaction":"PAPSR",
-"ec-code":"1.8.4.8"
+"ec-code":[
+"1.8.4.10",
+"1.8.4.8"
+]
 }
 },
 {
@@ -59153,7 +59462,7 @@
 },
 "lower_bound":0.0,
 "upper_bound":1000.0,
-"gene_reaction_rule":"BSU17380 and BSU17390 and BSU20040 and BSU20060 and BSU17370",
+"gene_reaction_rule":"BSU20040 and BSU20060",
 "annotation":{
 "bigg.reaction":"RNDR3",
 "ec-code":"1.17.4.1"
@@ -59174,7 +59483,10 @@
 "gene_reaction_rule":"BSU07330",
 "annotation":{
 "bigg.reaction":"NTD6",
-"ec-code":"3.1.4.16"
+"ec-code":[
+"3.1.3.5",
+"3.1.4.16"
+]
 }
 },
 {
@@ -59191,7 +59503,10 @@
 "gene_reaction_rule":"BSU00150",
 "annotation":{
 "bigg.reaction":"DADNKn",
-"ec-code":"2.7.1.113"
+"ec-code":[
+"2.7.1.76",
+"2.7.1.113"
+]
 }
 },
 {
@@ -59242,7 +59557,10 @@
 "gene_reaction_rule":"BSU22070",
 "annotation":{
 "bigg.reaction":"XPPT",
-"ec-code":"2.4.2.-"
+"ec-code":[
+"2.4.2.8",
+"2.4.2.-"
+]
 }
 },
 {
@@ -59281,7 +59599,10 @@
 "gene_reaction_rule":"BSU07330",
 "annotation":{
 "bigg.reaction":"3NTD9pp",
-"ec-code":"3.1.4.16"
+"ec-code":[
+"3.1.3.5",
+"3.1.4.16"
+]
 }
 },
 {
@@ -59395,7 +59716,10 @@
 "gene_reaction_rule":"BSU07330",
 "annotation":{
 "bigg.reaction":"NMNR",
-"ec-code":"3.1.4.16"
+"ec-code":[
+"3.1.3.5",
+"3.1.4.16"
+]
 }
 },
 {
@@ -59413,7 +59737,10 @@
 "gene_reaction_rule":"BSU07330",
 "annotation":{
 "bigg.reaction":"3NTD4pp",
-"ec-code":"3.1.4.16"
+"ec-code":[
+"3.1.3.5",
+"3.1.4.16"
+]
 }
 },
 {
@@ -59677,7 +60004,10 @@
 "gene_reaction_rule":"BSU07330",
 "annotation":{
 "bigg.reaction":"NTD10",
-"ec-code":"3.1.4.16"
+"ec-code":[
+"3.1.3.5",
+"3.1.4.16"
+]
 }
 },
 {
@@ -59903,7 +60233,10 @@
 },
 "annotation":{
 "bigg.reaction":"UPP3S_1",
-"ec-code":"2.1.1.107"
+"ec-code":[
+"4.2.1.75",
+"2.1.1.107"
+]
 }
 },
 {
@@ -59922,7 +60255,10 @@
 },
 "annotation":{
 "bigg.reaction":"UPP3S_1",
-"ec-code":"2.1.1.107"
+"ec-code":[
+"4.2.1.75",
+"2.1.1.107"
+]
 }
 },
 {
@@ -59943,7 +60279,10 @@
 },
 "annotation":{
 "bigg.reaction":"UPP3MT",
-"ec-code":"4.2.1.75"
+"ec-code":[
+"2.1.1.107",
+"4.2.1.75"
+]
 }
 },
 {
@@ -60002,7 +60341,11 @@
 "gene_reaction_rule":"BSU14390",
 "annotation":{
 "bigg.reaction":"PFK_2",
-"ec-code":"2.7.1.11"
+"ec-code":[
+"2.7.1.56",
+"2.7.1.144",
+"2.7.1.11"
+]
 }
 },
 {
@@ -60020,7 +60363,10 @@
 "gene_reaction_rule":"BSU07330",
 "annotation":{
 "bigg.reaction":"NT5C",
-"ec-code":"3.1.4.16"
+"ec-code":[
+"3.1.3.5",
+"3.1.4.16"
+]
 }
 },
 {
@@ -60080,7 +60426,10 @@
 },
 "annotation":{
 "bigg.reaction":"ACACT4r",
-"ec-code":"2.3.1.9"
+"ec-code":[
+"2.3.1.16",
+"2.3.1.9"
+]
 }
 },
 {
@@ -60100,7 +60449,10 @@
 },
 "annotation":{
 "bigg.reaction":"ACACT4r",
-"ec-code":"2.3.1.9"
+"ec-code":[
+"2.3.1.16",
+"2.3.1.9"
+]
 }
 },
 {
@@ -60120,7 +60472,10 @@
 },
 "annotation":{
 "bigg.reaction":"ACACT6p",
-"ec-code":"2.3.1.9"
+"ec-code":[
+"2.3.1.16",
+"2.3.1.9"
+]
 }
 },
 {
@@ -60140,26 +60495,10 @@
 },
 "annotation":{
 "bigg.reaction":"ACACT6p",
-"ec-code":"2.3.1.9"
-}
-},
-{
-"id":"IPPMIb_num2",
-"name":"3-isopropylmalate dehydratase small subunit (EC 4.2.1.33);3-isopropylmalate dehydratase large subunit (EC 4.2.1.33)(BSU28260)",
-"metabolites":{
-"2ippm_c":1.0,
-"3c3hmp_c":-1.0,
-"h2o_c":1.0
-},
-"lower_bound":0,
-"upper_bound":1000.0,
-"gene_reaction_rule":"BSU28250",
-"notes":{
-"reflection":"IPPMIb_reverse"
-},
-"annotation":{
-"bigg.reaction":"IPPMIb",
-"ec-code":"4.2.1.33"
+"ec-code":[
+"2.3.1.16",
+"2.3.1.9"
+]
 }
 },
 {
@@ -60179,7 +60518,10 @@
 },
 "annotation":{
 "bigg.reaction":"ACACT7p",
-"ec-code":"2.3.1.9"
+"ec-code":[
+"2.3.1.16",
+"2.3.1.9"
+]
 }
 },
 {
@@ -60199,7 +60541,10 @@
 },
 "annotation":{
 "bigg.reaction":"ACACT7p",
-"ec-code":"2.3.1.9"
+"ec-code":[
+"2.3.1.16",
+"2.3.1.9"
+]
 }
 },
 {
@@ -61207,7 +61552,10 @@
 },
 "annotation":{
 "bigg.reaction":"ACACT5r_1",
-"ec-code":"2.3.1.9"
+"ec-code":[
+"2.3.1.16",
+"2.3.1.9"
+]
 }
 },
 {
@@ -61227,7 +61575,10 @@
 },
 "annotation":{
 "bigg.reaction":"ACACT5r_1",
-"ec-code":"2.3.1.9"
+"ec-code":[
+"2.3.1.16",
+"2.3.1.9"
+]
 }
 },
 {
@@ -61361,7 +61712,10 @@
 },
 "annotation":{
 "bigg.reaction":"ACACT3r",
-"ec-code":"2.3.1.9"
+"ec-code":[
+"2.3.1.16",
+"2.3.1.9"
+]
 }
 },
 {
@@ -61381,7 +61735,10 @@
 },
 "annotation":{
 "bigg.reaction":"ACACT3r",
-"ec-code":"2.3.1.9"
+"ec-code":[
+"2.3.1.16",
+"2.3.1.9"
+]
 }
 },
 {
@@ -61874,7 +62231,10 @@
 "gene_reaction_rule":"BSU07830",
 "annotation":{
 "bigg.reaction":"FMNRx2",
-"ec-code":"1.-.-.-"
+"ec-code":[
+"1.5.1.34",
+"1.-.-.-"
+]
 }
 },
 {
@@ -61892,7 +62252,10 @@
 "gene_reaction_rule":"BSU05660",
 "annotation":{
 "bigg.reaction":"FMNRx2",
-"ec-code":"1.-.-.-"
+"ec-code":[
+"1.5.1.34",
+"1.-.-.-"
+]
 }
 },
 {
@@ -61910,7 +62273,10 @@
 "gene_reaction_rule":"BSU05480",
 "annotation":{
 "bigg.reaction":"FMNRx2",
-"ec-code":"1.-.-.-"
+"ec-code":[
+"1.5.1.34",
+"1.-.-.-"
+]
 }
 },
 {
@@ -61928,7 +62294,10 @@
 "gene_reaction_rule":"BSU19550",
 "annotation":{
 "bigg.reaction":"FMNRx2",
-"ec-code":"1.-.-.-"
+"ec-code":[
+"1.5.1.34",
+"1.-.-.-"
+]
 }
 },
 {
@@ -61946,7 +62315,10 @@
 "gene_reaction_rule":"BSU07830",
 "annotation":{
 "bigg.reaction":"FLVR_1",
-"ec-code":"1.5.1.34"
+"ec-code":[
+"1.-.-.-",
+"1.5.1.34"
+]
 }
 },
 {
@@ -61964,7 +62336,10 @@
 "gene_reaction_rule":"BSU03860",
 "annotation":{
 "bigg.reaction":"FLVR_1",
-"ec-code":"1.5.1.34"
+"ec-code":[
+"1.-.-.-",
+"1.5.1.34"
+]
 }
 },
 {
@@ -61982,7 +62357,10 @@
 "gene_reaction_rule":"BSU05660",
 "annotation":{
 "bigg.reaction":"FLVR_1",
-"ec-code":"1.5.1.34"
+"ec-code":[
+"1.-.-.-",
+"1.5.1.34"
+]
 }
 },
 {
@@ -62000,7 +62378,10 @@
 "gene_reaction_rule":"BSU05480",
 "annotation":{
 "bigg.reaction":"FLVR_1",
-"ec-code":"1.5.1.34"
+"ec-code":[
+"1.-.-.-",
+"1.5.1.34"
+]
 }
 },
 {
@@ -62018,7 +62399,10 @@
 "gene_reaction_rule":"BSU19550",
 "annotation":{
 "bigg.reaction":"FLVR_1",
-"ec-code":"1.5.1.34"
+"ec-code":[
+"1.-.-.-",
+"1.5.1.34"
+]
 }
 },
 {
@@ -62074,7 +62458,7 @@
 },
 "annotation":{
 "bigg.reaction":"CPPPGO2",
-"ec-code":"1.3.99.22"
+"ec-code":"1.3.98.3"
 }
 },
 {
@@ -62092,7 +62476,10 @@
 "gene_reaction_rule":"BSU10930",
 "annotation":{
 "bigg.reaction":"APSR",
-"ec-code":"1.8.4.8"
+"ec-code":[
+"1.8.4.10",
+"1.8.4.8"
+]
 }
 },
 {
@@ -62110,7 +62497,10 @@
 "gene_reaction_rule":"BSU30810",
 "annotation":{
 "bigg.reaction":"R07262",
-"ec-code":"3.8.1.5"
+"ec-code":[
+"4.2.99.20",
+"3.8.1.5"
+]
 }
 },
 {
@@ -62131,7 +62521,10 @@
 },
 "annotation":{
 "bigg.reaction":"DHPTDNR",
-"ec-code":"1.-.-.-"
+"ec-code":[
+"1.5.1.34",
+"1.-.-.-"
+]
 }
 },
 {
@@ -62152,7 +62545,10 @@
 },
 "annotation":{
 "bigg.reaction":"DHPTDNR",
-"ec-code":"1.-.-.-"
+"ec-code":[
+"1.5.1.34",
+"1.-.-.-"
+]
 }
 },
 {
@@ -62173,7 +62569,10 @@
 },
 "annotation":{
 "bigg.reaction":"DHPTDNR",
-"ec-code":"1.-.-.-"
+"ec-code":[
+"1.5.1.34",
+"1.-.-.-"
+]
 }
 },
 {
@@ -62208,48 +62607,6 @@
 "annotation":{
 "bigg.reaction":"R07460",
 "ec-code":"2.8.1.7"
-}
-},
-{
-"id":"R07618_num2",
-"name":"Dihydrolipoamide dehydrogenase of pyruvate dehydrogenase complex (EC 1.8.1.4);Dihydrolipoamide dehydrogenase of branched-chain alpha-keto acid dehydrogenase (EC 1.8.1.4)(BSU24060)",
-"metabolites":{
-"dhlam_c":-1.0,
-"h_c":1.0,
-"lpam_c":1.0,
-"nad_c":-1.0,
-"nadh_c":1.0
-},
-"lower_bound":0,
-"upper_bound":1000.0,
-"gene_reaction_rule":"BSU24060",
-"notes":{
-"reflection":"R07618_reverse"
-},
-"annotation":{
-"bigg.reaction":"R07618",
-"ec-code":"1.2.4.4"
-}
-},
-{
-"id":"R07618_num3",
-"name":"Dihydrolipoamide dehydrogenase of pyruvate dehydrogenase complex (EC 1.8.1.4);Dihydrolipoamide dehydrogenase of branched-chain alpha-keto acid dehydrogenase (EC 1.8.1.4)(BSU24060)",
-"metabolites":{
-"dhlam_c":-1.0,
-"h_c":1.0,
-"lpam_c":1.0,
-"nad_c":-1.0,
-"nadh_c":1.0
-},
-"lower_bound":0,
-"upper_bound":1000.0,
-"gene_reaction_rule":"BSU08090",
-"notes":{
-"reflection":"R07618_reverse"
-},
-"annotation":{
-"bigg.reaction":"R07618",
-"ec-code":"1.2.4.4"
 }
 },
 {
@@ -62289,63 +62646,10 @@
 },
 "annotation":{
 "bigg.reaction":"r0390",
-"ec-code":"3.2.1.135"
-}
-},
-{
-"id":"PIabc_num2",
-"name":"Phosphate transport ATP-binding protein PstB (TC 3.A.1.7.1);Putative periplasmic phosphate-binding protein PstS, Mycoplasma type(BSU24970);Phosphate transport system permease protein pstC (TC 3.A.1.7.1)(BSU24980);Phosphate ABC transporter, periplasmic phosphate-binding protein PstS (TC 3.A.1.7.1)(BSU24990)",
-"metabolites":{
-"adp_c":1.0,
-"atp_c":-1.0,
-"h2o_c":-1.0,
-"h_c":1.0,
-"pi_c":2.0,
-"pi_e":-1.0
-},
-"lower_bound":0.0,
-"upper_bound":1000.0,
-"gene_reaction_rule":"BSU24960 and BSU24970 and BSU24980 and BSU24990",
-"annotation":{
-"bigg.reaction":"PIabc"
-}
-},
-{
-"id":"GLCabc_num2",
-"name":"Unspecified monosaccharide ABC transport system, ATP-binding protein;Multiple sugar ABC transporter, ATP-binding protein(BSU32550);Multiple sugar ABC transporter, substrate-binding protein(BSU30270);Multiple sugar ABC transporter, membrane-spanning permease protein MsmF(BSU30280);Multiple sugar ABC transporter, membrane-spanning permease protein MsmG(BSU30290);Unspecified monosaccharide ABC transport system, substrate-binding component(BSU31540);Unspecified monosaccharide ABC transport system, permease component Ia (FIG025991)|Unspecified monosaccharide ABC transport system, permease component Ib (FIG143636)(BSU31560);Unspecified monosaccharide ABC transport system, permease component 2(BSU31570);Multiple sugar ABC transporter, membrane-spanning permease protein MsmG(BSU32580);Multiple sugar ABC transporter, membrane-spanning permease protein MsmF(BSU32590);Multiple sugar ABC transporter, substrate-binding protein(BSU32600)",
-"metabolites":{
-"adp_c":1.0,
-"atp_c":-1.0,
-"glc__D_c":1.0,
-"glc__D_e":-1.0,
-"h2o_c":-1.0,
-"h_c":1.0,
-"pi_c":1.0
-},
-"lower_bound":0.0,
-"upper_bound":1000.0,
-"gene_reaction_rule":"BSU30270 and BSU30280 and BSU30290",
-"annotation":{
-"bigg.reaction":"GLCabc"
-}
-},
-{
-"id":"GLCabc_num3",
-"name":"Unspecified monosaccharide ABC transport system, ATP-binding protein;Multiple sugar ABC transporter, ATP-binding protein(BSU32550);Multiple sugar ABC transporter, substrate-binding protein(BSU30270);Multiple sugar ABC transporter, membrane-spanning permease protein MsmF(BSU30280);Multiple sugar ABC transporter, membrane-spanning permease protein MsmG(BSU30290);Unspecified monosaccharide ABC transport system, substrate-binding component(BSU31540);Unspecified monosaccharide ABC transport system, permease component Ia (FIG025991)|Unspecified monosaccharide ABC transport system, permease component Ib (FIG143636)(BSU31560);Unspecified monosaccharide ABC transport system, permease component 2(BSU31570);Multiple sugar ABC transporter, membrane-spanning permease protein MsmG(BSU32580);Multiple sugar ABC transporter, membrane-spanning permease protein MsmF(BSU32590);Multiple sugar ABC transporter, substrate-binding protein(BSU32600)",
-"metabolites":{
-"adp_c":1.0,
-"atp_c":-1.0,
-"glc__D_c":1.0,
-"glc__D_e":-1.0,
-"h2o_c":-1.0,
-"h_c":1.0,
-"pi_c":1.0
-},
-"lower_bound":0.0,
-"upper_bound":1000.0,
-"gene_reaction_rule":"BSU32550 and BSU32580 and BSU32590 and BSU32600",
-"annotation":{
-"bigg.reaction":"GLCabc"
+"ec-code":[
+"3.2.1.10",
+"3.2.1.135"
+]
 }
 },
 {
@@ -62362,30 +62666,14 @@
 },
 "lower_bound":0.0,
 "upper_bound":1000.0,
-"gene_reaction_rule":"BSU33490",
-"annotation":{
-"bigg.reaction":"ZNabc",
-"ec-code":"3.6.3.5"
-}
-},
-{
-"id":"ZNabc_num3",
-"name":"Copper-translocating P-type ATPase (EC 3.6.3.4)|Lead, cadmium, zinc and mercury transporting ATPase (EC 3.6.3.3) (EC 3.6.3.5);Zinc ABC transporter, ATP-binding protein ZnuC(BSU02860);Zinc ABC transporter, periplasmic-binding protein ZnuA(BSU02850);Zinc ABC transporter, inner membrane permease protein ZnuB(BSU02870)",
-"metabolites":{
-"adp_c":1.0,
-"atp_c":-1.0,
-"h2o_c":-1.0,
-"h_c":1.0,
-"pi_c":1.0,
-"zn2_c":1.0,
-"zn2_e":-1.0
-},
-"lower_bound":0.0,
-"upper_bound":1000.0,
 "gene_reaction_rule":"BSU13850",
 "annotation":{
 "bigg.reaction":"ZNabc",
-"ec-code":"3.6.3.5"
+"ec-code":[
+"7.2.2.9",
+"7.2.2.21",
+"7.2.2.12"
+]
 }
 },
 {
@@ -62408,253 +62696,6 @@
 }
 },
 {
-"id":"RIBabc_num2",
-"name":"Ribose ABC transport system, ATP-binding protein RbsA (TC 3.A.1.2.1);Unspecified monosaccharide ABC transport system, ATP-binding protein(BSU31550);Multiple sugar ABC transporter, ATP-binding protein(BSU32550);Ribose ABC transport system, high affinity permease RbsD (TC 3.A.1.2.1)(BSU35930);Multiple sugar ABC transporter, substrate-binding protein(BSU30270);Multiple sugar ABC transporter, membrane-spanning permease protein MsmF(BSU30280);Multiple sugar ABC transporter, membrane-spanning permease protein MsmG(BSU30290);Unspecified monosaccharide ABC transport system, substrate-binding component(BSU31540);Unspecified monosaccharide ABC transport system, permease component Ia (FIG025991)|Unspecified monosaccharide ABC transport system, permease component Ib (FIG143636)(BSU31560);Unspecified monosaccharide ABC transport system, permease component 2(BSU31570);Multiple sugar ABC transporter, membrane-spanning permease protein MsmG(BSU32580);Multiple sugar ABC transporter, membrane-spanning permease protein MsmF(BSU32590);Multiple sugar ABC transporter, substrate-binding protein(BSU32600);Ribose ABC transport system, permease protein RbsC (TC 3.A.1.2.1)(BSU35950);Ribose ABC transport system, periplasmic ribose-binding protein RbsB (TC 3.A.1.2.1)(BSU35960)",
-"metabolites":{
-"adp_c":1.0,
-"atp_c":-1.0,
-"h2o_c":-1.0,
-"h_c":1.0,
-"pi_c":1.0,
-"rib__D_c":1.0,
-"rib__D_e":-1.0
-},
-"lower_bound":0.0,
-"upper_bound":1000.0,
-"gene_reaction_rule":"BSU31540 and BSU31550 and BSU31560 and BSU31570",
-"annotation":{
-"bigg.reaction":"RIBabc"
-}
-},
-{
-"id":"RIBabc_num3",
-"name":"Ribose ABC transport system, ATP-binding protein RbsA (TC 3.A.1.2.1);Unspecified monosaccharide ABC transport system, ATP-binding protein(BSU31550);Multiple sugar ABC transporter, ATP-binding protein(BSU32550);Ribose ABC transport system, high affinity permease RbsD (TC 3.A.1.2.1)(BSU35930);Multiple sugar ABC transporter, substrate-binding protein(BSU30270);Multiple sugar ABC transporter, membrane-spanning permease protein MsmF(BSU30280);Multiple sugar ABC transporter, membrane-spanning permease protein MsmG(BSU30290);Unspecified monosaccharide ABC transport system, substrate-binding component(BSU31540);Unspecified monosaccharide ABC transport system, permease component Ia (FIG025991)|Unspecified monosaccharide ABC transport system, permease component Ib (FIG143636)(BSU31560);Unspecified monosaccharide ABC transport system, permease component 2(BSU31570);Multiple sugar ABC transporter, membrane-spanning permease protein MsmG(BSU32580);Multiple sugar ABC transporter, membrane-spanning permease protein MsmF(BSU32590);Multiple sugar ABC transporter, substrate-binding protein(BSU32600);Ribose ABC transport system, permease protein RbsC (TC 3.A.1.2.1)(BSU35950);Ribose ABC transport system, periplasmic ribose-binding protein RbsB (TC 3.A.1.2.1)(BSU35960)",
-"metabolites":{
-"adp_c":1.0,
-"atp_c":-1.0,
-"h2o_c":-1.0,
-"h_c":1.0,
-"pi_c":1.0,
-"rib__D_c":1.0,
-"rib__D_e":-1.0
-},
-"lower_bound":0.0,
-"upper_bound":1000.0,
-"gene_reaction_rule":"BSU30270 and BSU30280 and BSU30290",
-"annotation":{
-"bigg.reaction":"RIBabc"
-}
-},
-{
-"id":"RIBabc_num4",
-"name":"Ribose ABC transport system, ATP-binding protein RbsA (TC 3.A.1.2.1);Unspecified monosaccharide ABC transport system, ATP-binding protein(BSU31550);Multiple sugar ABC transporter, ATP-binding protein(BSU32550);Ribose ABC transport system, high affinity permease RbsD (TC 3.A.1.2.1)(BSU35930);Multiple sugar ABC transporter, substrate-binding protein(BSU30270);Multiple sugar ABC transporter, membrane-spanning permease protein MsmF(BSU30280);Multiple sugar ABC transporter, membrane-spanning permease protein MsmG(BSU30290);Unspecified monosaccharide ABC transport system, substrate-binding component(BSU31540);Unspecified monosaccharide ABC transport system, permease component Ia (FIG025991)|Unspecified monosaccharide ABC transport system, permease component Ib (FIG143636)(BSU31560);Unspecified monosaccharide ABC transport system, permease component 2(BSU31570);Multiple sugar ABC transporter, membrane-spanning permease protein MsmG(BSU32580);Multiple sugar ABC transporter, membrane-spanning permease protein MsmF(BSU32590);Multiple sugar ABC transporter, substrate-binding protein(BSU32600);Ribose ABC transport system, permease protein RbsC (TC 3.A.1.2.1)(BSU35950);Ribose ABC transport system, periplasmic ribose-binding protein RbsB (TC 3.A.1.2.1)(BSU35960)",
-"metabolites":{
-"adp_c":1.0,
-"atp_c":-1.0,
-"h2o_c":-1.0,
-"h_c":1.0,
-"pi_c":1.0,
-"rib__D_c":1.0,
-"rib__D_e":-1.0
-},
-"lower_bound":0.0,
-"upper_bound":1000.0,
-"gene_reaction_rule":"BSU32550 and BSU32580 and BSU32590 and BSU32600",
-"annotation":{
-"bigg.reaction":"RIBabc"
-}
-},
-{
-"id":"GALabc_num2",
-"name":"Unspecified monosaccharide ABC transport system, ATP-binding protein;Multiple sugar ABC transporter, ATP-binding protein(BSU32550);Multiple sugar ABC transporter, substrate-binding protein(BSU30270);Multiple sugar ABC transporter, membrane-spanning permease protein MsmF(BSU30280);Multiple sugar ABC transporter, membrane-spanning permease protein MsmG(BSU30290);Unspecified monosaccharide ABC transport system, substrate-binding component(BSU31540);Unspecified monosaccharide ABC transport system, permease component Ia (FIG025991)|Unspecified monosaccharide ABC transport system, permease component Ib (FIG143636)(BSU31560);Unspecified monosaccharide ABC transport system, permease component 2(BSU31570);Multiple sugar ABC transporter, membrane-spanning permease protein MsmG(BSU32580);Multiple sugar ABC transporter, membrane-spanning permease protein MsmF(BSU32590);Multiple sugar ABC transporter, substrate-binding protein(BSU32600)",
-"metabolites":{
-"adp_c":1.0,
-"atp_c":-1.0,
-"gal_c":1.0,
-"gal_e":-1.0,
-"h2o_c":-1.0,
-"h_c":1.0,
-"pi_c":1.0
-},
-"lower_bound":0.0,
-"upper_bound":1000.0,
-"gene_reaction_rule":"BSU30270 and BSU30280 and BSU30290",
-"annotation":{
-"bigg.reaction":"GALabc"
-}
-},
-{
-"id":"GALabc_num3",
-"name":"Unspecified monosaccharide ABC transport system, ATP-binding protein;Multiple sugar ABC transporter, ATP-binding protein(BSU32550);Multiple sugar ABC transporter, substrate-binding protein(BSU30270);Multiple sugar ABC transporter, membrane-spanning permease protein MsmF(BSU30280);Multiple sugar ABC transporter, membrane-spanning permease protein MsmG(BSU30290);Unspecified monosaccharide ABC transport system, substrate-binding component(BSU31540);Unspecified monosaccharide ABC transport system, permease component Ia (FIG025991)|Unspecified monosaccharide ABC transport system, permease component Ib (FIG143636)(BSU31560);Unspecified monosaccharide ABC transport system, permease component 2(BSU31570);Multiple sugar ABC transporter, membrane-spanning permease protein MsmG(BSU32580);Multiple sugar ABC transporter, membrane-spanning permease protein MsmF(BSU32590);Multiple sugar ABC transporter, substrate-binding protein(BSU32600)",
-"metabolites":{
-"adp_c":1.0,
-"atp_c":-1.0,
-"gal_c":1.0,
-"gal_e":-1.0,
-"h2o_c":-1.0,
-"h_c":1.0,
-"pi_c":1.0
-},
-"lower_bound":0.0,
-"upper_bound":1000.0,
-"gene_reaction_rule":"BSU32550 and BSU32580 and BSU32590 and BSU32600",
-"annotation":{
-"bigg.reaction":"GALabc"
-}
-},
-{
-"id":"XYLabc_num2",
-"name":"Unspecified monosaccharide ABC transport system, ATP-binding protein;Multiple sugar ABC transporter, ATP-binding protein(BSU32550);Multiple sugar ABC transporter, substrate-binding protein(BSU30270);Multiple sugar ABC transporter, membrane-spanning permease protein MsmF(BSU30280);Multiple sugar ABC transporter, membrane-spanning permease protein MsmG(BSU30290);Unspecified monosaccharide ABC transport system, substrate-binding component(BSU31540);Unspecified monosaccharide ABC transport system, permease component Ia (FIG025991)|Unspecified monosaccharide ABC transport system, permease component Ib (FIG143636)(BSU31560);Unspecified monosaccharide ABC transport system, permease component 2(BSU31570);Multiple sugar ABC transporter, membrane-spanning permease protein MsmG(BSU32580);Multiple sugar ABC transporter, membrane-spanning permease protein MsmF(BSU32590);Multiple sugar ABC transporter, substrate-binding protein(BSU32600)",
-"metabolites":{
-"adp_c":1.0,
-"atp_c":-1.0,
-"h2o_c":-1.0,
-"h_c":1.0,
-"pi_c":1.0,
-"xyl__D_c":1.0,
-"xyl__D_e":-1.0
-},
-"lower_bound":0.0,
-"upper_bound":1000.0,
-"gene_reaction_rule":"BSU30270 and BSU30280 and BSU30290",
-"annotation":{
-"bigg.reaction":"XYLabc"
-}
-},
-{
-"id":"XYLabc_num3",
-"name":"Unspecified monosaccharide ABC transport system, ATP-binding protein;Multiple sugar ABC transporter, ATP-binding protein(BSU32550);Multiple sugar ABC transporter, substrate-binding protein(BSU30270);Multiple sugar ABC transporter, membrane-spanning permease protein MsmF(BSU30280);Multiple sugar ABC transporter, membrane-spanning permease protein MsmG(BSU30290);Unspecified monosaccharide ABC transport system, substrate-binding component(BSU31540);Unspecified monosaccharide ABC transport system, permease component Ia (FIG025991)|Unspecified monosaccharide ABC transport system, permease component Ib (FIG143636)(BSU31560);Unspecified monosaccharide ABC transport system, permease component 2(BSU31570);Multiple sugar ABC transporter, membrane-spanning permease protein MsmG(BSU32580);Multiple sugar ABC transporter, membrane-spanning permease protein MsmF(BSU32590);Multiple sugar ABC transporter, substrate-binding protein(BSU32600)",
-"metabolites":{
-"adp_c":1.0,
-"atp_c":-1.0,
-"h2o_c":-1.0,
-"h_c":1.0,
-"pi_c":1.0,
-"xyl__D_c":1.0,
-"xyl__D_e":-1.0
-},
-"lower_bound":0.0,
-"upper_bound":1000.0,
-"gene_reaction_rule":"BSU32550 and BSU32580 and BSU32590 and BSU32600",
-"annotation":{
-"bigg.reaction":"XYLabc"
-}
-},
-{
-"id":"MALTabc_num2",
-"name":"Predicted rhamnose oligosaccharide ABC transport system, substrate-binding component;Predicted rhamnose oligosaccharide ABC transport system, permease component 2(BSU06980);Predicted rhamnose oligosaccharide ABC transport system, permease component(BSU06990);ABC-type polysaccharide transport system, permease component(BSU07110)",
-"metabolites":{
-"adp_c":1.0,
-"atp_c":-1.0,
-"h2o_c":-1.0,
-"h_c":1.0,
-"malt_c":1.0,
-"malt_e":-1.0,
-"pi_c":1.0
-},
-"lower_bound":0.0,
-"upper_bound":1000.0,
-"gene_reaction_rule":"BSU07110",
-"annotation":{
-"bigg.reaction":"MALTabc"
-}
-},
-{
-"id":"ARBabc_num2",
-"name":"Unspecified monosaccharide ABC transport system, ATP-binding protein;Multiple sugar ABC transporter, ATP-binding protein(BSU32550);alpha-arabinosides ABC transport system, permease protein araQ(BSU28730);alpha-arabinosides ABC transport system, permease protein araP(BSU28740);alpha-arabinosides ABC transport system, substrate-binding protein araN(BSU28750);Multiple sugar ABC transporter, substrate-binding protein(BSU30270);Multiple sugar ABC transporter, membrane-spanning permease protein MsmF(BSU30280);Multiple sugar ABC transporter, membrane-spanning permease protein MsmG(BSU30290);Unspecified monosaccharide ABC transport system, substrate-binding component(BSU31540);Unspecified monosaccharide ABC transport system, permease component Ia (FIG025991)|Unspecified monosaccharide ABC transport system, permease component Ib (FIG143636)(BSU31560);Unspecified monosaccharide ABC transport system, permease component 2(BSU31570);Multiple sugar ABC transporter, membrane-spanning permease protein MsmG(BSU32580);Multiple sugar ABC transporter, membrane-spanning permease protein MsmF(BSU32590);Multiple sugar ABC transporter, substrate-binding protein(BSU32600)",
-"metabolites":{
-"adp_c":1.0,
-"arab__L_c":1.0,
-"arab__L_e":-1.0,
-"atp_c":-1.0,
-"h2o_c":-1.0,
-"h_c":1.0,
-"pi_c":1.0
-},
-"lower_bound":0.0,
-"upper_bound":1000.0,
-"gene_reaction_rule":"BSU30270 and BSU30280 and BSU30290",
-"annotation":{
-"bigg.reaction":"ARBabc"
-}
-},
-{
-"id":"ARBabc_num3",
-"name":"Unspecified monosaccharide ABC transport system, ATP-binding protein;Multiple sugar ABC transporter, ATP-binding protein(BSU32550);alpha-arabinosides ABC transport system, permease protein araQ(BSU28730);alpha-arabinosides ABC transport system, permease protein araP(BSU28740);alpha-arabinosides ABC transport system, substrate-binding protein araN(BSU28750);Multiple sugar ABC transporter, substrate-binding protein(BSU30270);Multiple sugar ABC transporter, membrane-spanning permease protein MsmF(BSU30280);Multiple sugar ABC transporter, membrane-spanning permease protein MsmG(BSU30290);Unspecified monosaccharide ABC transport system, substrate-binding component(BSU31540);Unspecified monosaccharide ABC transport system, permease component Ia (FIG025991)|Unspecified monosaccharide ABC transport system, permease component Ib (FIG143636)(BSU31560);Unspecified monosaccharide ABC transport system, permease component 2(BSU31570);Multiple sugar ABC transporter, membrane-spanning permease protein MsmG(BSU32580);Multiple sugar ABC transporter, membrane-spanning permease protein MsmF(BSU32590);Multiple sugar ABC transporter, substrate-binding protein(BSU32600)",
-"metabolites":{
-"adp_c":1.0,
-"arab__L_c":1.0,
-"arab__L_e":-1.0,
-"atp_c":-1.0,
-"h2o_c":-1.0,
-"h_c":1.0,
-"pi_c":1.0
-},
-"lower_bound":0.0,
-"upper_bound":1000.0,
-"gene_reaction_rule":"BSU31540 and BSU31550 and BSU31560 and BSU31570",
-"annotation":{
-"bigg.reaction":"ARBabc"
-}
-},
-{
-"id":"ARBabc_num4",
-"name":"Unspecified monosaccharide ABC transport system, ATP-binding protein;Multiple sugar ABC transporter, ATP-binding protein(BSU32550);alpha-arabinosides ABC transport system, permease protein araQ(BSU28730);alpha-arabinosides ABC transport system, permease protein araP(BSU28740);alpha-arabinosides ABC transport system, substrate-binding protein araN(BSU28750);Multiple sugar ABC transporter, substrate-binding protein(BSU30270);Multiple sugar ABC transporter, membrane-spanning permease protein MsmF(BSU30280);Multiple sugar ABC transporter, membrane-spanning permease protein MsmG(BSU30290);Unspecified monosaccharide ABC transport system, substrate-binding component(BSU31540);Unspecified monosaccharide ABC transport system, permease component Ia (FIG025991)|Unspecified monosaccharide ABC transport system, permease component Ib (FIG143636)(BSU31560);Unspecified monosaccharide ABC transport system, permease component 2(BSU31570);Multiple sugar ABC transporter, membrane-spanning permease protein MsmG(BSU32580);Multiple sugar ABC transporter, membrane-spanning permease protein MsmF(BSU32590);Multiple sugar ABC transporter, substrate-binding protein(BSU32600)",
-"metabolites":{
-"adp_c":1.0,
-"arab__L_c":1.0,
-"arab__L_e":-1.0,
-"atp_c":-1.0,
-"h2o_c":-1.0,
-"h_c":1.0,
-"pi_c":1.0
-},
-"lower_bound":0.0,
-"upper_bound":1000.0,
-"gene_reaction_rule":"BSU32550 and BSU32580 and BSU32590 and BSU32600",
-"annotation":{
-"bigg.reaction":"ARBabc"
-}
-},
-{
-"id":"METDabc_num2",
-"name":"Methionine ABC transporter ATP-binding protein;ABC transporter, ATP-binding protein(BSU09070);ABC transporter, ATP-binding protein(BSU09080);Methionine ABC transporter substrate-binding protein(BSU09110);ABC transporter, permease protein(BSU30410);ABC transporter, ATP-binding protein(BSU30450);Methionine ABC transporter substrate-binding protein(BSU32730);Methionine ABC transporter permease protein(BSU32740)",
-"metabolites":{
-"adp_c":1.0,
-"atp_c":-1.0,
-"h2o_c":-1.0,
-"h_c":1.0,
-"met__D_c":1.0,
-"met__D_e":-1.0,
-"pi_c":1.0
-},
-"lower_bound":0.0,
-"upper_bound":1000.0,
-"gene_reaction_rule":"BSU09070 and BSU09080 and BSU09110",
-"annotation":{
-"bigg.reaction":"METDabc"
-}
-},
-{
-"id":"METDabc_num3",
-"name":"Methionine ABC transporter ATP-binding protein;ABC transporter, ATP-binding protein(BSU09070);ABC transporter, ATP-binding protein(BSU09080);Methionine ABC transporter substrate-binding protein(BSU09110);ABC transporter, permease protein(BSU30410);ABC transporter, ATP-binding protein(BSU30450);Methionine ABC transporter substrate-binding protein(BSU32730);Methionine ABC transporter permease protein(BSU32740)",
-"metabolites":{
-"adp_c":1.0,
-"atp_c":-1.0,
-"h2o_c":-1.0,
-"h_c":1.0,
-"met__D_c":1.0,
-"met__D_e":-1.0,
-"pi_c":1.0
-},
-"lower_bound":0.0,
-"upper_bound":1000.0,
-"gene_reaction_rule":"BSU30410 and BSU30420 and BSU30450",
-"annotation":{
-"bigg.reaction":"METDabc"
-}
-},
-{
 "id":"CHOLSabc_num2",
 "name":"Choline ABC transport system, permease protein OpuBD;Choline ABC transport system, choline-binding protein OpuBC(BSU33710);Choline ABC transport system, permease protein OpuBB(BSU33720);Choline ABC transport system, ATP-binding protein OpuBA(BSU33730);Osmotically activated L-carnitine/choline ABC transporter, permease protein OpuCD(BSU33800);Osmotically activated L-carnitine/choline ABC transporter, substrate-binding protein OpuCC(BSU33810);Osmotically activated L-carnitine/choline ABC transporter, permease protein OpuCB(BSU33820);Osmotically activated L-carnitine/choline ABC transporter, ATP-binding protein OpuCA(BSU33830)",
 "metabolites":{
@@ -62671,63 +62712,6 @@
 "gene_reaction_rule":"BSU33800 and BSU33810 and BSU33820 and BSU33830",
 "annotation":{
 "bigg.reaction":"CHOLSabc"
-}
-},
-{
-"id":"GLCGLYCabcpp_syn_num2",
-"name":"Unspecified monosaccharide ABC transport system, ATP-binding protein;Multiple sugar ABC transporter, ATP-binding protein(BSU32550);Multiple sugar ABC transporter, substrate-binding protein(BSU30270);Multiple sugar ABC transporter, membrane-spanning permease protein MsmF(BSU30280);Multiple sugar ABC transporter, membrane-spanning permease protein MsmG(BSU30290);Unspecified monosaccharide ABC transport system, substrate-binding component(BSU31540);Unspecified monosaccharide ABC transport system, permease component Ia (FIG025991)|Unspecified monosaccharide ABC transport system, permease component Ib (FIG143636)(BSU31560);Unspecified monosaccharide ABC transport system, permease component 2(BSU31570);Multiple sugar ABC transporter, membrane-spanning permease protein MsmG(BSU32580);Multiple sugar ABC transporter, membrane-spanning permease protein MsmF(BSU32590);Multiple sugar ABC transporter, substrate-binding protein(BSU32600)",
-"metabolites":{
-"adp_c":1.0,
-"atp_c":-1.0,
-"glcglyc_c":1.0,
-"glcglyc_e":-1.0,
-"h2o_c":-1.0,
-"h_c":1.0,
-"pi_c":1.0
-},
-"lower_bound":0.0,
-"upper_bound":1000.0,
-"gene_reaction_rule":"BSU30270 and BSU30280 and BSU30290",
-"annotation":{
-"bigg.reaction":"GLCGLYCabcpp_syn"
-}
-},
-{
-"id":"GLCGLYCabcpp_syn_num3",
-"name":"Unspecified monosaccharide ABC transport system, ATP-binding protein;Multiple sugar ABC transporter, ATP-binding protein(BSU32550);Multiple sugar ABC transporter, substrate-binding protein(BSU30270);Multiple sugar ABC transporter, membrane-spanning permease protein MsmF(BSU30280);Multiple sugar ABC transporter, membrane-spanning permease protein MsmG(BSU30290);Unspecified monosaccharide ABC transport system, substrate-binding component(BSU31540);Unspecified monosaccharide ABC transport system, permease component Ia (FIG025991)|Unspecified monosaccharide ABC transport system, permease component Ib (FIG143636)(BSU31560);Unspecified monosaccharide ABC transport system, permease component 2(BSU31570);Multiple sugar ABC transporter, membrane-spanning permease protein MsmG(BSU32580);Multiple sugar ABC transporter, membrane-spanning permease protein MsmF(BSU32590);Multiple sugar ABC transporter, substrate-binding protein(BSU32600)",
-"metabolites":{
-"adp_c":1.0,
-"atp_c":-1.0,
-"glcglyc_c":1.0,
-"glcglyc_e":-1.0,
-"h2o_c":-1.0,
-"h_c":1.0,
-"pi_c":1.0
-},
-"lower_bound":0.0,
-"upper_bound":1000.0,
-"gene_reaction_rule":"BSU32550 and BSU32580 and BSU32590 and BSU32600",
-"annotation":{
-"bigg.reaction":"GLCGLYCabcpp_syn"
-}
-},
-{
-"id":"FE3abc_num2",
-"name":"Iron compound ABC uptake transporter ATP-binding protein;component of iron-uptake system(BSU01610);component of iron-uptake system(BSU01620);component of iron-uptake system(BSU01630);Iron compound ABC uptake transporter permease protein(BSU03800);Iron compound ABC uptake transporter permease protein(BSU03810);Iron compound ABC uptake transporter substrate-binding protein(BSU03830)",
-"metabolites":{
-"adp_c":1.0,
-"atp_c":-1.0,
-"fe3_c":1.0,
-"fe3_e":-1.0,
-"h2o_c":-1.0,
-"h_c":1.0,
-"pi_c":1.0
-},
-"lower_bound":0.0,
-"upper_bound":1000.0,
-"gene_reaction_rule":"BSU01610 and BSU01620 and BSU01630",
-"annotation":{
-"bigg.reaction":"FE3abc"
 }
 },
 {
@@ -62902,158 +62886,6 @@
 }
 },
 {
-"id":"HXANt2r_num2",
-"name":"Xanthine/uracil/thiamine/ascorbate permease family protein;xanthine permease(BSU22060);Xanthine permease(BSU32430);Xanthine permease(BSU32440);Xanthine permease(BSU37940)",
-"metabolites":{
-"h_c":1.0,
-"h_e":-1.0,
-"hxan_c":1.0,
-"hxan_e":-1.0
-},
-"lower_bound":0,
-"upper_bound":1000.0,
-"gene_reaction_rule":"BSU06370",
-"notes":{
-"reflection":"HXANt2r_reverse"
-},
-"annotation":{
-"bigg.reaction":"HXANt2r"
-}
-},
-{
-"id":"HXANt2r_num3",
-"name":"Xanthine/uracil/thiamine/ascorbate permease family protein;xanthine permease(BSU22060);Xanthine permease(BSU32430);Xanthine permease(BSU32440);Xanthine permease(BSU37940)",
-"metabolites":{
-"h_c":1.0,
-"h_e":-1.0,
-"hxan_c":1.0,
-"hxan_e":-1.0
-},
-"lower_bound":0,
-"upper_bound":1000.0,
-"gene_reaction_rule":"BSU32430 and BSU32440",
-"notes":{
-"reflection":"HXANt2r_reverse"
-},
-"annotation":{
-"bigg.reaction":"HXANt2r"
-}
-},
-{
-"id":"HXANt2r_num4",
-"name":"Xanthine/uracil/thiamine/ascorbate permease family protein;xanthine permease(BSU22060);Xanthine permease(BSU32430);Xanthine permease(BSU32440);Xanthine permease(BSU37940)",
-"metabolites":{
-"h_c":1.0,
-"h_e":-1.0,
-"hxan_c":1.0,
-"hxan_e":-1.0
-},
-"lower_bound":0,
-"upper_bound":1000.0,
-"gene_reaction_rule":"BSU22060",
-"notes":{
-"reflection":"HXANt2r_reverse"
-},
-"annotation":{
-"bigg.reaction":"HXANt2r"
-}
-},
-{
-"id":"HXANt2r_num5",
-"name":"Xanthine/uracil/thiamine/ascorbate permease family protein;xanthine permease(BSU22060);Xanthine permease(BSU32430);Xanthine permease(BSU32440);Xanthine permease(BSU37940)",
-"metabolites":{
-"h_c":1.0,
-"h_e":-1.0,
-"hxan_c":1.0,
-"hxan_e":-1.0
-},
-"lower_bound":0,
-"upper_bound":1000.0,
-"gene_reaction_rule":"BSU37940",
-"notes":{
-"reflection":"HXANt2r_reverse"
-},
-"annotation":{
-"bigg.reaction":"HXANt2r"
-}
-},
-{
-"id":"XANt2_num2",
-"name":"Xanthine/uracil/thiamine/ascorbate permease family protein;xanthine permease(BSU22060);Xanthine permease(BSU32430);Xanthine permease(BSU32440);Xanthine permease(BSU37940)",
-"metabolites":{
-"h_c":1.0,
-"h_e":-1.0,
-"xan_c":1.0,
-"xan_e":-1.0
-},
-"lower_bound":0,
-"upper_bound":1000.0,
-"gene_reaction_rule":"BSU32430 and BSU32440",
-"notes":{
-"reflection":"XANt2_reverse"
-},
-"annotation":{
-"bigg.reaction":"XANt2"
-}
-},
-{
-"id":"XANt2_num3",
-"name":"Xanthine/uracil/thiamine/ascorbate permease family protein;xanthine permease(BSU22060);Xanthine permease(BSU32430);Xanthine permease(BSU32440);Xanthine permease(BSU37940)",
-"metabolites":{
-"h_c":1.0,
-"h_e":-1.0,
-"xan_c":1.0,
-"xan_e":-1.0
-},
-"lower_bound":0,
-"upper_bound":1000.0,
-"gene_reaction_rule":"BSU06370",
-"notes":{
-"reflection":"XANt2_reverse"
-},
-"annotation":{
-"bigg.reaction":"XANt2"
-}
-},
-{
-"id":"XANt2_num4",
-"name":"Xanthine/uracil/thiamine/ascorbate permease family protein;xanthine permease(BSU22060);Xanthine permease(BSU32430);Xanthine permease(BSU32440);Xanthine permease(BSU37940)",
-"metabolites":{
-"h_c":1.0,
-"h_e":-1.0,
-"xan_c":1.0,
-"xan_e":-1.0
-},
-"lower_bound":0,
-"upper_bound":1000.0,
-"gene_reaction_rule":"BSU29990",
-"notes":{
-"reflection":"XANt2_reverse"
-},
-"annotation":{
-"bigg.reaction":"XANt2"
-}
-},
-{
-"id":"XANt2_num5",
-"name":"Xanthine/uracil/thiamine/ascorbate permease family protein;xanthine permease(BSU22060);Xanthine permease(BSU32430);Xanthine permease(BSU32440);Xanthine permease(BSU37940)",
-"metabolites":{
-"h_c":1.0,
-"h_e":-1.0,
-"xan_c":1.0,
-"xan_e":-1.0
-},
-"lower_bound":0,
-"upper_bound":1000.0,
-"gene_reaction_rule":"BSU37940",
-"notes":{
-"reflection":"XANt2_reverse"
-},
-"annotation":{
-"bigg.reaction":"XANt2"
-}
-},
-{
 "id":"GUAt2r_num2",
 "name":"Cytosine/purine/uracil/thiamine/allantoin permease family protein;Purine-cytosine permease(BSU38710)",
 "metabolites":{
@@ -63179,44 +63011,6 @@
 }
 },
 {
-"id":"METabc_num2",
-"name":"Methionine ABC transporter ATP-binding protein;ABC transporter, ATP-binding protein(BSU09070);ABC transporter, ATP-binding protein(BSU09080);Methionine ABC transporter substrate-binding protein(BSU09110);ABC transporter, permease protein(BSU30410);ABC transporter, ATP-binding protein(BSU30450);Methionine ABC transporter substrate-binding protein(BSU32730);Methionine ABC transporter permease protein(BSU32740)",
-"metabolites":{
-"adp_c":1.0,
-"atp_c":-1.0,
-"h2o_c":-1.0,
-"h_c":1.0,
-"met__L_c":1.0,
-"met__L_e":-1.0,
-"pi_c":1.0
-},
-"lower_bound":0.0,
-"upper_bound":1000.0,
-"gene_reaction_rule":"BSU09070 and BSU09080 and BSU09110",
-"annotation":{
-"bigg.reaction":"METabc"
-}
-},
-{
-"id":"METabc_num3",
-"name":"Methionine ABC transporter ATP-binding protein;ABC transporter, ATP-binding protein(BSU09070);ABC transporter, ATP-binding protein(BSU09080);Methionine ABC transporter substrate-binding protein(BSU09110);ABC transporter, permease protein(BSU30410);ABC transporter, ATP-binding protein(BSU30450);Methionine ABC transporter substrate-binding protein(BSU32730);Methionine ABC transporter permease protein(BSU32740)",
-"metabolites":{
-"adp_c":1.0,
-"atp_c":-1.0,
-"h2o_c":-1.0,
-"h_c":1.0,
-"met__L_c":1.0,
-"met__L_e":-1.0,
-"pi_c":1.0
-},
-"lower_bound":0.0,
-"upper_bound":1000.0,
-"gene_reaction_rule":"BSU30410 and BSU30420 and BSU30450",
-"annotation":{
-"bigg.reaction":"METabc"
-}
-},
-{
 "id":"PROt4_num2",
 "name":"Proline/sodium symporter PutP (TC 2.A.21.2.1)|Propionate/sodium symporter;Sodium/proline symporter(BSU06660)",
 "metabolites":{
@@ -63249,74 +63043,6 @@
 "gene_reaction_rule":"BSU32030",
 "annotation":{
 "bigg.reaction":"rxn05223"
-}
-},
-{
-"id":"GLCpts_num2",
-"name":"PTS system, glucose-specific IIBC component (EC 2.7.1.69);PTS system, maltose and glucose-specific IIB component (EC 2.7.1.69)|PTS system, maltose and glucose-specific IIC component (EC 2.7.1.69)(BSU08200);Phosphoenolpyruvate-protein phosphotransferase of PTS system (EC 2.7.3.9)(BSU13910);PTS system, glucose-specific IIA component (EC 2.7.1.69)|PTS system, glucose-specific IIB component (EC 2.7.1.69)|PTS system, glucose-specific IIC component (EC 2.7.1.69)(BSU13890);PTS system, glucose-specific IIA component(BSU22230);Phosphocarrier protein of PTS system(BSU13900)",
-"metabolites":{
-"g6p_A_c":1.0,
-"glc__D_e":-1.0,
-"pep_c":-1.0,
-"pyr_c":1.0
-},
-"lower_bound":0.0,
-"upper_bound":1000.0,
-"gene_reaction_rule":"BSU08200 and BSU13900 and BSU13910",
-"annotation":{
-"bigg.reaction":"GLCpts",
-"ec-code":"2.7.3.9"
-}
-},
-{
-"id":"GLCpts_num3",
-"name":"PTS system, glucose-specific IIBC component (EC 2.7.1.69);PTS system, maltose and glucose-specific IIB component (EC 2.7.1.69)|PTS system, maltose and glucose-specific IIC component (EC 2.7.1.69)(BSU08200);Phosphoenolpyruvate-protein phosphotransferase of PTS system (EC 2.7.3.9)(BSU13910);PTS system, glucose-specific IIA component (EC 2.7.1.69)|PTS system, glucose-specific IIB component (EC 2.7.1.69)|PTS system, glucose-specific IIC component (EC 2.7.1.69)(BSU13890);PTS system, glucose-specific IIA component(BSU22230);Phosphocarrier protein of PTS system(BSU13900)",
-"metabolites":{
-"g6p_A_c":1.0,
-"glc__D_e":-1.0,
-"pep_c":-1.0,
-"pyr_c":1.0
-},
-"lower_bound":0.0,
-"upper_bound":1000.0,
-"gene_reaction_rule":"BSU01680 and BSU13900 and BSU13910",
-"annotation":{
-"bigg.reaction":"GLCpts",
-"ec-code":"2.7.3.9"
-}
-},
-{
-"id":"GLCpts_num4",
-"name":"PTS system, glucose-specific IIBC component (EC 2.7.1.69);PTS system, maltose and glucose-specific IIB component (EC 2.7.1.69)|PTS system, maltose and glucose-specific IIC component (EC 2.7.1.69)(BSU08200);Phosphoenolpyruvate-protein phosphotransferase of PTS system (EC 2.7.3.9)(BSU13910);PTS system, glucose-specific IIA component (EC 2.7.1.69)|PTS system, glucose-specific IIB component (EC 2.7.1.69)|PTS system, glucose-specific IIC component (EC 2.7.1.69)(BSU13890);PTS system, glucose-specific IIA component(BSU22230);Phosphocarrier protein of PTS system(BSU13900)",
-"metabolites":{
-"g6p_A_c":1.0,
-"glc__D_e":-1.0,
-"pep_c":-1.0,
-"pyr_c":1.0
-},
-"lower_bound":0.0,
-"upper_bound":1000.0,
-"gene_reaction_rule":"BSU40120 and BSU13900 and BSU13910",
-"annotation":{
-"bigg.reaction":"GLCpts",
-"ec-code":"2.7.3.9"
-}
-},
-{
-"id":"GLCpts_num5",
-"name":"PTS system, glucose-specific IIBC component (EC 2.7.1.69);PTS system, maltose and glucose-specific IIB component (EC 2.7.1.69)|PTS system, maltose and glucose-specific IIC component (EC 2.7.1.69)(BSU08200);Phosphoenolpyruvate-protein phosphotransferase of PTS system (EC 2.7.3.9)(BSU13910);PTS system, glucose-specific IIA component (EC 2.7.1.69)|PTS system, glucose-specific IIB component (EC 2.7.1.69)|PTS system, glucose-specific IIC component (EC 2.7.1.69)(BSU13890);PTS system, glucose-specific IIA component(BSU22230);Phosphocarrier protein of PTS system(BSU13900)",
-"metabolites":{
-"g6p_A_c":1.0,
-"glc__D_e":-1.0,
-"pep_c":-1.0,
-"pyr_c":1.0
-},
-"lower_bound":0.0,
-"upper_bound":1000.0,
-"gene_reaction_rule":"BSU22230 and BSU13900 and BSU13910",
-"annotation":{
-"bigg.reaction":"GLCpts",
-"ec-code":"2.7.3.9"
 }
 },
 {
@@ -63374,7 +63100,10 @@
 "gene_reaction_rule":"BSU28560",
 "annotation":{
 "bigg.reaction":"rxn05247",
-"ec-code":"6.2.1.16"
+"ec-code":[
+"6.2.1.3",
+"6.2.1.16"
+]
 }
 },
 {
@@ -63394,7 +63123,10 @@
 "gene_reaction_rule":"BSU18250",
 "annotation":{
 "bigg.reaction":"rxn05247",
-"ec-code":"6.2.1.16"
+"ec-code":[
+"6.2.1.3",
+"6.2.1.16"
+]
 }
 },
 {
@@ -63411,10 +63143,59 @@
 },
 "lower_bound":0.0,
 "upper_bound":1000.0,
+"gene_reaction_rule":"BSU10360",
+"annotation":{
+"bigg.reaction":"rxn05247",
+"ec-code":[
+"6.2.1.3",
+"6.2.1.16"
+]
+}
+},
+{
+"id":"rxn05247_num5",
+"name":"Long-chain-fatty-acid--CoA ligase (EC 6.2.1.3);Acetoacetyl-CoA synthetase [leucine] (EC 6.2.1.16)|Long-chain-fatty-acid--CoA ligase (EC 6.2.1.3)(BSU18250)",
+"metabolites":{
+"amp_c":1.0,
+"atp_c":-1.0,
+"coa_c":-1.0,
+"fa1_c":-1.0,
+"fa1coa_c":1.0,
+"h_c":-1.0,
+"ppi_c":1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
 "gene_reaction_rule":"BSU17180",
 "annotation":{
 "bigg.reaction":"rxn05247",
-"ec-code":"6.2.1.16"
+"ec-code":[
+"6.2.1.3",
+"6.2.1.16"
+]
+}
+},
+{
+"id":"rxn05247_num6",
+"name":"Long-chain-fatty-acid--CoA ligase (EC 6.2.1.3);Acetoacetyl-CoA synthetase [leucine] (EC 6.2.1.16)|Long-chain-fatty-acid--CoA ligase (EC 6.2.1.3)(BSU18250)",
+"metabolites":{
+"amp_c":1.0,
+"atp_c":-1.0,
+"coa_c":-1.0,
+"fa1_c":-1.0,
+"fa1coa_c":1.0,
+"h_c":-1.0,
+"ppi_c":1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"BSU04170",
+"annotation":{
+"bigg.reaction":"rxn05247",
+"ec-code":[
+"6.2.1.3",
+"6.2.1.16"
+]
 }
 },
 {
@@ -63434,7 +63215,10 @@
 "gene_reaction_rule":"BSU28560",
 "annotation":{
 "bigg.reaction":"rxn05248",
-"ec-code":"6.2.1.16"
+"ec-code":[
+"6.2.1.3",
+"6.2.1.16"
+]
 }
 },
 {
@@ -63454,7 +63238,10 @@
 "gene_reaction_rule":"BSU18250",
 "annotation":{
 "bigg.reaction":"rxn05248",
-"ec-code":"6.2.1.16"
+"ec-code":[
+"6.2.1.3",
+"6.2.1.16"
+]
 }
 },
 {
@@ -63471,10 +63258,59 @@
 },
 "lower_bound":0.0,
 "upper_bound":1000.0,
+"gene_reaction_rule":"BSU10360",
+"annotation":{
+"bigg.reaction":"rxn05248",
+"ec-code":[
+"6.2.1.3",
+"6.2.1.16"
+]
+}
+},
+{
+"id":"rxn05248_num5",
+"name":"Long-chain-fatty-acid--CoA ligase (EC 6.2.1.3);Acetoacetyl-CoA synthetase [leucine] (EC 6.2.1.16)|Long-chain-fatty-acid--CoA ligase (EC 6.2.1.3)(BSU18250)",
+"metabolites":{
+"amp_c":1.0,
+"atp_c":-1.0,
+"coa_c":-1.0,
+"fa4_c":-1.0,
+"fa4coa_c":1.0,
+"h_c":-1.0,
+"ppi_c":1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
 "gene_reaction_rule":"BSU17180",
 "annotation":{
 "bigg.reaction":"rxn05248",
-"ec-code":"6.2.1.16"
+"ec-code":[
+"6.2.1.3",
+"6.2.1.16"
+]
+}
+},
+{
+"id":"rxn05248_num6",
+"name":"Long-chain-fatty-acid--CoA ligase (EC 6.2.1.3);Acetoacetyl-CoA synthetase [leucine] (EC 6.2.1.16)|Long-chain-fatty-acid--CoA ligase (EC 6.2.1.3)(BSU18250)",
+"metabolites":{
+"amp_c":1.0,
+"atp_c":-1.0,
+"coa_c":-1.0,
+"fa4_c":-1.0,
+"fa4coa_c":1.0,
+"h_c":-1.0,
+"ppi_c":1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"BSU04170",
+"annotation":{
+"bigg.reaction":"rxn05248",
+"ec-code":[
+"6.2.1.3",
+"6.2.1.16"
+]
 }
 },
 {
@@ -63494,7 +63330,10 @@
 "gene_reaction_rule":"BSU28560",
 "annotation":{
 "bigg.reaction":"rxn05249",
-"ec-code":"6.2.1.16"
+"ec-code":[
+"6.2.1.3",
+"6.2.1.16"
+]
 }
 },
 {
@@ -63514,7 +63353,10 @@
 "gene_reaction_rule":"BSU18250",
 "annotation":{
 "bigg.reaction":"rxn05249",
-"ec-code":"6.2.1.16"
+"ec-code":[
+"6.2.1.3",
+"6.2.1.16"
+]
 }
 },
 {
@@ -63531,10 +63373,59 @@
 },
 "lower_bound":0.0,
 "upper_bound":1000.0,
+"gene_reaction_rule":"BSU10360",
+"annotation":{
+"bigg.reaction":"rxn05249",
+"ec-code":[
+"6.2.1.3",
+"6.2.1.16"
+]
+}
+},
+{
+"id":"rxn05249_num5",
+"name":"Long-chain-fatty-acid--CoA ligase (EC 6.2.1.3);Acetoacetyl-CoA synthetase [leucine] (EC 6.2.1.16)|Long-chain-fatty-acid--CoA ligase (EC 6.2.1.3)(BSU18250)",
+"metabolites":{
+"amp_c":1.0,
+"atp_c":-1.0,
+"coa_c":-1.0,
+"fa3_c":-1.0,
+"fa3coa_c":1.0,
+"h_c":-1.0,
+"ppi_c":1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
 "gene_reaction_rule":"BSU17180",
 "annotation":{
 "bigg.reaction":"rxn05249",
-"ec-code":"6.2.1.16"
+"ec-code":[
+"6.2.1.3",
+"6.2.1.16"
+]
+}
+},
+{
+"id":"rxn05249_num6",
+"name":"Long-chain-fatty-acid--CoA ligase (EC 6.2.1.3);Acetoacetyl-CoA synthetase [leucine] (EC 6.2.1.16)|Long-chain-fatty-acid--CoA ligase (EC 6.2.1.3)(BSU18250)",
+"metabolites":{
+"amp_c":1.0,
+"atp_c":-1.0,
+"coa_c":-1.0,
+"fa3_c":-1.0,
+"fa3coa_c":1.0,
+"h_c":-1.0,
+"ppi_c":1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"BSU04170",
+"annotation":{
+"bigg.reaction":"rxn05249",
+"ec-code":[
+"6.2.1.3",
+"6.2.1.16"
+]
 }
 },
 {
@@ -63554,7 +63445,10 @@
 "gene_reaction_rule":"BSU28560",
 "annotation":{
 "bigg.reaction":"rxn05250",
-"ec-code":"6.2.1.16"
+"ec-code":[
+"6.2.1.3",
+"6.2.1.16"
+]
 }
 },
 {
@@ -63574,7 +63468,10 @@
 "gene_reaction_rule":"BSU18250",
 "annotation":{
 "bigg.reaction":"rxn05250",
-"ec-code":"6.2.1.16"
+"ec-code":[
+"6.2.1.3",
+"6.2.1.16"
+]
 }
 },
 {
@@ -63591,10 +63488,59 @@
 },
 "lower_bound":0.0,
 "upper_bound":1000.0,
+"gene_reaction_rule":"BSU10360",
+"annotation":{
+"bigg.reaction":"rxn05250",
+"ec-code":[
+"6.2.1.3",
+"6.2.1.16"
+]
+}
+},
+{
+"id":"rxn05250_num5",
+"name":"Long-chain-fatty-acid--CoA ligase (EC 6.2.1.3);Acetoacetyl-CoA synthetase [leucine] (EC 6.2.1.16)|Long-chain-fatty-acid--CoA ligase (EC 6.2.1.3)(BSU18250)",
+"metabolites":{
+"amp_c":1.0,
+"atp_c":-1.0,
+"coa_c":-1.0,
+"fa6_c":-1.0,
+"fa6coa_c":1.0,
+"h_c":-1.0,
+"ppi_c":1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
 "gene_reaction_rule":"BSU17180",
 "annotation":{
 "bigg.reaction":"rxn05250",
-"ec-code":"6.2.1.16"
+"ec-code":[
+"6.2.1.3",
+"6.2.1.16"
+]
+}
+},
+{
+"id":"rxn05250_num6",
+"name":"Long-chain-fatty-acid--CoA ligase (EC 6.2.1.3);Acetoacetyl-CoA synthetase [leucine] (EC 6.2.1.16)|Long-chain-fatty-acid--CoA ligase (EC 6.2.1.3)(BSU18250)",
+"metabolites":{
+"amp_c":1.0,
+"atp_c":-1.0,
+"coa_c":-1.0,
+"fa6_c":-1.0,
+"fa6coa_c":1.0,
+"h_c":-1.0,
+"ppi_c":1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"BSU04170",
+"annotation":{
+"bigg.reaction":"rxn05250",
+"ec-code":[
+"6.2.1.3",
+"6.2.1.16"
+]
 }
 },
 {
@@ -63614,7 +63560,10 @@
 "gene_reaction_rule":"BSU28560",
 "annotation":{
 "bigg.reaction":"rxn05251",
-"ec-code":"6.2.1.16"
+"ec-code":[
+"6.2.1.3",
+"6.2.1.16"
+]
 }
 },
 {
@@ -63634,7 +63583,10 @@
 "gene_reaction_rule":"BSU18250",
 "annotation":{
 "bigg.reaction":"rxn05251",
-"ec-code":"6.2.1.16"
+"ec-code":[
+"6.2.1.3",
+"6.2.1.16"
+]
 }
 },
 {
@@ -63651,10 +63603,59 @@
 },
 "lower_bound":0.0,
 "upper_bound":1000.0,
+"gene_reaction_rule":"BSU10360",
+"annotation":{
+"bigg.reaction":"rxn05251",
+"ec-code":[
+"6.2.1.3",
+"6.2.1.16"
+]
+}
+},
+{
+"id":"rxn05251_num5",
+"name":"Long-chain-fatty-acid--CoA ligase (EC 6.2.1.3);Acetoacetyl-CoA synthetase [leucine] (EC 6.2.1.16)|Long-chain-fatty-acid--CoA ligase (EC 6.2.1.3)(BSU18250)",
+"metabolites":{
+"amp_c":1.0,
+"atp_c":-1.0,
+"coa_c":-1.0,
+"fa12_c":-1.0,
+"fa12coa_c":1.0,
+"h_c":-1.0,
+"ppi_c":1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
 "gene_reaction_rule":"BSU17180",
 "annotation":{
 "bigg.reaction":"rxn05251",
-"ec-code":"6.2.1.16"
+"ec-code":[
+"6.2.1.3",
+"6.2.1.16"
+]
+}
+},
+{
+"id":"rxn05251_num6",
+"name":"Long-chain-fatty-acid--CoA ligase (EC 6.2.1.3);Acetoacetyl-CoA synthetase [leucine] (EC 6.2.1.16)|Long-chain-fatty-acid--CoA ligase (EC 6.2.1.3)(BSU18250)",
+"metabolites":{
+"amp_c":1.0,
+"atp_c":-1.0,
+"coa_c":-1.0,
+"fa12_c":-1.0,
+"fa12coa_c":1.0,
+"h_c":-1.0,
+"ppi_c":1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"BSU04170",
+"annotation":{
+"bigg.reaction":"rxn05251",
+"ec-code":[
+"6.2.1.3",
+"6.2.1.16"
+]
 }
 },
 {
@@ -63674,7 +63675,10 @@
 "gene_reaction_rule":"BSU28560",
 "annotation":{
 "bigg.reaction":"rxn05252",
-"ec-code":"6.2.1.16"
+"ec-code":[
+"6.2.1.3",
+"6.2.1.16"
+]
 }
 },
 {
@@ -63694,7 +63698,10 @@
 "gene_reaction_rule":"BSU18250",
 "annotation":{
 "bigg.reaction":"rxn05252",
-"ec-code":"6.2.1.16"
+"ec-code":[
+"6.2.1.3",
+"6.2.1.16"
+]
 }
 },
 {
@@ -63711,10 +63718,59 @@
 },
 "lower_bound":0.0,
 "upper_bound":1000.0,
+"gene_reaction_rule":"BSU10360",
+"annotation":{
+"bigg.reaction":"rxn05252",
+"ec-code":[
+"6.2.1.3",
+"6.2.1.16"
+]
+}
+},
+{
+"id":"rxn05252_num5",
+"name":"Long-chain-fatty-acid--CoA ligase (EC 6.2.1.3);Acetoacetyl-CoA synthetase [leucine] (EC 6.2.1.16)|Long-chain-fatty-acid--CoA ligase (EC 6.2.1.3)(BSU18250)",
+"metabolites":{
+"amp_c":1.0,
+"atp_c":-1.0,
+"coa_c":-1.0,
+"fa11_c":-1.0,
+"fa11coa_c":1.0,
+"h_c":-1.0,
+"ppi_c":1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
 "gene_reaction_rule":"BSU17180",
 "annotation":{
 "bigg.reaction":"rxn05252",
-"ec-code":"6.2.1.16"
+"ec-code":[
+"6.2.1.3",
+"6.2.1.16"
+]
+}
+},
+{
+"id":"rxn05252_num6",
+"name":"Long-chain-fatty-acid--CoA ligase (EC 6.2.1.3);Acetoacetyl-CoA synthetase [leucine] (EC 6.2.1.16)|Long-chain-fatty-acid--CoA ligase (EC 6.2.1.3)(BSU18250)",
+"metabolites":{
+"amp_c":1.0,
+"atp_c":-1.0,
+"coa_c":-1.0,
+"fa11_c":-1.0,
+"fa11coa_c":1.0,
+"h_c":-1.0,
+"ppi_c":1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"BSU04170",
+"annotation":{
+"bigg.reaction":"rxn05252",
+"ec-code":[
+"6.2.1.3",
+"6.2.1.16"
+]
 }
 },
 {
@@ -63736,7 +63792,15 @@
 },
 "annotation":{
 "bigg.reaction":"rxn05294",
-"ec-code":"3.6.1.-"
+"ec-code":[
+"2.1.1.37",
+"6.5.1.2",
+"5.99.1.2",
+"2.7.7.7",
+"5.99.1.-",
+"2.7.7.-",
+"3.6.1.-"
+]
 }
 },
 {
@@ -65538,41 +65602,11 @@
 "gene_reaction_rule":"BSU33490",
 "annotation":{
 "bigg.reaction":"CD2abc",
-"ec-code":"3.6.3.5"
-}
-},
-{
-"id":"CELBpts_num2",
-"name":"PTS system, cellobiose-specific IIB component (EC 2.7.1.69);PTS system, cellobiose-specific IIB component (EC 2.7.1.69)|PTS system, lichenan-, cellobiose-specific IIB component (EC 2.7.1.69)(BSU38590);PTS system, cellobiose-specific IIA component (EC 2.7.1.69)(BSU05820);PTS system, cellobiose-specific IIA component (EC 2.7.1.69)(BSU38570);PTS system, cellobiose-specific IIC component (EC 2.7.1.69)(BSU05830);PTS system, cellobiose-specific IIC component (EC 2.7.1.69)(BSU38390);PTS system, cellobiose-specific IIC component (EC 2.7.1.69)(BSU38580)",
-"metabolites":{
-"6pgg_c":1.0,
-"cellb_e":-1.0,
-"pep_c":-1.0,
-"pyr_c":1.0
-},
-"lower_bound":0.0,
-"upper_bound":1000.0,
-"gene_reaction_rule":"BSU38570 and BSU38580 and BSU38590",
-"annotation":{
-"bigg.reaction":"CELBpts",
-"ec-code":"2.7.1.69"
-}
-},
-{
-"id":"CELBpts_num3",
-"name":"PTS system, cellobiose-specific IIB component (EC 2.7.1.69);PTS system, cellobiose-specific IIB component (EC 2.7.1.69)|PTS system, lichenan-, cellobiose-specific IIB component (EC 2.7.1.69)(BSU38590);PTS system, cellobiose-specific IIA component (EC 2.7.1.69)(BSU05820);PTS system, cellobiose-specific IIA component (EC 2.7.1.69)(BSU38570);PTS system, cellobiose-specific IIC component (EC 2.7.1.69)(BSU05830);PTS system, cellobiose-specific IIC component (EC 2.7.1.69)(BSU38390);PTS system, cellobiose-specific IIC component (EC 2.7.1.69)(BSU38580)",
-"metabolites":{
-"6pgg_c":1.0,
-"cellb_e":-1.0,
-"pep_c":-1.0,
-"pyr_c":1.0
-},
-"lower_bound":0.0,
-"upper_bound":1000.0,
-"gene_reaction_rule":"BSU05810 and BSU05820 and BSU05830",
-"annotation":{
-"bigg.reaction":"CELBpts",
-"ec-code":"2.7.1.69"
+"ec-code":[
+"7.2.2.9",
+"7.2.2.21",
+"7.2.2.12"
+]
 }
 },
 {
@@ -65627,47 +65661,7 @@
 "gene_reaction_rule":"BSU33500",
 "annotation":{
 "bigg.reaction":"Cut1",
-"ec-code":"3.6.3.4"
-}
-},
-{
-"id":"FE2abc_num2",
-"name":"Iron compound ABC uptake transporter ATP-binding protein;component of iron-uptake system(BSU01610);component of iron-uptake system(BSU01620);component of iron-uptake system(BSU01630);Iron compound ABC uptake transporter permease protein(BSU03800);Iron compound ABC uptake transporter permease protein(BSU03810);Iron compound ABC uptake transporter substrate-binding protein(BSU03830)",
-"metabolites":{
-"adp_c":1.0,
-"atp_c":-1.0,
-"fe2_c":1.0,
-"fe2_e":-1.0,
-"h2o_c":-1.0,
-"h_c":1.0,
-"pi_c":1.0
-},
-"lower_bound":0.0,
-"upper_bound":1000.0,
-"gene_reaction_rule":"BSU03800 and BSU03810 and BSU03820 and BSU03830",
-"annotation":{
-"bigg.reaction":"FE2abc"
-}
-},
-{
-"id":"FEDCabc_num2",
-"name":"Iron(III) dicitrate transport ATP-binding protein FecE (TC 3.A.1.14.1);Iron(III) dicitrate transport system, periplasmic iron-binding protein FecB (TC 3.A.1.14.1)(BSU08440);Iron(III) dicitrate transport system permease protein fecD (TC 3.A.1.14.1)(BSU08450);Iron(III) dicitrate transport system permease protein fecD (TC 3.A.1.14.1)(BSU08460)",
-"metabolites":{
-"adp_c":1.0,
-"atp_c":-1.0,
-"cit_c":2.0,
-"cit_e":-2.0,
-"fe3_c":1.0,
-"fe3_e":-1.0,
-"h2o_c":-1.0,
-"h_c":1.0,
-"pi_c":1.0
-},
-"lower_bound":0.0,
-"upper_bound":1000.0,
-"gene_reaction_rule":"BSU32940",
-"annotation":{
-"bigg.reaction":"FEDCabc"
+"ec-code":"7.2.2.9"
 }
 },
 {
@@ -65687,23 +65681,6 @@
 },
 "annotation":{
 "bigg.reaction":"FORt2"
-}
-},
-{
-"id":"FRUptspp_num2",
-"name":"PTS system, fructose-specific IIB component (EC 2.7.1.69);PTS system, fructose-specific IIA component (EC 2.7.1.69)|PTS system, fructose-specific IIB component (EC 2.7.1.69)|PTS system, fructose-specific IIC component (EC 2.7.1.69)(BSU14400);PTS system, fructose-specific IIA component (EC 2.7.1.69)(BSU27070);Phosphocarrier protein of PTS system(BSU13900);PTS system, fructose-specific IID component (EC 2.7.1.69)(BSU27040);PTS system, fructose-specific IIC component (EC 2.7.1.69)(BSU27050)",
-"metabolites":{
-"f1p_c":1.0,
-"fru_e":-1.0,
-"pep_c":-1.0,
-"pyr_c":1.0
-},
-"lower_bound":0.0,
-"upper_bound":1000.0,
-"gene_reaction_rule":"BSU13900 and BSU27040 and BSU27050 and BSU27060 and BSU27070",
-"annotation":{
-"bigg.reaction":"FRUptspp",
-"ec-code":"2.7.1.69"
 }
 },
 {
@@ -65818,25 +65795,6 @@
 }
 },
 {
-"id":"LCTSabc_num2",
-"name":"Predicted rhamnose oligosaccharide ABC transport system, substrate-binding component;Predicted rhamnose oligosaccharide ABC transport system, permease component 2(BSU06980);Predicted rhamnose oligosaccharide ABC transport system, permease component(BSU06990);ABC-type polysaccharide transport system, permease component(BSU07110)",
-"metabolites":{
-"adp_c":1.0,
-"atp_c":-1.0,
-"h2o_c":-1.0,
-"h_c":1.0,
-"lcts_c":1.0,
-"lcts_e":-1.0,
-"pi_c":1.0
-},
-"lower_bound":0.0,
-"upper_bound":1000.0,
-"gene_reaction_rule":"BSU07110",
-"annotation":{
-"bigg.reaction":"LCTSabc"
-}
-},
-{
 "id":"L_LACt2r_num2",
 "name":"L-lactate permease",
 "metabolites":{
@@ -65866,26 +65824,7 @@
 },
 "lower_bound":0,
 "upper_bound":1000.0,
-"gene_reaction_rule":"BSU37040",
-"notes":{
-"reflection":"MAL_Dt2_reverse"
-},
-"annotation":{
-"bigg.reaction":"MAL_Dt2"
-}
-},
-{
-"id":"MAL_Dt2_num3",
-"name":"TRAP-type C4-dicarboxylate transport system, periplasmic component;C4-dicarboxylate transport protein(BSU04470);2-oxoglutarate/malate translocator(BSU07570);Malate permease(BSU37040)",
-"metabolites":{
-"h_c":1.0,
-"h_e":-1.0,
-"mal__D_c":1.0,
-"mal__D_e":-1.0
-},
-"lower_bound":0,
-"upper_bound":1000.0,
-"gene_reaction_rule":"BSU04440 and BSU04470",
+"gene_reaction_rule":"BSU07570",
 "notes":{
 "reflection":"MAL_Dt2_reverse"
 },
@@ -65905,44 +65844,6 @@
 "lower_bound":0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"BSU07570",
-"notes":{
-"reflection":"MALt2r_reverse"
-},
-"annotation":{
-"bigg.reaction":"MALt2r"
-}
-},
-{
-"id":"MALt2r_num3",
-"name":"TRAP-type C4-dicarboxylate transport system, periplasmic component;C4-dicarboxylate transport protein(BSU04470);2-oxoglutarate/malate translocator(BSU07570);Malate permease(BSU37040);L-Malate Citrate symporter (TC 2.A.24.2.4)(BSU38770)",
-"metabolites":{
-"h_c":1.0,
-"h_e":-1.0,
-"mal__L_c":1.0,
-"mal__L_e":-1.0
-},
-"lower_bound":0,
-"upper_bound":1000.0,
-"gene_reaction_rule":"BSU37040",
-"notes":{
-"reflection":"MALt2r_reverse"
-},
-"annotation":{
-"bigg.reaction":"MALt2r"
-}
-},
-{
-"id":"MALt2r_num4",
-"name":"TRAP-type C4-dicarboxylate transport system, periplasmic component;C4-dicarboxylate transport protein(BSU04470);2-oxoglutarate/malate translocator(BSU07570);Malate permease(BSU37040);L-Malate Citrate symporter (TC 2.A.24.2.4)(BSU38770)",
-"metabolites":{
-"h_c":1.0,
-"h_e":-1.0,
-"mal__L_c":1.0,
-"mal__L_e":-1.0
-},
-"lower_bound":0,
-"upper_bound":1000.0,
-"gene_reaction_rule":"BSU04440 and BSU04470",
 "notes":{
 "reflection":"MALt2r_reverse"
 },
@@ -66033,25 +65934,6 @@
 },
 "annotation":{
 "bigg.reaction":"URATEtm"
-}
-},
-{
-"id":"RMNt_num2",
-"name":"Predicted rhamnose oligosaccharide ABC transport system, substrate-binding component;Predicted rhamnose oligosaccharide ABC transport system, permease component 2(BSU06980);Predicted rhamnose oligosaccharide ABC transport system, permease component(BSU06990);ABC-type polysaccharide transport system, permease component(BSU07110)",
-"metabolites":{
-"h_c":1.0,
-"h_e":-1.0,
-"rmn_c":1.0,
-"rmn_e":-1.0
-},
-"lower_bound":0,
-"upper_bound":1000.0,
-"gene_reaction_rule":"BSU07110",
-"notes":{
-"reflection":"RMNt_reverse"
-},
-"annotation":{
-"bigg.reaction":"RMNt"
 }
 },
 {
@@ -66164,7 +66046,7 @@
 "gene_reaction_rule":"BSU32820",
 "annotation":{
 "bigg.reaction":"ACOAD7",
-"ec-code":"1.3.99.2"
+"ec-code":"1.3.8.1"
 }
 },
 {
@@ -66182,7 +66064,7 @@
 "gene_reaction_rule":"BSU04520",
 "annotation":{
 "bigg.reaction":"ACOAD7",
-"ec-code":"1.3.99.2"
+"ec-code":"1.3.8.1"
 }
 },
 {
@@ -66375,10 +66257,13 @@
 },
 "lower_bound":0.0,
 "upper_bound":1000.0,
-"gene_reaction_rule":"BSU28560",
+"gene_reaction_rule":"BSU10360",
 "annotation":{
 "bigg.reaction":"FACOAL140",
-"ec-code":"6.2.1.16"
+"ec-code":[
+"6.2.1.3",
+"6.2.1.16"
+]
 }
 },
 {
@@ -66395,10 +66280,13 @@
 },
 "lower_bound":0.0,
 "upper_bound":1000.0,
-"gene_reaction_rule":"BSU18250",
+"gene_reaction_rule":"BSU28560",
 "annotation":{
 "bigg.reaction":"FACOAL140",
-"ec-code":"6.2.1.16"
+"ec-code":[
+"6.2.1.3",
+"6.2.1.16"
+]
 }
 },
 {
@@ -66415,10 +66303,59 @@
 },
 "lower_bound":0.0,
 "upper_bound":1000.0,
+"gene_reaction_rule":"BSU18250",
+"annotation":{
+"bigg.reaction":"FACOAL140",
+"ec-code":[
+"6.2.1.3",
+"6.2.1.16"
+]
+}
+},
+{
+"id":"FACOAL140_num5",
+"name":"Long-chain-fatty-acid--CoA ligase (EC 6.2.1.3);Acetoacetyl-CoA synthetase [leucine] (EC 6.2.1.16)|Long-chain-fatty-acid--CoA ligase (EC 6.2.1.3)(BSU18250)",
+"metabolites":{
+"amp_c":1.0,
+"atp_c":-1.0,
+"coa_c":-1.0,
+"h_c":-1.0,
+"ppi_c":1.0,
+"tdcoa_c":1.0,
+"tetdecacid_c":-1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
 "gene_reaction_rule":"BSU17180",
 "annotation":{
 "bigg.reaction":"FACOAL140",
-"ec-code":"6.2.1.16"
+"ec-code":[
+"6.2.1.3",
+"6.2.1.16"
+]
+}
+},
+{
+"id":"FACOAL140_num6",
+"name":"Long-chain-fatty-acid--CoA ligase (EC 6.2.1.3);Acetoacetyl-CoA synthetase [leucine] (EC 6.2.1.16)|Long-chain-fatty-acid--CoA ligase (EC 6.2.1.3)(BSU18250)",
+"metabolites":{
+"amp_c":1.0,
+"atp_c":-1.0,
+"coa_c":-1.0,
+"h_c":-1.0,
+"ppi_c":1.0,
+"tdcoa_c":1.0,
+"tetdecacid_c":-1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"BSU04170",
+"annotation":{
+"bigg.reaction":"FACOAL140",
+"ec-code":[
+"6.2.1.3",
+"6.2.1.16"
+]
 }
 },
 {
@@ -66438,7 +66375,10 @@
 },
 "annotation":{
 "bigg.reaction":"MLTG1",
-"ec-code":"3.2.1.135"
+"ec-code":[
+"3.2.1.10",
+"3.2.1.135"
+]
 }
 },
 {
@@ -66627,7 +66567,10 @@
 "gene_reaction_rule":"BSU28560",
 "annotation":{
 "bigg.reaction":"FACOAL181",
-"ec-code":"6.2.1.16"
+"ec-code":[
+"6.2.1.3",
+"6.2.1.16"
+]
 }
 },
 {
@@ -66647,7 +66590,10 @@
 "gene_reaction_rule":"BSU18250",
 "annotation":{
 "bigg.reaction":"FACOAL181",
-"ec-code":"6.2.1.16"
+"ec-code":[
+"6.2.1.3",
+"6.2.1.16"
+]
 }
 },
 {
@@ -66664,10 +66610,59 @@
 },
 "lower_bound":0.0,
 "upper_bound":1000.0,
+"gene_reaction_rule":"BSU10360",
+"annotation":{
+"bigg.reaction":"FACOAL181",
+"ec-code":[
+"6.2.1.3",
+"6.2.1.16"
+]
+}
+},
+{
+"id":"FACOAL181_num5",
+"name":"Long-chain-fatty-acid--CoA ligase (EC 6.2.1.3);Acetoacetyl-CoA synthetase [leucine] (EC 6.2.1.16)|Long-chain-fatty-acid--CoA ligase (EC 6.2.1.3)(BSU18250)",
+"metabolites":{
+"amp_c":1.0,
+"atp_c":-1.0,
+"coa_c":-1.0,
+"h_c":-1.0,
+"ocdcea_c":-1.0,
+"odecoa_c":1.0,
+"ppi_c":1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
 "gene_reaction_rule":"BSU17180",
 "annotation":{
 "bigg.reaction":"FACOAL181",
-"ec-code":"6.2.1.16"
+"ec-code":[
+"6.2.1.3",
+"6.2.1.16"
+]
+}
+},
+{
+"id":"FACOAL181_num6",
+"name":"Long-chain-fatty-acid--CoA ligase (EC 6.2.1.3);Acetoacetyl-CoA synthetase [leucine] (EC 6.2.1.16)|Long-chain-fatty-acid--CoA ligase (EC 6.2.1.3)(BSU18250)",
+"metabolites":{
+"amp_c":1.0,
+"atp_c":-1.0,
+"coa_c":-1.0,
+"h_c":-1.0,
+"ocdcea_c":-1.0,
+"odecoa_c":1.0,
+"ppi_c":1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"BSU04170",
+"annotation":{
+"bigg.reaction":"FACOAL181",
+"ec-code":[
+"6.2.1.3",
+"6.2.1.16"
+]
 }
 },
 {
@@ -66687,7 +66682,10 @@
 "gene_reaction_rule":"BSU28560",
 "annotation":{
 "bigg.reaction":"FACOAL180",
-"ec-code":"6.2.1.16"
+"ec-code":[
+"6.2.1.3",
+"6.2.1.16"
+]
 }
 },
 {
@@ -66707,7 +66705,10 @@
 "gene_reaction_rule":"BSU18250",
 "annotation":{
 "bigg.reaction":"FACOAL180",
-"ec-code":"6.2.1.16"
+"ec-code":[
+"6.2.1.3",
+"6.2.1.16"
+]
 }
 },
 {
@@ -66724,10 +66725,59 @@
 },
 "lower_bound":0.0,
 "upper_bound":1000.0,
+"gene_reaction_rule":"BSU10360",
+"annotation":{
+"bigg.reaction":"FACOAL180",
+"ec-code":[
+"6.2.1.3",
+"6.2.1.16"
+]
+}
+},
+{
+"id":"FACOAL180_num5",
+"name":"Long-chain-fatty-acid--CoA ligase (EC 6.2.1.3);Acetoacetyl-CoA synthetase [leucine] (EC 6.2.1.16)|Long-chain-fatty-acid--CoA ligase (EC 6.2.1.3)(BSU18250)",
+"metabolites":{
+"amp_c":1.0,
+"atp_c":-1.0,
+"coa_c":-1.0,
+"h_c":-1.0,
+"ocdca_c":-1.0,
+"ppi_c":1.0,
+"strcoa_c":1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
 "gene_reaction_rule":"BSU17180",
 "annotation":{
 "bigg.reaction":"FACOAL180",
-"ec-code":"6.2.1.16"
+"ec-code":[
+"6.2.1.3",
+"6.2.1.16"
+]
+}
+},
+{
+"id":"FACOAL180_num6",
+"name":"Long-chain-fatty-acid--CoA ligase (EC 6.2.1.3);Acetoacetyl-CoA synthetase [leucine] (EC 6.2.1.16)|Long-chain-fatty-acid--CoA ligase (EC 6.2.1.3)(BSU18250)",
+"metabolites":{
+"amp_c":1.0,
+"atp_c":-1.0,
+"coa_c":-1.0,
+"h_c":-1.0,
+"ocdca_c":-1.0,
+"ppi_c":1.0,
+"strcoa_c":1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"BSU04170",
+"annotation":{
+"bigg.reaction":"FACOAL180",
+"ec-code":[
+"6.2.1.3",
+"6.2.1.16"
+]
 }
 },
 {
@@ -66747,7 +66797,10 @@
 "gene_reaction_rule":"BSU28560",
 "annotation":{
 "bigg.reaction":"FACOAL161",
-"ec-code":"6.2.1.16"
+"ec-code":[
+"6.2.1.3",
+"6.2.1.16"
+]
 }
 },
 {
@@ -66767,7 +66820,10 @@
 "gene_reaction_rule":"BSU18250",
 "annotation":{
 "bigg.reaction":"FACOAL161",
-"ec-code":"6.2.1.16"
+"ec-code":[
+"6.2.1.3",
+"6.2.1.16"
+]
 }
 },
 {
@@ -66784,10 +66840,59 @@
 },
 "lower_bound":0.0,
 "upper_bound":1000.0,
+"gene_reaction_rule":"BSU10360",
+"annotation":{
+"bigg.reaction":"FACOAL161",
+"ec-code":[
+"6.2.1.3",
+"6.2.1.16"
+]
+}
+},
+{
+"id":"FACOAL161_num5",
+"name":"Long-chain-fatty-acid--CoA ligase (EC 6.2.1.3);Acetoacetyl-CoA synthetase [leucine] (EC 6.2.1.16)|Long-chain-fatty-acid--CoA ligase (EC 6.2.1.3)(BSU18250)",
+"metabolites":{
+"amp_c":1.0,
+"atp_c":-1.0,
+"coa_c":-1.0,
+"h_c":-1.0,
+"hdcea_c":-1.0,
+"hdcoa_c":1.0,
+"ppi_c":1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
 "gene_reaction_rule":"BSU17180",
 "annotation":{
 "bigg.reaction":"FACOAL161",
-"ec-code":"6.2.1.16"
+"ec-code":[
+"6.2.1.3",
+"6.2.1.16"
+]
+}
+},
+{
+"id":"FACOAL161_num6",
+"name":"Long-chain-fatty-acid--CoA ligase (EC 6.2.1.3);Acetoacetyl-CoA synthetase [leucine] (EC 6.2.1.16)|Long-chain-fatty-acid--CoA ligase (EC 6.2.1.3)(BSU18250)",
+"metabolites":{
+"amp_c":1.0,
+"atp_c":-1.0,
+"coa_c":-1.0,
+"h_c":-1.0,
+"hdcea_c":-1.0,
+"hdcoa_c":1.0,
+"ppi_c":1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"BSU04170",
+"annotation":{
+"bigg.reaction":"FACOAL161",
+"ec-code":[
+"6.2.1.3",
+"6.2.1.16"
+]
 }
 },
 {
@@ -66839,7 +66944,10 @@
 },
 "annotation":{
 "bigg.reaction":"BG_MADG",
-"ec-code":"3.2.1.21"
+"ec-code":[
+"3.2.1.86",
+"3.2.1.21"
+]
 }
 },
 {
@@ -66859,7 +66967,10 @@
 },
 "annotation":{
 "bigg.reaction":"BG_MBDG",
-"ec-code":"3.2.1.21"
+"ec-code":[
+"3.2.1.86",
+"3.2.1.21"
+]
 }
 },
 {
@@ -66896,7 +67007,7 @@
 "gene_reaction_rule":"BSU32820",
 "annotation":{
 "bigg.reaction":"ACOAD2",
-"ec-code":"1.3.99.2"
+"ec-code":"1.3.8.1"
 }
 },
 {
@@ -66914,7 +67025,7 @@
 "gene_reaction_rule":"BSU04520",
 "annotation":{
 "bigg.reaction":"ACOAD2",
-"ec-code":"1.3.99.2"
+"ec-code":"1.3.8.1"
 }
 },
 {
@@ -66932,7 +67043,7 @@
 "gene_reaction_rule":"BSU32820",
 "annotation":{
 "bigg.reaction":"ACOAD3",
-"ec-code":"1.3.99.2"
+"ec-code":"1.3.8.1"
 }
 },
 {
@@ -66950,7 +67061,7 @@
 "gene_reaction_rule":"BSU04520",
 "annotation":{
 "bigg.reaction":"ACOAD3",
-"ec-code":"1.3.99.2"
+"ec-code":"1.3.8.1"
 }
 },
 {
@@ -66968,7 +67079,7 @@
 "gene_reaction_rule":"BSU32820",
 "annotation":{
 "bigg.reaction":"ACOAD4_1",
-"ec-code":"1.3.99.2"
+"ec-code":"1.3.8.1"
 }
 },
 {
@@ -66986,7 +67097,7 @@
 "gene_reaction_rule":"BSU04520",
 "annotation":{
 "bigg.reaction":"ACOAD4_1",
-"ec-code":"1.3.99.2"
+"ec-code":"1.3.8.1"
 }
 },
 {
@@ -67004,7 +67115,7 @@
 "gene_reaction_rule":"BSU32820",
 "annotation":{
 "bigg.reaction":"ACOAD5",
-"ec-code":"1.3.99.2"
+"ec-code":"1.3.8.1"
 }
 },
 {
@@ -67022,7 +67133,7 @@
 "gene_reaction_rule":"BSU04520",
 "annotation":{
 "bigg.reaction":"ACOAD5",
-"ec-code":"1.3.99.2"
+"ec-code":"1.3.8.1"
 }
 },
 {
@@ -67040,7 +67151,7 @@
 "gene_reaction_rule":"BSU32820",
 "annotation":{
 "bigg.reaction":"ACOAD6",
-"ec-code":"1.3.99.2"
+"ec-code":"1.3.8.1"
 }
 },
 {
@@ -67058,7 +67169,7 @@
 "gene_reaction_rule":"BSU04520",
 "annotation":{
 "bigg.reaction":"ACOAD6",
-"ec-code":"1.3.99.2"
+"ec-code":"1.3.8.1"
 }
 },
 {
@@ -67078,27 +67189,6 @@
 "annotation":{
 "bigg.reaction":"CYTB_B2",
 "ec-code":"1.10.3.-"
-}
-},
-{
-"id":"26DPAi_num2",
-"name":"Dipicolinate synthase subunit A (EC 4.2.1.52);Dipicolinate synthase subunit B(BSU16740)",
-"metabolites":{
-"23dhdp_c":-1.0,
-"DPA_c":1.0,
-"h_c":1.0,
-"nad_c":-1.0,
-"nadh_c":1.0
-},
-"lower_bound":0,
-"upper_bound":1000.0,
-"gene_reaction_rule":"BSU16740",
-"notes":{
-"reflection":"26DPAi_reverse"
-},
-"annotation":{
-"bigg.reaction":"26DPAi",
-"ec-code":"4.2.1.52"
 }
 },
 {
@@ -67134,26 +67224,6 @@
 "lower_bound":0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"BSU16950",
-"notes":{
-"reflection":"rxn10199_reverse"
-},
-"annotation":{
-"bigg.reaction":"rxn10199",
-"ec-code":"2.4.1.129"
-}
-},
-{
-"id":"rxn10199_num3",
-"name":"peptidoglycan biosynthesis;Cell division protein FtsI [Peptidoglycan synthetase] (EC 2.4.1.129)|Transpeptidase, Penicillin binding protein transpeptidase domain(BSU25000)",
-"metabolites":{
-"cpd15665_c":1.0,
-"cpd15666_c":-1.0,
-"dtpcudcpp_c":1.0,
-"uaagtmda_c":-1.0
-},
-"lower_bound":0,
-"upper_bound":1000.0,
-"gene_reaction_rule":"BSU31490",
 "notes":{
 "reflection":"rxn10199_reverse"
 },
@@ -67350,7 +67420,11 @@
 "gene_reaction_rule":"BSU13850",
 "annotation":{
 "bigg.reaction":"HG2abc",
-"ec-code":"3.6.3.5"
+"ec-code":[
+"7.2.2.9",
+"7.2.2.21",
+"7.2.2.12"
+]
 }
 },
 {
@@ -67370,7 +67444,11 @@
 "gene_reaction_rule":"BSU13850",
 "annotation":{
 "bigg.reaction":"rxn10344",
-"ec-code":"3.6.3.5"
+"ec-code":[
+"7.2.2.9",
+"7.2.2.21",
+"7.2.2.12"
+]
 }
 },
 {
@@ -67408,21 +67486,20 @@
 }
 },
 {
-"id":"GLMS_syn_reverse_num2",
-"name":"",
+"id":"GTPCI_num2",
+"name":"GTP cyclohydrolase I (EC 3.5.4.16) type 1;GTP cyclohydrolase I (EC 3.5.4.16) type 2(BSU03340)",
 "metabolites":{
-"akg_c":-1.0,
-"fdxox_c":1.0,
-"fdxrd_c":-1.0,
-"gln__L_c":-1.0,
-"glu__L_c":2.0,
-"h_c":-2.0
+"ahdt_c":1.0,
+"for_c":1.0,
+"gtp_c":-1.0,
+"h2o_c":-1.0,
+"h_c":1.0
 },
-"lower_bound":0,
+"lower_bound":0.0,
 "upper_bound":1000.0,
-"gene_reaction_rule":"BSU06590 and BSU18440",
-"notes":{
-"reflection":"GLMS_syn"
+"gene_reaction_rule":"BSU03340",
+"annotation":{
+"ec-code":"3.5.4.16"
 }
 },
 {
@@ -67664,7 +67741,7 @@
 },
 "lower_bound":0,
 "upper_bound":1000.0,
-"gene_reaction_rule":"BSU04640",
+"gene_reaction_rule":"BSU17640",
 "notes":{
 "reflection":"ALAR"
 }
@@ -68031,22 +68108,6 @@
 "gene_reaction_rule":"BSU24170",
 "notes":{
 "reflection":"MACCOAT"
-}
-},
-{
-"id":"METS_1_reverse_num2",
-"name":"",
-"metabolites":{
-"5mthf_c":1.0,
-"hcys__L_c":1.0,
-"met__L_c":-1.0,
-"thf_c":-1.0
-},
-"lower_bound":0,
-"upper_bound":1000.0,
-"gene_reaction_rule":"BSU38950 and BSU38960",
-"notes":{
-"reflection":"METS_1"
 }
 },
 {
@@ -68615,23 +68676,6 @@
 }
 },
 {
-"id":"TRDR_reverse_num2",
-"name":"",
-"metabolites":{
-"h_c":1.0,
-"nadp_c":-1.0,
-"nadph_c":1.0,
-"trdox_c":1.0,
-"trdrd_c":-1.0
-},
-"lower_bound":0,
-"upper_bound":1000.0,
-"gene_reaction_rule":"BSU03270 and BSU32110",
-"notes":{
-"reflection":"TRDR"
-}
-},
-{
 "id":"PUNP3_reverse_num2",
 "name":"",
 "metabolites":{
@@ -69179,21 +69223,6 @@
 "gene_reaction_rule":"BSU24170",
 "notes":{
 "reflection":"ACACT6p"
-}
-},
-{
-"id":"IPPMIb_reverse_num2",
-"name":"",
-"metabolites":{
-"2ippm_c":-1.0,
-"3c3hmp_c":1.0,
-"h2o_c":-1.0
-},
-"lower_bound":0,
-"upper_bound":1000.0,
-"gene_reaction_rule":"BSU28250",
-"notes":{
-"reflection":"IPPMIb"
 }
 },
 {
@@ -70296,40 +70325,6 @@
 }
 },
 {
-"id":"R07618_reverse_num2",
-"name":"",
-"metabolites":{
-"dhlam_c":1.0,
-"h_c":-1.0,
-"lpam_c":-1.0,
-"nad_c":1.0,
-"nadh_c":-1.0
-},
-"lower_bound":0,
-"upper_bound":1000.0,
-"gene_reaction_rule":"BSU24060",
-"notes":{
-"reflection":"R07618"
-}
-},
-{
-"id":"R07618_reverse_num3",
-"name":"",
-"metabolites":{
-"dhlam_c":1.0,
-"h_c":-1.0,
-"lpam_c":-1.0,
-"nad_c":1.0,
-"nadh_c":-1.0
-},
-"lower_bound":0,
-"upper_bound":1000.0,
-"gene_reaction_rule":"BSU08090",
-"notes":{
-"reflection":"R07618"
-}
-},
-{
 "id":"PUNP8_reverse_num2",
 "name":"",
 "metabolites":{
@@ -70503,134 +70498,6 @@
 "gene_reaction_rule":"BSU39410",
 "notes":{
 "reflection":"THMDt2"
-}
-},
-{
-"id":"HXANt2r_reverse_num2",
-"name":"",
-"metabolites":{
-"h_c":-1.0,
-"h_e":1.0,
-"hxan_c":-1.0,
-"hxan_e":1.0
-},
-"lower_bound":0,
-"upper_bound":1000.0,
-"gene_reaction_rule":"BSU06370",
-"notes":{
-"reflection":"HXANt2r"
-}
-},
-{
-"id":"HXANt2r_reverse_num3",
-"name":"",
-"metabolites":{
-"h_c":-1.0,
-"h_e":1.0,
-"hxan_c":-1.0,
-"hxan_e":1.0
-},
-"lower_bound":0,
-"upper_bound":1000.0,
-"gene_reaction_rule":"BSU32430 and BSU32440",
-"notes":{
-"reflection":"HXANt2r"
-}
-},
-{
-"id":"HXANt2r_reverse_num4",
-"name":"",
-"metabolites":{
-"h_c":-1.0,
-"h_e":1.0,
-"hxan_c":-1.0,
-"hxan_e":1.0
-},
-"lower_bound":0,
-"upper_bound":1000.0,
-"gene_reaction_rule":"BSU22060",
-"notes":{
-"reflection":"HXANt2r"
-}
-},
-{
-"id":"HXANt2r_reverse_num5",
-"name":"",
-"metabolites":{
-"h_c":-1.0,
-"h_e":1.0,
-"hxan_c":-1.0,
-"hxan_e":1.0
-},
-"lower_bound":0,
-"upper_bound":1000.0,
-"gene_reaction_rule":"BSU37940",
-"notes":{
-"reflection":"HXANt2r"
-}
-},
-{
-"id":"XANt2_reverse_num2",
-"name":"",
-"metabolites":{
-"h_c":-1.0,
-"h_e":1.0,
-"xan_c":-1.0,
-"xan_e":1.0
-},
-"lower_bound":0,
-"upper_bound":1000.0,
-"gene_reaction_rule":"BSU32430 and BSU32440",
-"notes":{
-"reflection":"XANt2"
-}
-},
-{
-"id":"XANt2_reverse_num3",
-"name":"",
-"metabolites":{
-"h_c":-1.0,
-"h_e":1.0,
-"xan_c":-1.0,
-"xan_e":1.0
-},
-"lower_bound":0,
-"upper_bound":1000.0,
-"gene_reaction_rule":"BSU06370",
-"notes":{
-"reflection":"XANt2"
-}
-},
-{
-"id":"XANt2_reverse_num4",
-"name":"",
-"metabolites":{
-"h_c":-1.0,
-"h_e":1.0,
-"xan_c":-1.0,
-"xan_e":1.0
-},
-"lower_bound":0,
-"upper_bound":1000.0,
-"gene_reaction_rule":"BSU29990",
-"notes":{
-"reflection":"XANt2"
-}
-},
-{
-"id":"XANt2_reverse_num5",
-"name":"",
-"metabolites":{
-"h_c":-1.0,
-"h_e":1.0,
-"xan_c":-1.0,
-"xan_e":1.0
-},
-"lower_bound":0,
-"upper_bound":1000.0,
-"gene_reaction_rule":"BSU37940",
-"notes":{
-"reflection":"XANt2"
 }
 },
 {
@@ -71718,23 +71585,7 @@
 },
 "lower_bound":0,
 "upper_bound":1000.0,
-"gene_reaction_rule":"BSU37040",
-"notes":{
-"reflection":"MAL_Dt2"
-}
-},
-{
-"id":"MAL_Dt2_reverse_num3",
-"name":"",
-"metabolites":{
-"h_c":-1.0,
-"h_e":1.0,
-"mal__D_c":-1.0,
-"mal__D_e":1.0
-},
-"lower_bound":0,
-"upper_bound":1000.0,
-"gene_reaction_rule":"BSU04440 and BSU04470",
+"gene_reaction_rule":"BSU07570",
 "notes":{
 "reflection":"MAL_Dt2"
 }
@@ -71751,38 +71602,6 @@
 "lower_bound":0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"BSU07570",
-"notes":{
-"reflection":"MALt2r"
-}
-},
-{
-"id":"MALt2r_reverse_num3",
-"name":"",
-"metabolites":{
-"h_c":-1.0,
-"h_e":1.0,
-"mal__L_c":-1.0,
-"mal__L_e":1.0
-},
-"lower_bound":0,
-"upper_bound":1000.0,
-"gene_reaction_rule":"BSU37040",
-"notes":{
-"reflection":"MALt2r"
-}
-},
-{
-"id":"MALt2r_reverse_num4",
-"name":"",
-"metabolites":{
-"h_c":-1.0,
-"h_e":1.0,
-"mal__L_c":-1.0,
-"mal__L_e":1.0
-},
-"lower_bound":0,
-"upper_bound":1000.0,
-"gene_reaction_rule":"BSU04440 and BSU04470",
 "notes":{
 "reflection":"MALt2r"
 }
@@ -71833,22 +71652,6 @@
 "gene_reaction_rule":"BSU32440",
 "notes":{
 "reflection":"URATEtm"
-}
-},
-{
-"id":"RMNt_reverse_num2",
-"name":"",
-"metabolites":{
-"h_c":-1.0,
-"h_e":1.0,
-"rmn_c":-1.0,
-"rmn_e":1.0
-},
-"lower_bound":0,
-"upper_bound":1000.0,
-"gene_reaction_rule":"BSU07110",
-"notes":{
-"reflection":"RMNt"
 }
 },
 {
@@ -72276,23 +72079,6 @@
 }
 },
 {
-"id":"26DPAi_reverse_num2",
-"name":"",
-"metabolites":{
-"23dhdp_c":1.0,
-"DPA_c":-1.0,
-"h_c":-1.0,
-"nad_c":1.0,
-"nadh_c":-1.0
-},
-"lower_bound":0,
-"upper_bound":1000.0,
-"gene_reaction_rule":"BSU16740",
-"notes":{
-"reflection":"26DPAi"
-}
-},
-{
 "id":"rxn10197_reverse_num2",
 "name":"",
 "metabolites":{
@@ -72322,22 +72108,6 @@
 "lower_bound":0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"BSU16950",
-"notes":{
-"reflection":"rxn10199"
-}
-},
-{
-"id":"rxn10199_reverse_num3",
-"name":"",
-"metabolites":{
-"cpd15665_c":-1.0,
-"cpd15666_c":1.0,
-"dtpcudcpp_c":-1.0,
-"uaagtmda_c":1.0
-},
-"lower_bound":0,
-"upper_bound":1000.0,
-"gene_reaction_rule":"BSU31490",
 "notes":{
 "reflection":"rxn10199"
 }
@@ -80517,36 +80287,62 @@
 }
 },
 {
-"id":"BSU29370",
-"name":"BSU29370",
+"id":"BSU03982",
+"name":"BSU03982",
 "annotation":{
-"uniprot":"O34852"
+"uniprot":"C0H3V2"
 }
 },
 {
-"id":"BSU31490",
-"name":"BSU31490",
+"id":"BSU38280",
+"name":"BSU38280",
 "annotation":{
-"uniprot":"P40750"
+"uniprot":"P39595"
 }
 },
 {
-"id":"BSU04090",
-"name":"BSU04090",
+"id":"BSUBSU38270",
+"name":"BSUBSU38270"
+},
+{
+"id":"BSU34600",
+"name":"BSU34600",
 "annotation":{
-"uniprot":"Q7WY77"
+"uniprot":"O06990"
 }
 },
 {
-"id":"BSU04050",
-"name":"BSU04050",
+"id":"BSU34610",
+"name":"BSU34610",
 "annotation":{
-"uniprot":"P42963"
+"uniprot":"O06989"
+}
+},
+{
+"id":"BSU38810",
+"name":"BSU38810",
+"annotation":{
+"uniprot":"P94360"
+}
+},
+{
+"id":"BSU34590",
+"name":"BSU34590",
+"annotation":{
+"uniprot":"O06991"
+}
+},
+{
+"id":"BSU20080",
+"name":"BSU20080",
+"annotation":{
+"uniprot":"O31877"
 }
 }
 ],
 "id":null,
 "compartments":{
+"":"",
 "c":"",
 "e":""
 },

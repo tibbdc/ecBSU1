@@ -83,9 +83,9 @@ O34862	YTCA_BACSU	Putative UDP-glucose 6-dehydrogenase YtcA (UDP-Glc dehydrogena
 P96718	YWQF_BACSU	UDP-glucose 6-dehydrogenase YwqF (UDP-Glc dehydrogenase) (UDP-GlcDH) (UDPGDH) (EC 1.1.1.22)	ywqF BSU36230	Bacillus subtilis (strain 168)	1.1.1.22	47,784		BSU36230
 O32271	TUAD_BACSU	UDP-glucose 6-dehydrogenase TuaD (UDP-Glc dehydrogenase) (UDP-GlcDH) (UDPGDH) (EC 1.1.1.22) (Teichuronic acid biosynthesis protein TuaD)	tuaD yvhD BSU35580	Bacillus subtilis (strain 168)	1.1.1.22	49,816		BSU35580
 O32133	YUND_BACSU	Uncharacterized metallophosphoesterase YunD	yunD BSU32370	Bacillus subtilis (strain 168)		51,871		BSU32370
-Q05852	GTAB_BACSU	UTP--glucose-1-phosphate uridylyltransferase (EC 2.7.7.9) (Alpha-D-glucosyl-1-phosphate uridylyltransferase) (General stress protein 33) (GSP33) (UDP-glucose pyrophosphorylase) (UDPGP) (Uridine diphosphoglucose pyrophosphorylase)	gtaB BSU35670	Bacillus subtilis (strain 168)	2.7.7.9	33,070		BSU35670
+Q05852	GTAB_BACSU	UTP--glucose-1-phosphate uridylyltransferase (EC 2.7.7.9) (Alpha-D-glucosyl-1-phosphate uridylyltransferase) (General stress protein 33) (GSP33) (UDP-glucose pyrophosphorylase) (UDPGP) (UGPase) (Uridine diphosphoglucose pyrophosphorylase)	gtaB BSU35670	Bacillus subtilis (strain 168)	2.7.7.9	33,070		BSU35670
 P42407	YTDA_BACSU	Putative UTP--glucose-1-phosphate uridylyltransferase (EC 2.7.7.9) (Alpha-D-glucosyl-1-phosphate uridylyltransferase) (UDP-glucose pyrophosphorylase) (UDPGP) (Uridine diphosphoglucose pyrophosphorylase)	ytdA yzwA BSU30850	Bacillus subtilis (strain 168)	2.7.7.9	30,183		BSU30850
-O31822	YNGB_BACSU	Probable UTP--glucose-1-phosphate uridylyltransferase YngB (EC 2.7.7.9) (Alpha-D-glucosyl-1-phosphate uridylyltransferase) (UDP-glucose pyrophosphorylase) (UDPGP) (Uridine diphosphoglucose pyrophosphorylase)	yngB BSU18180	Bacillus subtilis (strain 168)	2.7.7.9	33,147	7B1R;7O2N;	BSU18180
+O31822	YNGB_BACSU	UTP--glucose-1-phosphate uridylyltransferase YngB (EC 2.7.7.9) (Alpha-D-glucosyl-1-phosphate uridylyltransferase) (UDP-glucose pyrophosphorylase) (UDPGP) (UGPase) (Uridine diphosphoglucose pyrophosphorylase)	yngB BSU18180	Bacillus subtilis (strain 168)	2.7.7.9	33,147	7B1R;7O2N;	BSU18180
 P55180	GALE_BACSU	UDP-glucose 4-epimerase (EC 5.1.3.2) (Galactowaldenase) (UDP-galactose 4-epimerase)	galE BSU38860	Bacillus subtilis (strain 168)	5.1.3.2	37,009		BSU38860
 P32396	CPFC_BACSU	Coproporphyrin III ferrochelatase (EC 4.99.1.9) (Water-soluble ferrochelatase)	cpfC hemF hemH BSU10130	Bacillus subtilis (strain 168)	4.99.1.9	35,348	1AK1;1C1H;1C9E;1DOZ;1LD3;1N0I;2AC2;2AC4;2H1V;2H1W;2HK6;2Q2N;2Q2O;2Q3J;3GOQ;3M4Z;	BSU10130
 P37877	ACKA_BACSU	Acetate kinase (EC 2.7.2.1) (Acetokinase)	ackA BSU29470	Bacillus subtilis (strain 168)	2.7.2.1	43,137		BSU29470
@@ -351,8 +351,8 @@ O34925	DEOD_BACSU	Purine nucleoside phosphorylase DeoD-type (PNP) (EC 2.4.2.1) (
 Q03221	KITH_BACSU	Thymidine kinase (EC 2.7.1.21)	tdk BSU37060	Bacillus subtilis (strain 168)	2.7.1.21	21,450		BSU37060
 P54495	GLK_BACSU	Glucokinase (EC 2.7.1.2) (Glucose kinase)	glcK yqgR BSU24850	Bacillus subtilis (strain 168)	2.7.1.2	33,604		BSU24850
 O34340	FABF_BACSU	3-oxoacyl-[acyl-carrier-protein] synthase 2 (EC 2.3.1.179) (3-oxoacyl-[acyl-carrier-protein] synthase II) (Beta-ketoacyl-ACP synthase II) (KAS II)	fabF yjaY BSU11340	Bacillus subtilis (strain 168)	2.3.1.179	44,005	4LS5;4LS6;4LS7;4LS8;	BSU11340
-O34746	FABH1_BACSU	3-oxoacyl-[acyl-carrier-protein] synthase 3 protein 1 (EC 2.3.1.180) (3-oxoacyl-[acyl-carrier-protein] synthase III protein 1) (Beta-ketoacyl-ACP synthase III 1) (KAS III 1) (bFabH1)	fabHA fabH fabH1 yjaX BSU11330	Bacillus subtilis (strain 168)	2.3.1.180	33,732		BSU11330
-O07600	FABH2_BACSU	3-oxoacyl-[acyl-carrier-protein] synthase 3 protein 2 (EC 2.3.1.180) (3-oxoacyl-[acyl-carrier-protein] synthase III protein 2) (Beta-ketoacyl-ACP synthase III 2) (KAS III 2) (bFabH2)	fabHB fabH2 yhfB BSU10170	Bacillus subtilis (strain 168)	2.3.1.180	35,424		BSU10170
+O34746	FABH1_BACSU	Beta-ketoacyl-[acyl-carrier-protein] synthase III 1 (Beta-ketoacyl-ACP synthase III 1) (KAS III 1) (EC 2.3.1.180) (EC 2.3.1.300) (3-oxoacyl-[acyl-carrier-protein] synthase 3 1) (3-oxoacyl-[acyl-carrier-protein] synthase III 1) (Branched-chain beta-ketoacyl-[acyl-carrier-protein] synthase 1) (bFabH1)	fabHA fabH fabH1 yjaX BSU11330	Bacillus subtilis (strain 168)	2.3.1.180; 2.3.1.300	33,732		BSU11330
+O07600	FABH2_BACSU	Beta-ketoacyl-[acyl-carrier-protein] synthase III 2 (Beta-ketoacyl-ACP synthase III 2) (KAS III 2) (EC 2.3.1.180) (EC 2.3.1.300) (3-oxoacyl-[acyl-carrier-protein] synthase 3 2) (3-oxoacyl-[acyl-carrier-protein] synthase III 2) (Branched-chain beta-ketoacyl-[acyl-carrier-protein] synthase 2) (bFabH2)	fabHB fabH2 yhfB BSU10170	Bacillus subtilis (strain 168)	2.3.1.180; 2.3.1.300	35,424		BSU10170
 P80643	ACP_BACSU	Acyl carrier protein (ACP)	acpA acpP BSU15920	Bacillus subtilis (strain 168)		8,591	1F80;1HY8;2X2B;	BSU15920
 P96618	ACPS_BACSU	Holo-[acyl-carrier-protein] synthase (Holo-ACP synthase) (EC 2.7.8.7) (4'-phosphopantetheinyl transferase AcpS)	acpS ydcB BSU04620	Bacillus subtilis (strain 168)	2.7.8.7	13,718	1F7L;1F7T;1F80;	BSU04620
 P71019	FABD_BACSU	Malonyl CoA-acyl carrier protein transacylase (MCT) (EC 2.3.1.39)	fabD ylpE BSU15900	Bacillus subtilis (strain 168)	2.3.1.39	34,035		BSU15900
@@ -406,7 +406,7 @@ P25983	PYRK_BACSU	Dihydroorotate dehydrogenase B (NAD(+)), electron transfer sub
 P25972	PYRE_BACSU	Orotate phosphoribosyltransferase (OPRT) (OPRTase) (EC 2.4.2.10)	pyrE pyrX BSU15560	Bacillus subtilis (strain 168)	2.4.2.10	23,522		BSU15560
 P39142	PDP_BACSU	Pyrimidine-nucleoside phosphorylase (PYNP) (Py-NPase) (EC 2.4.2.2)	pdp BSU39400	Bacillus subtilis (strain 168)	2.4.2.2	46,207	5EP8;5OLN;	BSU39400
 P19079	CDD_BACSU	Cytidine deaminase (CDA) (EC 3.5.4.5) (Cytidine aminohydrolase)	cdd BSU25300	Bacillus subtilis (strain 168)	3.5.4.5	14,854	1JTK;1UWZ;1UX0;1UX1;	BSU25300
-P96578	DLYKI_BACSU	Probable D-lyxose ketol-isomerase (EC 5.3.1.15)	ydaE BSU04200	Bacillus subtilis (strain 168)	5.3.1.15	19,252	2Y0O;	BSU04200
+P96578	DLYKI_BACSU	Probable D-lyxose ketol-isomerase (EC 5.3.1.15) (D-lyxose isomerase)	ydaE BSU04200	Bacillus subtilis (strain 168)	5.3.1.15	19,252	2Y0O;	BSU04200
 O05262	RHAB_BACSU	Rhamnulokinase (RhaB) (EC 2.7.1.5) (ATP:L-rhamnulose phosphotransferase) (L-rhamnulose 1-kinase) (Rhamnulose kinase)	rhaB yulC BSU31200	Bacillus subtilis (strain 168)	2.7.1.5	54,736		BSU31200
 P70998	SPEE_BACSU	Polyamine aminopropyltransferase (Putrescine aminopropyltransferase) (PAPT) (Spermidine synthase) (SPDS) (SPDSY) (EC 2.5.1.16)	speE ywhF BSU37500	Bacillus subtilis (strain 168)	2.5.1.16	31,336	1IY9;	BSU37500
 O34347	ASSY_BACSU	Argininosuccinate synthase (EC 6.3.4.5) (Citrulline--aspartate ligase)	argG BSU29450	Bacillus subtilis (strain 168)	6.3.4.5	44,817		BSU29450
@@ -666,7 +666,7 @@ P54473	ISPH_BACSU	4-hydroxy-3-methylbut-2-enyl diphosphate reductase (HMBPP redu
 P39824	BLAC_BACSU	Beta-lactamase (EC 3.5.2.6) (Penicillinase)	penP BSU18800	Bacillus subtilis (strain 168)	3.5.2.6	33,446	6W2Z;	BSU18800
 O05213	AMIE_BACSU	N-acetylmuramyl-L-alanine amidase (EC 3.5.1.28)	amiE ybbE BSU01670	Bacillus subtilis (strain 168)	3.5.1.28	49,423		BSU01670
 P54427	YBXI_BACSU	Probable beta-lactamase YbxI (EC 3.5.2.6)	ybxI ybdS BSU02090	Bacillus subtilis (strain 168)	3.5.2.6	30,644	5E2F;6W5E;6W5F;	BSU02090
-O31751	ISPT_BACSU	Isoprenyl transferase (EC 2.5.1.-)	uppS yluA BSU16530	Bacillus subtilis (strain 168)	2.5.1.-	29,777		BSU16530
+O31751	ISPT_BACSU	Isoprenyl transferase (EC 2.5.1.-)	uppS yluA BSU16530	Bacillus subtilis (strain 168)	2.5.1.-	29,777	7JLI;7JLJ;7JLM;7JLR;	BSU16530
 P39630	RMLB_BACSU	dTDP-glucose 4,6-dehydratase (EC 4.2.1.46) (Spore coat polysaccharide biosynthesis protein SpsJ)	rfbB spsJ BSU37830 ipa-72d	Bacillus subtilis (strain 168)	4.2.1.46	35,539		BSU37830
 Q7WY56	SPSL_BACSU	Spore coat polysaccharide biosynthesis protein SpsL	spsL BSU37810 ipa-73d	Bacillus subtilis (strain 168)		17,683		BSU37810
 O32142	HIUH_BACSU	5-hydroxyisourate hydrolase (HIU hydrolase) (HIUHase) (EC 3.5.2.17) (Transthyretin-related protein) (TRP)	pucM yunM BSU32460	Bacillus subtilis (strain 168)	3.5.2.17	12,635	2H0E;2H0F;2H0J;	BSU32460
@@ -703,7 +703,7 @@ P42434	NASC_BACSU	Assimilatory nitrate reductase catalytic subunit (EC 1.7.-.-)	
 P42435	NASD_BACSU	Nitrite reductase [NAD(P)H] (EC 1.7.1.4)	nasD nasBC nirB BSU03300	Bacillus subtilis (strain 168)	1.7.1.4	88,432		BSU03300
 P42433	NASB_BACSU	Assimilatory nitrate reductase electron transfer subunit	nasB nasBA BSU03320	Bacillus subtilis (strain 168)		84,682		BSU03320
 O34364	O16G2_BACSU	Probable oligo-1,6-glucosidase 2 (EC 3.2.1.10) (Oligosaccharide alpha-1,6-glucosidase 2) (Sucrase-isomaltase 2) (Isomaltase 2)	ycdG BSU02840	Bacillus subtilis (strain 168)	3.2.1.10	65,816		BSU02840
-O06994	O16G1_BACSU	Oligo-1,6-glucosidase 1 (EC 3.2.1.10) (Dextrin 6-alpha-D-glucanohydrolase) (Oligosaccharide alpha-1,6-glucosidase 1) (Sucrase-isomaltase 1) (Isomaltase 1)	malL yvdL BSU34560	Bacillus subtilis (strain 168)	3.2.1.10	66,081	4M56;4M8U;4MAZ;4MB1;5WCZ;	BSU34560
+O06994	O16G1_BACSU	Oligo-1,6-glucosidase 1 (EC 3.2.1.10) (Dextrin 6-alpha-D-glucanohydrolase) (Oligosaccharide alpha-1,6-glucosidase 1) (Sucrase-isomaltase 1) (Isomaltase 1)	malL yvdL BSU34560	Bacillus subtilis (strain 168)	3.2.1.10	66,081	4M56;4M8U;4MAZ;4MB1;5WCZ;7LV6;	BSU34560
 P45857	ACDB_BACSU	Acyl-CoA dehydrogenase (EC 1.3.99.-)	mmgC yqiN BSU24150	Bacillus subtilis (strain 168)	1.3.99.-	40,941	5LNX;	BSU24150
 P08877	PTHP_BACSU	Phosphocarrier protein HPr (Histidine-containing protein)	ptsH BSU13900	Bacillus subtilis (strain 168)		9,189	1JEM;1KKL;1KKM;1SPH;2FEP;2HID;2HPR;3OQM;3OQN;3OQO;	BSU13900
 P08838	PT1_BACSU	Phosphoenolpyruvate-protein phosphotransferase (EC 2.7.3.9) (Phosphotransferase system, enzyme I)	ptsI BSU13910	Bacillus subtilis (strain 168)	2.7.3.9	63,079		BSU13910
@@ -801,7 +801,7 @@ P40409	FEUA_BACSU	Iron-uptake system-binding protein	feuA BSU01630	Bacillus subt
 P40411	FEUC_BACSU	Iron-uptake system permease protein FeuC	feuC BSU01610	Bacillus subtilis (strain 168)		36,090		BSU01610
 O34987	PBUG_BACSU	Guanine/hypoxanthine permease PbuG	pbuG yebB BSU06370	Bacillus subtilis (strain 168)		46,191		BSU06370
 P39766	PYRP_BACSU	Uracil permease (Uracil transporter)	pyrP BSU15480	Bacillus subtilis (strain 168)		45,452		BSU15480
-P94575	ALLP_BACSU	Probable allantoin permease (Allantoin transport protein)	pucI ywoE BSU36470	Bacillus subtilis (strain 168)		53,982		BSU36470
+P94575	ALLP_BACSU	Allantoin permease (Allantoin transport protein) (Allantoin transporter)	pucI ywoE BSU36470	Bacillus subtilis (strain 168)		53,982		BSU36470
 O34978	PBUO_BACSU	Guanine/hypoxanthine permease PbuO	pbuO ytiP BSU29990	Bacillus subtilis (strain 168)		45,420		BSU29990
 P39141	NUPC_BACSU	Nucleoside permease NupC	nupC BSU39410	Bacillus subtilis (strain 168)		42,496		BSU39410
 P42312	NUPG_BACSU	Purine nucleoside transport protein NupG	nupG yxjA BSU39020 N15HR	Bacillus subtilis (strain 168)		43,719		BSU39020
@@ -849,7 +849,7 @@ O07923	AZLD_BACSU	Branched-chain amino acid transport protein AzlD	azlD yrdI BSU
 O07942	AZLC_BACSU	Branched-chain amino acid transport protein AzlC	azlC yrdH BSU26710	Bacillus subtilis (strain 168)		28,366		BSU26710
 P31113	MENG_BACSU	Demethylmenaquinone methyltransferase (EC 2.1.1.163)	menG gerC2 gerCB menH BSU22750	Bacillus subtilis (strain 168)	2.1.1.163	26,577		BSU22750
 P39582	MENA_BACSU	1,4-dihydroxy-2-naphthoate octaprenyltransferase (DHNA-octaprenyltransferase) (EC 2.5.1.74)	menA ywaB BSU38490 ipa-6d	Bacillus subtilis (strain 168)	2.5.1.74	33,838		BSU38490
-P39597	EFEN_BACSU	Deferrochelatase (EC 4.99.1.1) (Peroxidase EfeN) (EC 1.11.1.-)	efeN ywbN BSU38260 ipa-29d	Bacillus subtilis (strain 168)	4.99.1.1; 1.11.1.-	45,693	6KMM;6KMN;	BSU38260
+P39597	EFEN_BACSU	Deferrochelatase (EC 4.98.1.1) (Peroxidase EfeN) (EC 1.11.1.-)	efeN ywbN BSU38260 ipa-29d	Bacillus subtilis (strain 168)	4.98.1.1; 1.11.1.-	45,693	6KMM;6KMN;	BSU38260
 P39596	EFEM_BACSU	Probable iron uptake system component EfeM	efeM ywbM BSU38270 ipa-28d	Bacillus subtilis (strain 168)		42,796		BSU38270
 P07908	DNAB_BACSU	Replication initiation and membrane attachment protein	dnaB BSU28990	Bacillus subtilis (strain 168)		54,890		BSU28990
 P51834	SMC_BACSU	Chromosome partition protein Smc	smc ylqA BSU15940	Bacillus subtilis (strain 168)		135,513	3ZGX;5H66;5H67;5NMO;5NNV;5XG3;	BSU15940
@@ -953,13 +953,13 @@ P26382	PTFD_BACSU	Fructose permease IID component (EIID-Fru) (PTS system fructos
 P26380	PTFB_BACSU	PTS system fructose-specific EIIB component (EC 2.7.1.202) (EIIB-Fru) (Fructose-specific phosphotransferase enzyme IIB component) (lev-PTS) (p18)	levE sacL BSU27060	Bacillus subtilis (strain 168)	2.7.1.202	18,215	1BLE;	BSU27060
 P96600	DCTB_BACSU	C4-dicarboxylate-binding protein DctB	dctB ydbE BSU04440	Bacillus subtilis (strain 168)		39,862		BSU04440
 P96603	DCTA_BACSU	C4-dicarboxylate transport protein (C4-dicarboxylate permease)	dctA dctP ydbH BSU04470	Bacillus subtilis (strain 168)		45,441		BSU04470
-P42237	GUDP_BACSU	Probable glucarate transporter (D-glucarate permease)	gudP ycbE BSU02480	Bacillus subtilis (strain 168)		49,244		BSU02480
+P42237	GUDP_BACSU	Probable galactarate/D-glucarate transporter GudP	gudP ycbE BSU02480	Bacillus subtilis (strain 168)		49,244		BSU02480
 P39816	PTW3C_BACSU	Putative PTS system glucosamine-specific EIICBA component [Includes: Glucosamine permease IIC component (PTS system glucosamine-specific EIIC component); Glucosamine-specific phosphotransferase enzyme IIB component (EC 2.7.1.193) (PTS system glucosamine-specific EIIB component); Glucosamine-specific phosphotransferase enzyme IIA component (PTS system glucosamine-specific EIIA component)]	gamP ybfS yzfA BSU02350	Bacillus subtilis (strain 168)	2.7.1.193	68,145		BSU02350
 P12012	GNTP_BACSU	Gluconate permease	gntP BSU40070	Bacillus subtilis (strain 168)		46,655		BSU40070
 O31862	YOJA_BACSU	Uncharacterized permease YojA	yojA BSU19520	Bacillus subtilis (strain 168)		46,808		BSU19520
 O07563	GLCP_BACSU	Glucose/mannose transporter GlcP (Glucose/mannose:H(+) symporter)	glcP glcT1 yhjI BSU10520	Bacillus subtilis (strain 168)		44,910		BSU10520
 P40420	GLCU_BACSU	Glucose uptake protein GlcU	glcU ycxE BSU03920	Bacillus subtilis (strain 168)		30,892		BSU03920
-O34456	EXUT_BACSU	Hexuronate transporter	exuT yjmG BSU12360	Bacillus subtilis (strain 168)		45,314		BSU12360
+O34456	EXUT_BACSU	Hexuronate transporter (Aldohexuronate transport system)	exuT yjmG BSU12360	Bacillus subtilis (strain 168)		45,314		BSU12360
 P37948	GLPT_BACSU	Glycerol-3-phosphate transporter (G-3-P transporter) (G-3-P permease)	glpT ybeE BSU02140	Bacillus subtilis (strain 168)		49,802		BSU02140
 P18156	GLPF_BACSU	Glycerol uptake facilitator protein	glpF BSU09280	Bacillus subtilis (strain 168)		28,735		BSU09280
 P42417	IOLF_BACSU	Minor myo-inositol transporter IolF	iolF yxdF BSU39710 E83F	Bacillus subtilis (strain 168)		46,864		BSU39710
@@ -1087,63 +1087,66 @@ C0SPB9	YKON_BACSU	Uncharacterized glycosyltransferase YkoN (EC 2.4.-.-)	ykoN BSU
 P96499	TAGV_BACSU	Polyisoprenyl-teichoic acid--peptidoglycan teichoic acid transferase TagV (EC 2.7.8.-)	tagV yvhJ BSU35520	Bacillus subtilis (strain 168)	2.7.8.-	43,211	3NXH;6UF3;	BSU35520
 P45860	CLS1_BACSU	Probable cardiolipin synthase YwiE (CL synthase 1) (EC 2.7.8.-)	ywiE BSU37240	Bacillus subtilis (strain 168)	2.7.8.-	58,248		BSU37240
 P71040	CLSA_BACSU	Major cardiolipin synthase ClsA (CL synthase 2) (EC 2.7.8.-)	clsA ywnE BSU36590	Bacillus subtilis (strain 168)	2.7.8.-	55,866		BSU36590
-P21467	RS5_BACSU	30S ribosomal protein S5 (BS5)	rpsE spcA BSU01330	Bacillus subtilis (strain 168)		17,623	3J9W;5NJT;6HA1;6HA8;6HTQ;	BSU01330
-P21475	RS18_BACSU	30S ribosomal protein S18 (BS21)	rpsR BSU40890	Bacillus subtilis (strain 168)		8,970	3J9W;5NJT;6HA1;6HA8;6HTQ;	BSU40890
-P0CI78	RL24_BACSU	50S ribosomal protein L24 (12 kDa DNA-binding protein) (BL23) (HPB12)	rplX BSU01270	Bacillus subtilis (strain 168)		11,142	3J3V;3J3W;3J9W;5NJT;6HA1;6HA8;6HTQ;6PPF;6PPK;6PVK;6TNN;6TPQ;7AQC;7AQD;7AS8;7AS9;7OPE;	BSU01270
+P21467	RS5_BACSU	30S ribosomal protein S5 (BS5)	rpsE spcA BSU01330	Bacillus subtilis (strain 168)		17,623	3J9W;5NJT;6HA1;6HA8;6HTQ;7O5B;7QV1;7QV2;7QV3;	BSU01330
+P21475	RS18_BACSU	30S ribosomal protein S18 (BS21)	rpsR BSU40890	Bacillus subtilis (strain 168)		8,970	3J9W;5NJT;6HA1;6HA8;6HTQ;7O5B;7QV1;7QV2;7QV3;	BSU40890
+P0CI78	RL24_BACSU	50S ribosomal protein L24 (12 kDa DNA-binding protein) (BL23) (HPB12)	rplX BSU01270	Bacillus subtilis (strain 168)		11,142	3J3V;3J3W;3J9W;5NJT;6HA1;6HA8;6HTQ;6PPF;6PPK;6PVK;6TNN;6TPQ;7AQC;7AQD;7AS8;7AS9;7O5B;7OPE;7QV1;7QV2;7QV3;	BSU01270
 Q06797	RL1_BACSU	50S ribosomal protein L1 (BL1)	rplA BSU01030	Bacillus subtilis (strain 168)		24,989	3J3V;3J3W;6HA8;	BSU01030
 P37563	TILS_BACSU	tRNA(Ile)-lysidine synthase (EC 6.3.4.19) (tRNA(Ile)-2-lysyl-cytidine synthase) (tRNA(Ile)-lysidine synthetase)	tilS yacA BSU00670	Bacillus subtilis (strain 168)	6.3.4.19	53,464		BSU00670
-P21469	RS7_BACSU	30S ribosomal protein S7 (BS7)	rpsG BSU01110	Bacillus subtilis (strain 168)		17,883	3J9W;5NJT;6HA1;6HA8;6HTQ;	BSU01110
-P20282	RS13_BACSU	30S ribosomal protein S13 (BS14)	rpsM BSU01410	Bacillus subtilis (strain 168)		13,787	3J9W;5NJT;6HA1;6HA8;6HTQ;	BSU01410
+P21469	RS7_BACSU	30S ribosomal protein S7 (BS7)	rpsG BSU01110	Bacillus subtilis (strain 168)		17,883	3J9W;5NJT;6HA1;6HA8;6HTQ;7O5B;7QV1;7QV2;7QV3;	BSU01110
+P20282	RS13_BACSU	30S ribosomal protein S13 (BS14)	rpsM BSU01410	Bacillus subtilis (strain 168)		13,787	3J9W;5NJT;6HA1;6HA8;6HTQ;7O5B;7QV1;7QV2;7QV3;	BSU01410
 P02394	RL7_BACSU	50S ribosomal protein L7/L12 (BL9) (Vegetative protein 341) (VEG341)	rplL BSU01050	Bacillus subtilis (strain 168)		12,751		BSU01050
-P56849	RL331_BACSU	50S ribosomal protein L33 1	rpmGA rpmG1 BSU24900	Bacillus subtilis (strain 168)		5,901	3J9W;5NJT;6HA1;6HA8;6HTQ;6TNN;6TPQ;7AQC;7AQD;7AS8;7AS9;7OPE;	BSU24900
-P42923	RL10_BACSU	50S ribosomal protein L10 (BL5) (Cold acclimatization protein) (CAP) (Vegetative protein 300) (VEG300)	rplJ BSU01040	Bacillus subtilis (strain 168)		18,079	3J9W;5NJT;6TNN;6TPQ;7AS8;7AS9;7OPE;	BSU01040
-P55874	RL35_BACSU	50S ribosomal protein L35	rpmI BSU28860	Bacillus subtilis (strain 168)		7,557	3J9W;5NJT;6HA1;6HA8;6HTQ;6TNN;6TPQ;7AQC;7AQD;7AS8;7AS9;7OPE;	BSU28860
-P05657	RL27_BACSU	50S ribosomal protein L27 (BL24) (BL30)	rpmA BSU27940	Bacillus subtilis (strain 168)		10,372	3J9W;5NJT;6HA1;6HA8;6HTQ;6PPF;6PPK;6TNN;6TPQ;7AQC;7AQD;7AS8;7AS9;7OPE;	BSU27940
-P37807	RL28_BACSU	50S ribosomal protein L28	rpmB yloT BSU15820	Bacillus subtilis (strain 168)		6,809	3J9W;5NJT;6HA1;6HA8;6HTQ;6TNN;6TPQ;7AQC;7AQD;7AS8;7AS9;7OPE;	BSU15820
-P12875	RL14_BACSU	50S ribosomal protein L14	rplN BSU01260	Bacillus subtilis (strain 168)		13,154	3J3V;3J3W;3J9W;5NJT;6HA1;6HA8;6HTQ;6PPF;6PPK;6PVK;6TNN;6TPQ;7AQC;7AQD;7AS8;7AS9;7OPE;	BSU01260
-P19946	RL15_BACSU	50S ribosomal protein L15	rplO BSU01350	Bacillus subtilis (strain 168)		15,383	3J3V;3J3W;3J9W;5NJT;6HA1;6HA8;6HTQ;6PPF;6PPK;6PVK;6TNN;6TPQ;7AQC;7AQD;7AS8;7AS9;7OPE;	BSU01350
-P42919	RL2_BACSU	50S ribosomal protein L2 (BL2)	rplB BSU01190	Bacillus subtilis (strain 168)		30,274	3J3V;3J3W;3J9W;5NJT;6HA1;6HA8;6HTQ;6PPF;6PPK;6PVK;6TNN;6TPQ;7AQC;7AQD;7AS8;7AS9;7OPE;	BSU01190
-P42924	RL23_BACSU	50S ribosomal protein L23	rplW BSU01180	Bacillus subtilis (strain 168)		10,956	3J3V;3J3W;3J9W;5NJT;6HA1;6HA8;6HTQ;6PPF;6PPK;6PVK;6TNN;6TPQ;7AQC;7AQD;7AS8;7AS9;7OPE;	BSU01180
-P12874	RS17_BACSU	30S ribosomal protein S17 (BS16)	rpsQ BSU01250	Bacillus subtilis (strain 168)		10,199	3J9W;5NJT;6HA1;6HA8;6HTQ;	BSU01250
-P12877	RL5_BACSU	50S ribosomal protein L5 (BL6)	rplE BSU01280	Bacillus subtilis (strain 168)		20,148	3J3V;3J9W;5NJT;6HA1;6HA8;6HTQ;6PPK;6TNN;6TPQ;7AQC;7AQD;7AS8;7AS9;7OPE;	BSU01280
-P46898	RL6_BACSU	50S ribosomal protein L6 (BL10)	rplF BSU01310	Bacillus subtilis (strain 168)		19,509	3J3V;3J3W;3J9W;5NJT;6HA1;6HA8;6HTQ;6PPK;6TNN;6TPQ;7AQC;7AQD;7AS8;7AS9;7OPE;	BSU01310
-P21470	RS9_BACSU	30S ribosomal protein S9 (BS10)	rpsI BSU01500	Bacillus subtilis (strain 168)		14,308	3J9W;5NJT;6HA1;6HA8;6HTQ;	BSU01500
+P56849	RL331_BACSU	50S ribosomal protein L33 1	rpmGA rpmG1 BSU24900	Bacillus subtilis (strain 168)		5,901	3J9W;5NJT;6HA1;6HA8;6HTQ;6TNN;6TPQ;7AQC;7AQD;7AS8;7AS9;7O5B;7OPE;7QV1;7QV2;7QV3;	BSU24900
+P42923	RL10_BACSU	50S ribosomal protein L10 (BL5) (Cold acclimatization protein) (CAP) (Vegetative protein 300) (VEG300)	rplJ BSU01040	Bacillus subtilis (strain 168)		18,079	3J9W;5NJT;6TNN;6TPQ;7AS8;7AS9;7O5B;7OPE;	BSU01040
+P55874	RL35_BACSU	50S ribosomal protein L35	rpmI BSU28860	Bacillus subtilis (strain 168)		7,557	3J9W;5NJT;6HA1;6HA8;6HTQ;6TNN;6TPQ;7AQC;7AQD;7AS8;7AS9;7O5B;7OPE;7QV1;7QV2;7QV3;	BSU28860
+P05657	RL27_BACSU	50S ribosomal protein L27 (BL24) (BL30)	rpmA BSU27940	Bacillus subtilis (strain 168)		10,372	3J9W;5NJT;6HA1;6HA8;6HTQ;6PPF;6PPK;6TNN;6TPQ;7AQC;7AQD;7AS8;7AS9;7O5B;7OPE;7QV1;7QV2;7QV3;	BSU27940
+P37807	RL28_BACSU	50S ribosomal protein L28	rpmB yloT BSU15820	Bacillus subtilis (strain 168)		6,809	3J9W;5NJT;6HA1;6HA8;6HTQ;6TNN;6TPQ;7AQC;7AQD;7AS8;7AS9;7O5B;7OPE;7QV1;7QV2;7QV3;	BSU15820
+P12875	RL14_BACSU	50S ribosomal protein L14	rplN BSU01260	Bacillus subtilis (strain 168)		13,154	3J3V;3J3W;3J9W;5NJT;6HA1;6HA8;6HTQ;6PPF;6PPK;6PVK;6TNN;6TPQ;7AQC;7AQD;7AS8;7AS9;7O5B;7OPE;7QV1;7QV2;7QV3;	BSU01260
+P19946	RL15_BACSU	50S ribosomal protein L15	rplO BSU01350	Bacillus subtilis (strain 168)		15,383	3J3V;3J3W;3J9W;5NJT;6HA1;6HA8;6HTQ;6PPF;6PPK;6PVK;6TNN;6TPQ;7AQC;7AQD;7AS8;7AS9;7O5B;7OPE;7QV1;7QV2;7QV3;	BSU01350
+P42919	RL2_BACSU	50S ribosomal protein L2 (BL2)	rplB BSU01190	Bacillus subtilis (strain 168)		30,274	3J3V;3J3W;3J9W;5NJT;6HA1;6HA8;6HTQ;6PPF;6PPK;6PVK;6TNN;6TPQ;7AQC;7AQD;7AS8;7AS9;7O5B;7OPE;7QV1;7QV2;7QV3;	BSU01190
+P42924	RL23_BACSU	50S ribosomal protein L23	rplW BSU01180	Bacillus subtilis (strain 168)		10,956	3J3V;3J3W;3J9W;5NJT;6HA1;6HA8;6HTQ;6PPF;6PPK;6PVK;6TNN;6TPQ;7AQC;7AQD;7AS8;7AS9;7O5B;7OPE;7QV1;7QV2;7QV3;	BSU01180
+P12874	RS17_BACSU	30S ribosomal protein S17 (BS16)	rpsQ BSU01250	Bacillus subtilis (strain 168)		10,199	3J9W;5NJT;6HA1;6HA8;6HTQ;7O5B;7QV1;7QV2;7QV3;	BSU01250
+P12877	RL5_BACSU	50S ribosomal protein L5 (BL6)	rplE BSU01280	Bacillus subtilis (strain 168)		20,148	3J3V;3J9W;5NJT;6HA1;6HA8;6HTQ;6PPK;6TNN;6TPQ;7AQC;7AQD;7AS8;7AS9;7O5B;7OPE;7QV1;7QV2;7QV3;	BSU01280
+P46898	RL6_BACSU	50S ribosomal protein L6 (BL10)	rplF BSU01310	Bacillus subtilis (strain 168)		19,509	3J3V;3J3W;3J9W;5NJT;6HA1;6HA8;6HTQ;6PPK;6TNN;6TPQ;7AQC;7AQD;7AS8;7AS9;7O5B;7OPE;7QV1;7QV2;7QV3;	BSU01310
+P21470	RS9_BACSU	30S ribosomal protein S9 (BS10)	rpsI BSU01500	Bacillus subtilis (strain 168)		14,308	3J9W;5NJT;6HA1;6HA8;6HTQ;7O5B;7QV1;7QV2;7QV3;	BSU01500
 Q06798	RL332_BACSU	50S ribosomal protein L33 2	rpmGB rpmG rpmG2 BSU00990	Bacillus subtilis (strain 168)		5,496		BSU00990
-P20278	RL36_BACSU	50S ribosomal protein L36 (BL38) (Ribosomal protein B) (Ribosomal protein II)	rpmJ BSU01400	Bacillus subtilis (strain 168)		4,305	3J9W;5NJT;6HA1;6HA8;6HTQ;6TNN;6TPQ;7AQC;7AQD;7AS8;7AS9;7OPE;	BSU01400
-P21466	RS4_BACSU	30S ribosomal protein S4 (BS4)	rpsD BSU29660	Bacillus subtilis (strain 168)		22,835	3J9W;5NJT;6HA1;6HA8;6HTQ;	BSU29660
+P20278	RL36_BACSU	50S ribosomal protein L36 (BL38) (Ribosomal protein B) (Ribosomal protein II)	rpmJ BSU01400	Bacillus subtilis (strain 168)		4,305	3J9W;5NJT;6HA1;6HA8;6HTQ;6TNN;6TPQ;7AQC;7AQD;7AS8;7AS9;7O5B;7OPE;7QV1;7QV2;7QV3;	BSU01400
+P21466	RS4_BACSU	30S ribosomal protein S4 (BS4)	rpsD BSU29660	Bacillus subtilis (strain 168)		22,835	3J9W;5NJT;6HA1;6HA8;6HTQ;7O5B;7QV1;7QV2;7QV3;	BSU29660
 P94463	FMT_BACSU	Methionyl-tRNA formyltransferase (EC 2.1.2.9)	fmt yloL BSU15730	Bacillus subtilis (strain 168)	2.1.2.9	34,634		BSU15730
-P26908	RL21_BACSU	50S ribosomal protein L21 (BL20)	rplU BSU27960	Bacillus subtilis (strain 168)		11,275	3J3V;3J3W;3J9W;5NJT;6HA1;6HA8;6HTQ;6PPF;6PPK;6PVK;6TNN;6TPQ;7AQC;7AQD;7AS8;7AS9;7OPE;	BSU27960
-P19947	RL30_BACSU	50S ribosomal protein L30 (BL27)	rpmD BSU01340	Bacillus subtilis (strain 168)		6,638	3J3V;3J9W;5NJT;6HA1;6HA8;6HTQ;6PPF;6PPK;6TNN;6TPQ;7AQC;7AQD;7AS8;7AS9;7OPE;	BSU01340
-P20277	RL17_BACSU	50S ribosomal protein L17 (BL15) (BL21)	rplQ BSU01440	Bacillus subtilis (strain 168)		13,751	3J3V;3J3W;3J9W;5NJT;6HA1;6HA8;6HTQ;6PPF;6PPK;6PVK;6TNN;6TPQ;7AQC;7AQD;7AS8;7AS9;7OPE;	BSU01440
-P42921	RL4_BACSU	50S ribosomal protein L4	rplD BSU01170	Bacillus subtilis (strain 168)		22,391	3J3V;3J3W;3J9W;5NJT;6HA1;6HA8;6HTQ;6PPF;6PPK;6PVK;6TNN;6TPQ;7AQC;7AQD;7AS8;7AS9;7OPE;	BSU01170
-P37437	RL9_BACSU	50S ribosomal protein L9 (BL17)	rplI BSU40500	Bacillus subtilis (strain 168)		16,352		BSU40500
-P21465	RS3_BACSU	30S ribosomal protein S3 (BS3) (BS2)	rpsC BSU01220	Bacillus subtilis (strain 168)		24,323	3J9W;5NJT;6HA1;6HA8;6HTQ;	BSU01220
-O31742	RL19_BACSU	50S ribosomal protein L19	rplS BSU16040	Bacillus subtilis (strain 168)		13,387	3J3V;3J3W;3J9W;5NJT;6HA1;6HA8;6HTQ;6PPF;6PPK;6PVK;6TNN;6TPQ;7AQC;7AQD;7AS8;7AS9;7OPE;	BSU16040
-P21472	RS12_BACSU	30S ribosomal protein S12 (BS12)	rpsL fun strA BSU01100	Bacillus subtilis (strain 168)		15,216	3J9W;5NJT;6HA1;6HA8;6HTQ;	BSU01100
-P21477	RS20_BACSU	30S ribosomal protein S20 (BS20)	rpsT yqeO BSU25550	Bacillus subtilis (strain 168)		9,599	3J9W;5NJT;6HA1;6HA8;6HTQ;	BSU25550
-P21478	RS21_BACSU	30S ribosomal protein S21 (BS-B)	rpsU yqeX BSU25410	Bacillus subtilis (strain 168)		6,830		BSU25410
-P05647	RL34_BACSU	50S ribosomal protein L34	rpmH BSU41060	Bacillus subtilis (strain 168)		5,253	3J3V;3J3W;3J9W;5NJT;6HA1;6HA8;6HTQ;6PPF;6PPK;6PVK;6TNN;6TPQ;7AQC;7AQD;7AS8;7AS9;7OPE;	BSU41060
-P12878	RS14_BACSU	30S ribosomal protein S14 (30S ribosomal protein S14 type Z) (30S ribosomal protein S14-1) (BS-A)	rpsN1 rpsN rpsNA rpsZ BSU01290	Bacillus subtilis (strain 168)		7,246	3J9W;5NJT;6HA1;6HA8;6HTQ;	BSU01290
-P42060	RL22_BACSU	50S ribosomal protein L22	rplV BSU01210	Bacillus subtilis (strain 168)		12,460	3J3V;3J3W;3J9W;5NJT;6HA1;6HA8;6HTQ;6PPF;6PPK;6PVK;6TNN;6TPQ;7AQC;7AQD;7AS8;7AS9;7OPE;	BSU01210
-P21474	RS16_BACSU	30S ribosomal protein S16 (BS17)	rpsP BSU15990	Bacillus subtilis (strain 168)		10,135	3J9W;5NJT;6HA1;6HA8;6HTQ;	BSU15990
-P12879	RS8_BACSU	30S ribosomal protein S8 (BS8)	rpsH BSU01300	Bacillus subtilis (strain 168)		14,877	3J9W;5NJT;6HA1;6HA8;6HTQ;	BSU01300
-P12873	RL29_BACSU	50S ribosomal protein L29	rpmC BSU01240	Bacillus subtilis (strain 168)		7,713	3J3V;3J3W;3J9W;5NJT;6HA1;6HA8;6HTQ;6PPF;6PPK;6PVK;6TNN;6TPQ;7AQC;7AQD;7AS8;7AS9;7OPE;	BSU01240
-O34687	RL32_BACSU	50S ribosomal protein L32	rpmF BSU15080	Bacillus subtilis (strain 168)		6,729	3J3V;3J3W;3J9W;5NJT;6HA1;6HA8;6HTQ;6PPF;6PPK;6PVK;6TNN;6TPQ;7AQC;7AQD;7AS8;7AS9;7OPE;	BSU15080
-P42920	RL3_BACSU	50S ribosomal protein L3 (BL3)	rplC BSU01160	Bacillus subtilis (strain 168)		22,683	3J3V;3J3W;3J9W;5NJT;6HA1;6HA8;6HTQ;6PPF;6PPK;6PVK;6TNN;6TPQ;7AQC;7AQD;7AS8;7AS9;7OPE;	BSU01160
-Q03223	RL31_BACSU	50S ribosomal protein L31	rpmE BSU37070	Bacillus subtilis (strain 168)		7,444	3J9W;5NJT;6HA1;6HA8;6HTQ;	BSU37070
-P21464	RS2_BACSU	30S ribosomal protein S2 (BS1) (Vegetative protein 209) (VEG209)	rpsB BSU16490	Bacillus subtilis (strain 168)		27,967	3J9W;5NJT;6HA1;6HA8;6HTQ;	BSU16490
-P21473	RS15_BACSU	30S ribosomal protein S15 (BS18)	rpsO BSU16680	Bacillus subtilis (strain 168)		10,573	3J9W;5NJT;6HA1;6HA8;6HTQ;	BSU16680
-P21471	RS10_BACSU	30S ribosomal protein S10 (BS13)	rpsJ tetA BSU01150	Bacillus subtilis (strain 168)		11,666	3J9W;5NJT;6HA1;6HA8;6HTQ;	BSU01150
-P46899	RL18_BACSU	50S ribosomal protein L18 (BL16)	rplR BSU01320	Bacillus subtilis (strain 168)		12,969	3J3V;3J9W;5NJT;6HA1;6HA8;6HTQ;6PPF;6PPK;6TNN;6TPQ;7AQC;7AQD;7AS8;7AS9;7OPE;	BSU01320
-P70974	RL13_BACSU	50S ribosomal protein L13	rplM BSU01490	Bacillus subtilis (strain 168)		16,375	3J3V;3J3W;3J9W;5NJT;6HA1;6HA8;6HTQ;6PPF;6PPK;6PVK;6TNN;6TPQ;7AQC;7AQD;7AS8;7AS9;7OPE;	BSU01490
-P04969	RS11_BACSU	30S ribosomal protein S11 (BS11)	rpsK BSU01420	Bacillus subtilis (strain 168)		13,925	3J9W;5NJT;6HA1;6HA8;6HTQ;	BSU01420
-P55873	RL20_BACSU	50S ribosomal protein L20	rplT BSU28850	Bacillus subtilis (strain 168)		13,638	3J3V;3J3W;3J9W;5NJT;6HA1;6HA8;6HTQ;6PPF;6PPK;6PVK;6TNN;6TPQ;7AQC;7AQD;7AS8;7AS9;7OPE;	BSU28850
-P21476	RS19_BACSU	30S ribosomal protein S19 (BS19)	rpsS BSU01200	Bacillus subtilis (strain 168)		10,583	3J9W;5NJT;6HA1;6HA8;6HTQ;	BSU01200
-P14577	RL16_BACSU	50S ribosomal protein L16	rplP BSU01230	Bacillus subtilis (strain 168)		16,190	3J9W;5NJT;6HA1;6HA8;6HTQ;6TNN;6TPQ;7AQC;7AQD;7AS8;7AS9;7OPE;	BSU01230
-P21468	RS6_BACSU	30S ribosomal protein S6 (BS9)	rpsF BSU40910	Bacillus subtilis (strain 168)		11,125	3J9W;5NJT;6HA1;6HA8;6HTQ;	BSU40910
+P26908	RL21_BACSU	50S ribosomal protein L21 (BL20)	rplU BSU27960	Bacillus subtilis (strain 168)		11,275	3J3V;3J3W;3J9W;5NJT;6HA1;6HA8;6HTQ;6PPF;6PPK;6PVK;6TNN;6TPQ;7AQC;7AQD;7AS8;7AS9;7O5B;7OPE;7QV1;7QV2;7QV3;7SAE;	BSU27960
+P19947	RL30_BACSU	50S ribosomal protein L30 (BL27)	rpmD BSU01340	Bacillus subtilis (strain 168)		6,638	3J3V;3J9W;5NJT;6HA1;6HA8;6HTQ;6PPF;6PPK;6TNN;6TPQ;7AQC;7AQD;7AS8;7AS9;7O5B;7OPE;7QV1;7QV2;7QV3;	BSU01340
+P20277	RL17_BACSU	50S ribosomal protein L17 (BL15) (BL21)	rplQ BSU01440	Bacillus subtilis (strain 168)		13,751	3J3V;3J3W;3J9W;5NJT;6HA1;6HA8;6HTQ;6PPF;6PPK;6PVK;6TNN;6TPQ;7AQC;7AQD;7AS8;7AS9;7O5B;7OPE;7QV1;7QV2;7QV3;	BSU01440
+P42921	RL4_BACSU	50S ribosomal protein L4	rplD BSU01170	Bacillus subtilis (strain 168)		22,391	3J3V;3J3W;3J9W;5NJT;6HA1;6HA8;6HTQ;6PPF;6PPK;6PVK;6TNN;6TPQ;7AQC;7AQD;7AS8;7AS9;7O5B;7OPE;7QV1;7QV2;7QV3;	BSU01170
+P37437	RL9_BACSU	50S ribosomal protein L9 (BL17)	rplI BSU40500	Bacillus subtilis (strain 168)		16,352	7QV1;7QV3;	BSU40500
+P21465	RS3_BACSU	30S ribosomal protein S3 (BS3) (BS2)	rpsC BSU01220	Bacillus subtilis (strain 168)		24,323	3J9W;5NJT;6HA1;6HA8;6HTQ;7O5B;7QV1;7QV2;7QV3;	BSU01220
+O31742	RL19_BACSU	50S ribosomal protein L19	rplS BSU16040	Bacillus subtilis (strain 168)		13,387	3J3V;3J3W;3J9W;5NJT;6HA1;6HA8;6HTQ;6PPF;6PPK;6PVK;6TNN;6TPQ;7AQC;7AQD;7AS8;7AS9;7O5B;7OPE;7QV1;7QV2;7QV3;	BSU16040
+P21472	RS12_BACSU	30S ribosomal protein S12 (BS12)	rpsL fun strA BSU01100	Bacillus subtilis (strain 168)		15,216	3J9W;5NJT;6HA1;6HA8;6HTQ;7O5B;7QV1;7QV2;7QV3;	BSU01100
+P21477	RS20_BACSU	30S ribosomal protein S20 (BS20)	rpsT yqeO BSU25550	Bacillus subtilis (strain 168)		9,599	3J9W;5NJT;6HA1;6HA8;6HTQ;7O5B;7QV1;7QV2;7QV3;	BSU25550
+P21478	RS21_BACSU	30S ribosomal protein S21 (BS-B)	rpsU yqeX BSU25410	Bacillus subtilis (strain 168)		6,830	7QV1;7QV3;	BSU25410
+P05647	RL34_BACSU	50S ribosomal protein L34	rpmH BSU41060	Bacillus subtilis (strain 168)		5,253	3J3V;3J3W;3J9W;5NJT;6HA1;6HA8;6HTQ;6PPF;6PPK;6PVK;6TNN;6TPQ;7AQC;7AQD;7AS8;7AS9;7O5B;7OPE;7QV1;7QV2;7QV3;	BSU41060
+P12878	RS14_BACSU	30S ribosomal protein S14 (30S ribosomal protein S14 type Z) (30S ribosomal protein S14-1) (BS-A)	rpsN1 rpsN rpsNA rpsZ BSU01290	Bacillus subtilis (strain 168)		7,246	3J9W;5NJT;6HA1;6HA8;6HTQ;7O5B;7QV1;7QV2;7QV3;	BSU01290
+P42060	RL22_BACSU	50S ribosomal protein L22	rplV BSU01210	Bacillus subtilis (strain 168)		12,460	3J3V;3J3W;3J9W;5NJT;6HA1;6HA8;6HTQ;6PPF;6PPK;6PVK;6TNN;6TPQ;7AQC;7AQD;7AS8;7AS9;7O5B;7OPE;7QV1;7QV2;7QV3;	BSU01210
+P21474	RS16_BACSU	30S ribosomal protein S16 (BS17)	rpsP BSU15990	Bacillus subtilis (strain 168)		10,135	3J9W;5NJT;6HA1;6HA8;6HTQ;7O5B;7QV1;7QV2;7QV3;	BSU15990
+P12879	RS8_BACSU	30S ribosomal protein S8 (BS8)	rpsH BSU01300	Bacillus subtilis (strain 168)		14,877	3J9W;5NJT;6HA1;6HA8;6HTQ;7O5B;7QV1;7QV2;7QV3;	BSU01300
+P12873	RL29_BACSU	50S ribosomal protein L29	rpmC BSU01240	Bacillus subtilis (strain 168)		7,713	3J3V;3J3W;3J9W;5NJT;6HA1;6HA8;6HTQ;6PPF;6PPK;6PVK;6TNN;6TPQ;7AQC;7AQD;7AS8;7AS9;7O5B;7OPE;7QV1;7QV2;7QV3;	BSU01240
+O34687	RL32_BACSU	50S ribosomal protein L32	rpmF BSU15080	Bacillus subtilis (strain 168)		6,729	3J3V;3J3W;3J9W;5NJT;6HA1;6HA8;6HTQ;6PPF;6PPK;6PVK;6TNN;6TPQ;7AQC;7AQD;7AS8;7AS9;7O5B;7OPE;7QV1;7QV2;7QV3;	BSU15080
+P42920	RL3_BACSU	50S ribosomal protein L3 (BL3)	rplC BSU01160	Bacillus subtilis (strain 168)		22,683	3J3V;3J3W;3J9W;5NJT;6HA1;6HA8;6HTQ;6PPF;6PPK;6PVK;6TNN;6TPQ;7AQC;7AQD;7AS8;7AS9;7O5B;7OPE;7QV1;7QV2;7QV3;	BSU01160
+Q03223	RL31_BACSU	50S ribosomal protein L31	rpmE BSU37070	Bacillus subtilis (strain 168)		7,444	3J9W;5NJT;6HA1;6HA8;6HTQ;7O5B;7QV1;7QV2;7QV3;	BSU37070
+P21464	RS2_BACSU	30S ribosomal protein S2 (BS1) (Vegetative protein 209) (VEG209)	rpsB BSU16490	Bacillus subtilis (strain 168)		27,967	3J9W;5NJT;6HA1;6HA8;6HTQ;7O5B;7QV2;	BSU16490
+P21473	RS15_BACSU	30S ribosomal protein S15 (BS18)	rpsO BSU16680	Bacillus subtilis (strain 168)		10,573	3J9W;5NJT;6HA1;6HA8;6HTQ;7O5B;7QV1;7QV2;7QV3;	BSU16680
+P21471	RS10_BACSU	30S ribosomal protein S10 (BS13)	rpsJ tetA BSU01150	Bacillus subtilis (strain 168)		11,666	3J9W;5NJT;6HA1;6HA8;6HTQ;7O5B;7QV1;7QV2;7QV3;	BSU01150
+P46899	RL18_BACSU	50S ribosomal protein L18 (BL16)	rplR BSU01320	Bacillus subtilis (strain 168)		12,969	3J3V;3J9W;5NJT;6HA1;6HA8;6HTQ;6PPF;6PPK;6TNN;6TPQ;7AQC;7AQD;7AS8;7AS9;7O5B;7OPE;7QV1;7QV2;7QV3;	BSU01320
+P70974	RL13_BACSU	50S ribosomal protein L13	rplM BSU01490	Bacillus subtilis (strain 168)		16,375	3J3V;3J3W;3J9W;5NJT;6HA1;6HA8;6HTQ;6PPF;6PPK;6PVK;6TNN;6TPQ;7AQC;7AQD;7AS8;7AS9;7O5B;7OPE;7QV1;7QV2;7QV3;	BSU01490
+P04969	RS11_BACSU	30S ribosomal protein S11 (BS11)	rpsK BSU01420	Bacillus subtilis (strain 168)		13,925	3J9W;5NJT;6HA1;6HA8;6HTQ;7O5B;7QV1;7QV2;7QV3;	BSU01420
+P55873	RL20_BACSU	50S ribosomal protein L20	rplT BSU28850	Bacillus subtilis (strain 168)		13,638	3J3V;3J3W;3J9W;5NJT;6HA1;6HA8;6HTQ;6PPF;6PPK;6PVK;6TNN;6TPQ;7AQC;7AQD;7AS8;7AS9;7O5B;7OPE;7QV1;7QV2;7QV3;7S9U;7SAE;	BSU28850
+P21476	RS19_BACSU	30S ribosomal protein S19 (BS19)	rpsS BSU01200	Bacillus subtilis (strain 168)		10,583	3J9W;5NJT;6HA1;6HA8;6HTQ;7O5B;7QV1;7QV2;7QV3;	BSU01200
+P14577	RL16_BACSU	50S ribosomal protein L16	rplP BSU01230	Bacillus subtilis (strain 168)		16,190	3J9W;5NJT;6HA1;6HA8;6HTQ;6TNN;6TPQ;7AQC;7AQD;7AS8;7AS9;7O5B;7OPE;7QV1;7QV2;7QV3;	BSU01230
+P21468	RS6_BACSU	30S ribosomal protein S6 (BS9)	rpsF BSU40910	Bacillus subtilis (strain 168)		11,125	3J9W;5NJT;6HA1;6HA8;6HTQ;7O5B;7QV1;7QV2;7QV3;	BSU40910
 P42419	IOLI_BACSU	Inosose isomerase (EC 5.3.99.11) (2-keto-myo-inositol isomerase) (2KMI isomerase)	iolI yxdH BSU39680 B65B	Bacillus subtilis (strain 168)	5.3.99.11	31,656	1I60;1I6N;	BSU39680
 O32223	IOLW_BACSU	scyllo-inositol 2-dehydrogenase (NADP(+)) IolW (EC 1.1.1.371) (NADP(+)-dependent scyllo-inositol dehydrogenase 1) (NADP(+)-dependent SI dehydrogenase 1)	iolW yvaA BSU33530	Bacillus subtilis (strain 168)	1.1.1.371	40,112	3GDO;3GFG;	BSU33530
-O34852	TCYK_BACSU	L-cystine-binding protein TcyK	tcyK ytmK BSU29370	Bacillus subtilis (strain 168)		30,241	2O1M;	BSU29370
-P40750	PBPD_BACSU	Penicillin-binding protein 4 (PBP 4) [Includes: Penicillin-insensitive transglycosylase (EC 2.4.1.129) (Peptidoglycan TGase); Penicillin-sensitive transpeptidase (EC 3.4.16.4) (DD-transpeptidase)]	pbpD BSU31490	Bacillus subtilis (strain 168)	2.4.1.129; 3.4.16.4	70,659		BSU31490
-Q7WY77	PXPC_BACSU	5-oxoprolinase subunit C (5-OPase subunit C) (EC 3.5.2.9) (5-oxoprolinase (ATP-hydrolyzing) subunit C) (KipI antagonist) (Protein KipA)	pxpC kipA BSU04090	Bacillus subtilis (strain 168)	3.5.2.9	36,699		BSU04090
-P42963	PXPA_BACSU	5-oxoprolinase subunit A (5-OPase subunit A) (EC 3.5.2.9) (5-oxoprolinase (ATP-hydrolyzing) subunit A)	pxpA ycsF BSU04050	Bacillus subtilis (strain 168)	3.5.2.9	27,482		BSU04050
+C0H3V2	PTMA_BACSU	Mannitol-specific phosphotransferase enzyme IIA component (EIIA) (EIII) (PTS system mannitol-specific EIIA component)	mtlF BSU03982 BSU03980	Bacillus subtilis (strain 168)		15,747		BSU03982
+P39595	EFEU_BACSU	Ferrous iron permease EfeU (Fe(2+) ion permease EfeU) (Ferrous iron uptake protein)	efeU ywbL BSU38280 ipa-27d	Bacillus subtilis (strain 168)		52,388		BSU38280
+P94360	MSMX_BACSU	Oligosaccharides import ATP-binding protein MsmX (EC 7.5.2.-) (Maltodextrin import ATP-binding protein MsmX) (Melibiose/raffinose/stachyose import ATP-binding protein MsmX)	msmX yxkG BSU38810	Bacillus subtilis (strain 168)	7.5.2.-	41,366	6YIR;	BSU38810
+O06989	MDXE_BACSU	Maltodextrin-binding protein MdxE	mdxE yvdG BSU34610	Bacillus subtilis (strain 168)		45,601		BSU34610
+O06991	MDXG_BACSU	Maltodextrin transport system permease protein MdxG	mdxG yvdI BSU34590	Bacillus subtilis (strain 168)		30,885		BSU34590
+O06990	MDXF_BACSU	Maltodextrin transport system permease protein MdxF	mdxF yvdH BSU34600	Bacillus subtilis (strain 168)		48,529		BSU34600
+O31877	YOSL_BACSU	SPbeta prophage-derived uncharacterized protein YosL	yosL BSU20080	Bacillus subtilis (strain 168)		13,136		BSU20080

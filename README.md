@@ -1,4 +1,4 @@
-# eciBsu1147
+# ecBSU1
 The process for enzyme-constrained model construction.
 
 ## About
@@ -35,7 +35,7 @@ Download all data and analysis code from github (directlt download or use git cl
 
  ```shell
 $ cd /file path/project save path/
-$ git clone https://github.com/tibbdc/eciBsu1147.git
+$ git clone https://github.com/tibbdc/ecBSU1.git
  ```
 
  All results can be reproduced by executing the Jupyter Python notebooks:
@@ -43,8 +43,8 @@ $ git clone https://github.com/tibbdc/eciBsu1147.git
 + 01_model_calibration.ipynb
   + Model Calibration.
 
-+ 02_construct_eciBsu1147.ipynb
-  + Construction of eciBsu1147.
++ 02_construct_ecBSU1.ipynb
+  + Construction of ecBSU1.
   
 + 03_CDF_kcat_and_mw.ipynb
   + Cumulative distribution of kcat and molecular weights.
@@ -57,4 +57,7 @@ $ git clone https://github.com/tibbdc/eciBsu1147.git
   
 + 06_growth_rate_diff_carbon.ipynb
   + Predict growth rates on different carbon sources.
+  
++ 07_target_predict.ipynb
+  + Predict target genes for the production of chemicals.
   
