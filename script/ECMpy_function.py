@@ -92,10 +92,12 @@ def convert_to_irreversible(model):
             reaction.notes["reflection"] = reverse_reaction.id
             reverse_reaction.notes["reflection"] = reaction.id
             reaction_dict = {k: v * -1
-                             for k, v in reaction._metabolites.items()}
+                             for k, v in reaction.metabolites.items()}
             reverse_reaction.add_metabolites(reaction_dict)
             reverse_reaction._model = reaction._model
             reverse_reaction._genes = reaction._genes
+            reverse_reaction.name = reaction.name+' reverse'
+            reverse_reaction.annotation = reaction.annotation
             for gene in reaction._genes:
                 gene._reaction.add(reverse_reaction)
             reverse_reaction.subsystem = reaction.subsystem
