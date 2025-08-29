@@ -1,9 +1,10 @@
 # ecBSU1
+
 The process for enzyme-constrained model construction.
 
 ## About
 
-The pipeline was written and tested on Linux. The core libraries essential for the pipeline including: cobra, plotly (draw figures), and related packages. 
+The pipeline was written and tested on Linux. The core libraries essential for the pipeline including: cobra, plotly (draw figures), and related packages.
 
 ## Installation
 
@@ -15,7 +16,7 @@ $ conda create -n ECMpy python=3.6.5
 
 2. install related packages using pip:
 
-```shell 
+```shell
 $ conda activate ECMpy
 $ pip install cobra==0.13.3
 $ pip install plotly
@@ -31,33 +32,37 @@ $ python -m ipykernel install --user --name ECMpy --display-name "ECMpy"
 
 ## Steps to reproduce the analysis in the publication
 
-Download all data and analysis code from github (directlt download or use git clone). 
+Download all data and analysis code from github (directlt download or use git clone).
 
- ```shell
+```shell
 $ cd /file path/project save path/
 $ git clone https://github.com/tibbdc/ecBSU1.git
- ```
+```
 
  All results can be reproduced by executing the Jupyter Python notebooks:
 
 + 01_model_calibration.ipynb
-  + Model Calibration.
 
+  + Model Calibration.
 + 02_construct_ecBSU1.ipynb
+
   + Construction of ecBSU1.
-  
 + 03_CDF_kcat_and_mw.ipynb
+
   + Cumulative distribution of kcat and molecular weights.
-  
 + 04_PhPP_analysis.ipynb
+
   + Phenotype phase plane (PhPP) analysis.
-  
 + 05_trade_off.ipynb
+
   + Overflow metabolism simulation.
-  
 + 06_growth_rate_diff_carbon.ipynb
+
   + Predict growth rates on different carbon sources.
-  
 + 07_target_predict.ipynb
+
   + Predict target genes for the production of chemicals.
-  
+
+## How to cite:
+
+Ke Wu, Zhitao Mao, Yufeng Mao, Jinhui Niu, Jingyi Cai, Qianqian Yuan, Lili Yun, Xiaoping Liao, Zhiwen Wang and Hongwu Ma, ecBSU1: A Genome-Scale Enzyme-Constrained Model of *Bacillus subtilis* Based on the ECMpy Workflow, Microorganisms, 2023; [https://doi.org/10.3390/microorganisms11010178](https://doi.org/10.3390/microorganisms11010178)
